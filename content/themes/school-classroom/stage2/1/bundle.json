@@ -1,0 +1,389 @@
+{
+  "bundleVersion": 1,
+  "publishedAt": "2026-10-19T03:52:00.366Z",
+  "theme": {
+    "slug": "school-classroom"
+  },
+  "levels": {
+    "1": [
+      {
+        "id": "s2_l1_point_at",
+        "key": "point at",
+        "keyHint": "point at ~ (가리키다)",
+        "image": "images/s2_l1_point_at.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d1",
+          "textEn": "The teacher's pointing at the board.",
+          "textKo": "선생님이 칠판을 가리키고 있어요.",
+          "audio": "audio/hint_s2_l1_point_at.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_point_at_a1",
+            "textEn": "The girl's pointing at a rainbow.",
+            "textKo": "여자아이가 무지개를 가리키고 있어요.",
+            "audio": "audio/s2_l1_point_at_a1.mp3"
+          },
+          {
+            "id": "s2_l1_point_at_a2",
+            "textEn": "She's pointing at something in the sky.",
+            "textKo": "여자아이가 하늘의 뭔가를 가리키고 있어요.",
+            "audio": "audio/s2_l1_point_at_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_paint",
+        "key": "paint",
+        "keyHint": "paint ~ (그리다, 칠하다)",
+        "image": "images/s2_l1_paint.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d7",
+          "textEn": "A girl's painting a rainbow.",
+          "textKo": "여자아이가 무지개를 그리고 있어요.",
+          "audio": "audio/hint_s2_l1_paint.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_paint_a1",
+            "textEn": "The boy's painting a sun.",
+            "textKo": "남자아이가 해를 그리고 있어요.",
+            "audio": "audio/s2_l1_paint_a1.mp3"
+          },
+          {
+            "id": "s2_l1_paint_a2",
+            "textEn": "He's painting a picture.",
+            "textKo": "남자아이가 그림을 그리고 있어요.",
+            "audio": "audio/s2_l1_paint_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_water",
+        "key": "water",
+        "keyHint": "water ~ (물을 주다)",
+        "image": "images/s2_l1_water.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d9",
+          "textEn": "A girl's watering a plant.",
+          "textKo": "여자아이가 화분에 물을 주고 있어요.",
+          "audio": "audio/hint_s2_l1_water.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_water_a1",
+            "textEn": "Grandma's watering the flowers.",
+            "textKo": "할머니가 꽃에 물을 주고 있어요.",
+            "audio": "audio/s2_l1_water_a1.mp3"
+          },
+          {
+            "id": "s2_l1_water_a2",
+            "textEn": "She's watering her garden.",
+            "textKo": "할머니가 정원에 물을 주고 있어요.",
+            "audio": "audio/s2_l1_water_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "s2_l2_read_out_loud",
+        "key": "read out loud",
+        "keyHint": "read ~ out loud (소리 내어 읽다)",
+        "image": "images/s2_l2_read_out_loud.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d5",
+          "textEn": "An older girl's reading a picture book out loud on the rug.",
+          "textKo": "큰 여자아이가 깔개 위에서 그림책을 소리 내어 읽고 있어요.",
+          "audio": "audio/hint_s2_l2_read_out_loud.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_read_out_loud_a1",
+            "textEn": "Dad's reading a story out loud.",
+            "textKo": "아빠가 이야기를 소리 내어 읽어주고 있어요.",
+            "audio": "audio/s2_l2_read_out_loud_a1.mp3"
+          },
+          {
+            "id": "s2_l2_read_out_loud_a2",
+            "textEn": "He's reading out loud to his kid at bedtime.",
+            "textKo": "아빠가 잘 시간에 아이에게 소리 내어 읽어주고 있어요.",
+            "audio": "audio/s2_l2_read_out_loud_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_build",
+        "key": "build",
+        "keyHint": "build ~ (짓다, 만들다)",
+        "image": "images/s2_l2_build.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d9",
+          "textEn": "Two boys are building a tall tower out of colored blocks.",
+          "textKo": "남자아이 둘이 색색의 블록으로 높은 탑을 쌓고 있어요.",
+          "audio": "audio/hint_s2_l2_build.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_build_a1",
+            "textEn": "They're building a sandcastle.",
+            "textKo": "아이들이 모래성을 만들고 있어요.",
+            "audio": "audio/s2_l2_build_a1.mp3"
+          },
+          {
+            "id": "s2_l2_build_a2",
+            "textEn": "Two kids are building a castle out of sand.",
+            "textKo": "아이 둘이 모래로 성을 쌓고 있어요.",
+            "audio": "audio/s2_l2_build_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_laugh_at",
+        "key": "laugh at",
+        "keyHint": "laugh at ~ (~을 보고 웃다)",
+        "image": "images/s2_l2_laugh_at.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d6",
+          "textEn": "A younger boy's sitting cross-legged and laughing at the story.",
+          "textKo": "어린 남자아이가 책상다리로 앉아 이야기에 웃고 있어요.",
+          "audio": "audio/hint_s2_l2_laugh_at.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_laugh_at_a1",
+            "textEn": "She's laughing at the show.",
+            "textKo": "여자아이가 프로그램을 보고 웃고 있어요.",
+            "audio": "audio/s2_l2_laugh_at_a1.mp3"
+          },
+          {
+            "id": "s2_l2_laugh_at_a2",
+            "textEn": "The girl's laughing at something funny.",
+            "textKo": "여자아이가 웃긴 걸 보고 웃고 있어요.",
+            "audio": "audio/s2_l2_laugh_at_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "s2_l3_take_a_look",
+        "key": "take a look",
+        "keyHint": "take a look at ~ (한번 보다)",
+        "image": "images/s2_l3_take_a_look.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d3",
+          "textEn": "A boy's holding out his drawing so the teacher can take a look.",
+          "textKo": "남자아이가 선생님이 볼 수 있게 자기 그림을 내밀고 있어요.",
+          "audio": "audio/hint_s2_l3_take_a_look.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_take_a_look_a1",
+            "textEn": "Her mom's taking a look at her knee.",
+            "textKo": "엄마가 아이 무릎을 살펴보고 있어요.",
+            "audio": "audio/s2_l3_take_a_look_a1.mp3"
+          },
+          {
+            "id": "s2_l3_take_a_look_a2",
+            "textEn": "She wants her mom to take a look.",
+            "textKo": "아이가 엄마에게 봐달라고 해요.",
+            "audio": "audio/s2_l3_take_a_look_a2.mp3"
+          },
+          {
+            "id": "s2_l3_take_a_look_a3",
+            "textEn": "Mom's bending down to take a look at the scrape.",
+            "textKo": "엄마가 까진 데를 보려고 몸을 숙이고 있어요.",
+            "audio": "audio/s2_l3_take_a_look_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_grab",
+        "key": "grab",
+        "keyHint": "grab ~ (덥석 잡다)",
+        "image": "images/s2_l3_grab.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d7",
+          "textEn": "A boy's poking a carrot through the bars so the hamster can grab it.",
+          "textKo": "남자아이가 햄스터가 잡을 수 있게 창살 사이로 당근을 밀어 넣고 있어요.",
+          "audio": "audio/hint_s2_l3_grab.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_grab_a1",
+            "textEn": "The squirrel's about to grab the peanut.",
+            "textKo": "다람쥐가 땅콩을 잡으려는 참이에요.",
+            "audio": "audio/s2_l3_grab_a1.mp3"
+          },
+          {
+            "id": "s2_l3_grab_a2",
+            "textEn": "It's trying to grab the nut out of his hand.",
+            "textKo": "다람쥐가 손에서 땅콩을 채가려 하고 있어요.",
+            "audio": "audio/s2_l3_grab_a2.mp3"
+          },
+          {
+            "id": "s2_l3_grab_a3",
+            "textEn": "The squirrel's going to grab it and run.",
+            "textKo": "다람쥐가 그걸 낚아채 달아날 거예요.",
+            "audio": "audio/s2_l3_grab_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_up_close",
+        "key": "up close",
+        "keyHint": "up close (가까이에서)",
+        "image": "images/s2_l3_up_close.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d13",
+          "textEn": "A boy's got his nose on the glass so he can see the fish up close.",
+          "textKo": "남자아이가 금붕어를 가까이서 보려고 유리에 코를 대고 있어요.",
+          "audio": "audio/hint_s2_l3_up_close.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_up_close_a1",
+            "textEn": "She's looking at the snail up close.",
+            "textKo": "여자아이가 달팽이를 가까이서 보고 있어요.",
+            "audio": "audio/s2_l3_up_close_a1.mp3"
+          },
+          {
+            "id": "s2_l3_up_close_a2",
+            "textEn": "The girl's getting up close to see it.",
+            "textKo": "여자아이가 보려고 바짝 다가가 있어요.",
+            "audio": "audio/s2_l3_up_close_a2.mp3"
+          },
+          {
+            "id": "s2_l3_up_close_a3",
+            "textEn": "She wants to see the snail up close.",
+            "textKo": "여자아이가 달팽이를 가까이서 보고 싶어 해요.",
+            "audio": "audio/s2_l3_up_close_a3.mp3"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "s2_l4_figure_out",
+        "key": "figure out",
+        "keyHint": "figure out ~ (알아내다, 풀어내다)",
+        "image": "images/s2_l4_figure_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d1",
+          "textEn": "The teacher's pointing at the lion she drew on the board, and three kids are trying to figure out what animal it is.",
+          "textKo": "선생님이 칠판에 그린 사자를 가리키고 있고, 아이 세 명이 무슨 동물인지 알아내려 애쓰고 있어요.",
+          "audio": "audio/hint_s2_l4_figure_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_figure_out_a1",
+            "textEn": "He's trying to figure out where that piece goes.",
+            "textKo": "남자아이가 그 조각이 어디 들어가는지 알아내려 하고 있어요.",
+            "audio": "audio/s2_l4_figure_out_a1.mp3"
+          },
+          {
+            "id": "s2_l4_figure_out_a2",
+            "textEn": "The boy can't figure out the puzzle yet.",
+            "textKo": "남자아이가 아직 퍼즐을 못 풀고 있어요.",
+            "audio": "audio/s2_l4_figure_out_a2.mp3"
+          },
+          {
+            "id": "s2_l4_figure_out_a3",
+            "textEn": "He's figuring out where the last piece fits.",
+            "textKo": "마지막 조각이 들어갈 자리를 찾아내고 있어요.",
+            "audio": "audio/s2_l4_figure_out_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_miss",
+        "key": "miss",
+        "keyHint": "not want to miss ~ (놓치고 싶지 않다)",
+        "image": "images/s2_l4_miss.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d8",
+          "textEn": "The girl beside him is leaning in with her hands on her knees, because she doesn't want to miss a single bite.",
+          "textKo": "옆에 있는 여자아이는 한 입도 놓치기 싫어서, 무릎에 손을 얹고 가까이 몸을 기울이고 있어요.",
+          "audio": "audio/hint_s2_l4_miss.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_miss_a1",
+            "textEn": "They don't want to miss a thing.",
+            "textKo": "아이들은 하나도 놓치고 싶지 않아요.",
+            "audio": "audio/s2_l4_miss_a1.mp3"
+          },
+          {
+            "id": "s2_l4_miss_a2",
+            "textEn": "The kids are leaning out so they won't miss anything.",
+            "textKo": "아이들이 아무것도 놓치지 않으려고 몸을 내밀고 있어요.",
+            "audio": "audio/s2_l4_miss_a2.mp3"
+          },
+          {
+            "id": "s2_l4_miss_a3",
+            "textEn": "Nobody wants to miss the big balloon going by.",
+            "textKo": "지나가는 큰 풍선을 아무도 놓치기 싫어해요.",
+            "audio": "audio/s2_l4_miss_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_which_is_why",
+        "key": "which is why",
+        "keyHint": "~, which is why ... (그래서 …인 거예요)",
+        "image": "images/s2_l4_which_is_why.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d13",
+          "textEn": "She waters it every single morning, which is probably why it's the biggest plant in the room.",
+          "textKo": "아이가 아침마다 빠짐없이 물을 주는데, 아마 그래서 교실에서 제일 큰 화분일 거예요.",
+          "audio": "audio/hint_s2_l4_which_is_why.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_which_is_why_a1",
+            "textEn": "The jar's empty, which is why he looks guilty.",
+            "textKo": "통이 비어 있어서 아이가 켕기는 표정이에요.",
+            "audio": "audio/s2_l4_which_is_why_a1.mp3"
+          },
+          {
+            "id": "s2_l4_which_is_why_a2",
+            "textEn": "He's got crumbs on his face, which is how you know what happened.",
+            "textKo": "얼굴에 부스러기가 묻었으니 무슨 일이 있었는지 다 알죠.",
+            "audio": "audio/s2_l4_which_is_why_a2.mp3"
+          },
+          {
+            "id": "s2_l4_which_is_why_a3",
+            "textEn": "The cookies are gone, which is why nobody believes him.",
+            "textKo": "과자가 사라져서 아무도 아이 말을 안 믿어요.",
+            "audio": "audio/s2_l4_which_is_why_a3.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

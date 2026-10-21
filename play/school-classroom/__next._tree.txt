@@ -1,0 +1,5 @@
+:HL["/eng-study/_next/static/chunks/1l9himky-32wi.css","style"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"school-classroom","s":[]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"play","h":96,"c":"$Q2"}]]
+0:{"b":"cCQ8dwx1Z5pfS_ZE6AaVi","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

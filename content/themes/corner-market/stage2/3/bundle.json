@@ -1,0 +1,395 @@
+{
+  "bundleVersion": 3,
+  "publishedAt": "2026-10-19T04:52:01.048Z",
+  "theme": {
+    "slug": "corner-market"
+  },
+  "levels": {
+    "1": [
+      {
+        "id": "s2_l1_push",
+        "key": "push",
+        "keyHint": "push ~ (밀다)",
+        "image": "images/s2_l1_push.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d1",
+          "textEn": "A dad's pushing a shopping cart.",
+          "textKo": "아빠가 쇼핑 카트를 밀고 있어요.",
+          "audio": "audio/hint_s2_l1_push.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_push_a1",
+            "textEn": "The boy's pushing a wagon.",
+            "textKo": "남자아이가 수레를 밀고 있어요.",
+            "audio": "audio/s2_l1_push_a1.mp3"
+          },
+          {
+            "id": "s2_l1_push_a2",
+            "textEn": "He's pushing a wagon full of apples.",
+            "textKo": "남자아이가 사과가 가득한 수레를 밀고 있어요.",
+            "audio": "audio/s2_l1_push_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_hold_up",
+        "key": "hold up",
+        "keyHint": "hold up ~ (들어 올리다)",
+        "image": "images/s2_l1_hold_up.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d6",
+          "textEn": "Mom's holding up a watermelon.",
+          "textKo": "엄마가 수박을 들어 올리고 있어요.",
+          "audio": "audio/hint_s2_l1_hold_up.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_hold_up_a1",
+            "textEn": "The girl's holding up a sunflower.",
+            "textKo": "여자아이가 해바라기를 들어 올리고 있어요.",
+            "audio": "audio/s2_l1_hold_up_a1.mp3"
+          },
+          {
+            "id": "s2_l1_hold_up_a2",
+            "textEn": "She's holding up a big yellow flower.",
+            "textKo": "여자아이가 크고 노란 꽃을 들어 올리고 있어요.",
+            "audio": "audio/s2_l1_hold_up_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_knock_on",
+        "key": "knock on",
+        "keyHint": "knock on ~ (똑똑 두드리다)",
+        "image": "images/s2_l1_knock_on.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d7",
+          "textEn": "A boy's knocking on it.",
+          "textKo": "남자아이가 그걸 똑똑 두드리고 있어요.",
+          "audio": "audio/hint_s2_l1_knock_on.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_knock_on_a1",
+            "textEn": "The boy's knocking on the door.",
+            "textKo": "남자아이가 문을 두드리고 있어요.",
+            "audio": "audio/s2_l1_knock_on_a1.mp3"
+          },
+          {
+            "id": "s2_l1_knock_on_a2",
+            "textEn": "He's knocking on a wooden door.",
+            "textKo": "남자아이가 나무 문을 똑똑 두드리고 있어요.",
+            "audio": "audio/s2_l1_knock_on_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "s2_l2_hand_over",
+        "key": "hand over",
+        "keyHint": "hand over ~ (건네주다)",
+        "image": "images/s2_l2_hand_over.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d2",
+          "textEn": "The grocer in the green apron's handing over a bunch of grapes.",
+          "textKo": "초록 앞치마를 두른 가게 아저씨가 포도 한 송이를 건네주고 있어요.",
+          "audio": "audio/hint_s2_l2_hand_over.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_hand_over_a1",
+            "textEn": "He's handing over a bunch of tulips.",
+            "textKo": "아저씨가 튤립 한 다발을 건네주고 있어요.",
+            "audio": "audio/s2_l2_hand_over_a1.mp3"
+          },
+          {
+            "id": "s2_l2_hand_over_a2",
+            "textEn": "The man's handing the flowers over to her.",
+            "textKo": "아저씨가 여자에게 꽃을 건네주고 있어요.",
+            "audio": "audio/s2_l2_hand_over_a2.mp3"
+          },
+          {
+            "id": "s2_l2_hand_over_a3",
+            "textEn": "He's handing over some yellow flowers at the stall.",
+            "textKo": "아저씨가 가판대에서 노란 꽃을 건네주고 있어요.",
+            "audio": "audio/s2_l2_hand_over_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_lift_up",
+        "key": "lift up",
+        "keyHint": "lift ~ up (번쩍 들어 올리다)",
+        "image": "images/s2_l2_lift_up.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d8",
+          "textEn": "A big sister's lifting her brother up toward the top shelf.",
+          "textKo": "누나가 남동생을 맨 위 선반 쪽으로 들어 올리고 있어요.",
+          "audio": "audio/hint_s2_l2_lift_up.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_lift_up_a1",
+            "textEn": "Dad's lifting the boy up.",
+            "textKo": "아빠가 아이를 들어 올리고 있어요.",
+            "audio": "audio/s2_l2_lift_up_a1.mp3"
+          },
+          {
+            "id": "s2_l2_lift_up_a2",
+            "textEn": "He's lifting his son up to the top of the tree.",
+            "textKo": "아빠가 아들을 나무 꼭대기까지 들어 올리고 있어요.",
+            "audio": "audio/s2_l2_lift_up_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_stack",
+        "key": "stack",
+        "keyHint": "stack ~ (차곡차곡 쌓다)",
+        "image": "images/s2_l2_stack.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d9",
+          "textEn": "A worker's stacking red cans up on the shelf.",
+          "textKo": "직원이 선반 위에 빨간 통조림을 쌓고 있어요.",
+          "audio": "audio/hint_s2_l2_stack.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_stack_a1",
+            "textEn": "She's stacking cups into a tower.",
+            "textKo": "여자아이가 컵을 탑처럼 쌓고 있어요.",
+            "audio": "audio/s2_l2_stack_a1.mp3"
+          },
+          {
+            "id": "s2_l2_stack_a2",
+            "textEn": "The girl's stacking plastic cups.",
+            "textKo": "여자아이가 플라스틱 컵을 쌓고 있어요.",
+            "audio": "audio/s2_l2_stack_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "s2_l3_find_out",
+        "key": "find out",
+        "keyHint": "find out ~ (알아내다)",
+        "image": "images/s2_l3_find_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d6",
+          "textEn": "He's listening to find out if it sounds ripe.",
+          "textKo": "아이는 잘 익은 소리인지 알아내려고 귀를 기울이고 있어요.",
+          "audio": "audio/hint_s2_l3_find_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_find_out_a1",
+            "textEn": "He's shaking it to find out what's inside.",
+            "textKo": "안에 뭐가 있는지 알아내려고 흔들어 보고 있어요.",
+            "audio": "audio/s2_l3_find_out_a1.mp3"
+          },
+          {
+            "id": "s2_l3_find_out_a2",
+            "textEn": "The boy's trying to find out what the present is.",
+            "textKo": "남자아이가 선물이 뭔지 알아내려 하고 있어요.",
+            "audio": "audio/s2_l3_find_out_a2.mp3"
+          },
+          {
+            "id": "s2_l3_find_out_a3",
+            "textEn": "He wants to find out what he got.",
+            "textKo": "뭘 받았는지 알아내고 싶어 해요.",
+            "audio": "audio/s2_l3_find_out_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_pick_out",
+        "key": "pick out",
+        "keyHint": "pick out ~ (골라내다)",
+        "image": "images/s2_l3_pick_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d2",
+          "textEn": "The grocer's giving grandma the grapes that she picked out herself.",
+          "textKo": "가게 아저씨가 할머니가 직접 고른 포도를 건네주고 있어요.",
+          "audio": "audio/hint_s2_l3_pick_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_pick_out_a1",
+            "textEn": "She's picking out the cupcake she wants.",
+            "textKo": "여자아이가 원하는 컵케이크를 고르고 있어요.",
+            "audio": "audio/s2_l3_pick_out_a1.mp3"
+          },
+          {
+            "id": "s2_l3_pick_out_a2",
+            "textEn": "The girl's picking out one cupcake.",
+            "textKo": "여자아이가 컵케이크 하나를 고르고 있어요.",
+            "audio": "audio/s2_l3_pick_out_a2.mp3"
+          },
+          {
+            "id": "s2_l3_pick_out_a3",
+            "textEn": "She picked out the one with the most frosting.",
+            "textKo": "크림이 제일 많은 걸 골랐어요.",
+            "audio": "audio/s2_l3_pick_out_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_reach",
+        "key": "reach",
+        "keyHint": "reach ~ (손이 닿다)",
+        "image": "images/s2_l3_reach.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d8",
+          "textEn": "The big sister's lifting her brother up so he can reach the tomatoes.",
+          "textKo": "누나가 남동생이 토마토에 손이 닿도록 들어 올리고 있어요.",
+          "audio": "audio/hint_s2_l3_reach.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_reach_a1",
+            "textEn": "He's standing on a chair so he can reach the jar.",
+            "textKo": "남자아이가 통에 닿으려고 의자에 올라서 있어요.",
+            "audio": "audio/s2_l3_reach_a1.mp3"
+          },
+          {
+            "id": "s2_l3_reach_a2",
+            "textEn": "The boy's trying to reach the cookie jar.",
+            "textKo": "남자아이가 과자 통에 손을 뻗고 있어요.",
+            "audio": "audio/s2_l3_reach_a2.mp3"
+          },
+          {
+            "id": "s2_l3_reach_a3",
+            "textEn": "He climbed up on a chair to reach the cookies.",
+            "textKo": "과자에 닿으려고 의자에 올라갔어요.",
+            "audio": "audio/s2_l3_reach_a3.mp3"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "s2_l4_keep_eye",
+        "key": "keep an eye on",
+        "keyHint": "keep an eye on ~ (~을 계속 지켜보다)",
+        "image": "images/s2_l4_keep_eye.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d2",
+          "textEn": "Dad's keeping an eye on his daughter instead of the shelves, because he knows what happens when she gets her hands on a banana.",
+          "textKo": "아빠는 선반 대신 딸에게서 눈을 떼지 않는데, 딸이 바나나를 손에 쥐면 어떻게 되는지 알기 때문이에요.",
+          "audio": "audio/hint_s2_l4_keep_eye.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_keep_eye_a1",
+            "textEn": "She's keeping an eye on the little kids.",
+            "textKo": "누나가 어린 아이들을 지켜보고 있어요.",
+            "audio": "audio/s2_l4_keep_eye_a1.mp3"
+          },
+          {
+            "id": "s2_l4_keep_eye_a2",
+            "textEn": "The big sister's keeping an eye on them while they play.",
+            "textKo": "누나가 아이들이 노는 동안 눈을 떼지 않고 있어요.",
+            "audio": "audio/s2_l4_keep_eye_a2.mp3"
+          },
+          {
+            "id": "s2_l4_keep_eye_a3",
+            "textEn": "She keeps an eye on them so nobody gets hurt.",
+            "textKo": "누가 다치지 않게 계속 지켜보고 있어요.",
+            "audio": "audio/s2_l4_keep_eye_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_can_tell",
+        "key": "can tell",
+        "keyHint": "you can tell ~ (~인 게 딱 보인다)",
+        "image": "images/s2_l4_can_tell.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d15",
+          "textEn": "The young man's reaching for it with both hands because he can tell it's going to be heavier than it looks.",
+          "textKo": "젊은 남자는 보기보다 무거울 걸 알아서 두 손으로 받으려고 손을 뻗고 있어요.",
+          "audio": "audio/hint_s2_l4_can_tell.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_can_tell_a1",
+            "textEn": "You can tell that suitcase is really heavy.",
+            "textKo": "저 가방이 엄청 무거운 게 딱 보여요.",
+            "audio": "audio/s2_l4_can_tell_a1.mp3"
+          },
+          {
+            "id": "s2_l4_can_tell_a2",
+            "textEn": "She can tell it's heavier than she thought.",
+            "textKo": "생각보다 무겁다는 걸 아는 눈치예요.",
+            "audio": "audio/s2_l4_can_tell_a2.mp3"
+          },
+          {
+            "id": "s2_l4_can_tell_a3",
+            "textEn": "You can tell she's having a hard time with it.",
+            "textKo": "힘들어하는 게 보여요.",
+            "audio": "audio/s2_l4_can_tell_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_wait_to_see",
+        "key": "waiting to see if",
+        "keyHint": "wait to see if ~ (~인지 지켜보다)",
+        "image": "images/s2_l4_wait_to_see.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d12",
+          "textEn": "The boy in the striped shirt is watching him without blinking, because he's waiting to see if one of those cans comes down.",
+          "textKo": "줄무늬 티셔츠를 입은 남자아이가, 통조림 하나가 굴러떨어지는지 보려고 눈도 깜빡이지 않고 지켜보고 있어요.",
+          "audio": "audio/hint_s2_l4_wait_to_see.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_wait_to_see_a1",
+            "textEn": "They're waiting to see if it tips over.",
+            "textKo": "아이들이 로봇이 넘어지는지 지켜보고 있어요.",
+            "audio": "audio/s2_l4_wait_to_see_a1.mp3"
+          },
+          {
+            "id": "s2_l4_wait_to_see_a2",
+            "textEn": "The kids are waiting to see what the robot does.",
+            "textKo": "아이들이 로봇이 어떻게 하는지 지켜보고 있어요.",
+            "audio": "audio/s2_l4_wait_to_see_a2.mp3"
+          },
+          {
+            "id": "s2_l4_wait_to_see_a3",
+            "textEn": "They're waiting to see if it keeps walking.",
+            "textKo": "계속 걷는지 지켜보고 있어요.",
+            "audio": "audio/s2_l4_wait_to_see_a3.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

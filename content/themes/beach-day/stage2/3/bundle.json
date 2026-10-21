@@ -1,0 +1,395 @@
+{
+  "bundleVersion": 3,
+  "publishedAt": "2026-10-19T04:21:50.763Z",
+  "theme": {
+    "slug": "beach-day"
+  },
+  "levels": {
+    "1": [
+      {
+        "id": "s2_l1_hold_out",
+        "key": "hold out",
+        "keyHint": "hold out ~ (내밀다)",
+        "image": "images/s2_l1_hold_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d1",
+          "textEn": "A dad is holding out a bucket.",
+          "textKo": "아빠가 양동이를 내밀고 있어요.",
+          "audio": "audio/hint_s2_l1_hold_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_hold_out_a1",
+            "textEn": "The boy's holding out a watering can.",
+            "textKo": "남자아이가 물뿌리개를 내밀고 있어요.",
+            "audio": "audio/s2_l1_hold_out_a1.mp3"
+          },
+          {
+            "id": "s2_l1_hold_out_a2",
+            "textEn": "He's holding it out to his grandma.",
+            "textKo": "남자아이가 할머니에게 그걸 내밀고 있어요.",
+            "audio": "audio/s2_l1_hold_out_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_throw",
+        "key": "throw",
+        "keyHint": "throw ~ (던지다)",
+        "image": "images/s2_l1_throw.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d7",
+          "textEn": "The boy's throwing a beach ball.",
+          "textKo": "남자아이가 비치볼을 던지고 있어요.",
+          "audio": "audio/hint_s2_l1_throw.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_throw_a1",
+            "textEn": "The boy's throwing a stone.",
+            "textKo": "남자아이가 돌을 던지고 있어요.",
+            "audio": "audio/s2_l1_throw_a1.mp3"
+          },
+          {
+            "id": "s2_l1_throw_a2",
+            "textEn": "He's throwing a little stone into the pond.",
+            "textKo": "남자아이가 못에 작은 돌을 던지고 있어요.",
+            "audio": "audio/s2_l1_throw_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_go_for",
+        "key": "go for",
+        "keyHint": "go for ~ (~을 노리다, 달려들다)",
+        "image": "images/s2_l1_go_for.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d8",
+          "textEn": "A seagull's going for her sandwich.",
+          "textKo": "갈매기가 그 아이 샌드위치를 노리고 있어요.",
+          "audio": "audio/hint_s2_l1_go_for.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_go_for_a1",
+            "textEn": "The puppy's going for the sausage.",
+            "textKo": "강아지가 소시지를 노리고 있어요.",
+            "audio": "audio/s2_l1_go_for_a1.mp3"
+          },
+          {
+            "id": "s2_l1_go_for_a2",
+            "textEn": "He's going for the sausage on the floor.",
+            "textKo": "강아지가 바닥에 떨어진 소시지로 달려들고 있어요.",
+            "audio": "audio/s2_l1_go_for_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "s2_l2_hold_out",
+        "key": "hold out",
+        "keyHint": "hold out ~ (쑥 내밀다)",
+        "image": "images/s2_l2_hold_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d1",
+          "textEn": "The dad's holding out a bucket of wet sand to his daughter.",
+          "textKo": "아빠가 젖은 모래가 든 양동이를 딸에게 내밀고 있어요.",
+          "audio": "audio/hint_s2_l2_hold_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_hold_out_a1",
+            "textEn": "The woman's holding out a loaf of bread.",
+            "textKo": "아주머니가 빵 한 덩이를 내밀고 있어요.",
+            "audio": "audio/s2_l2_hold_out_a1.mp3"
+          },
+          {
+            "id": "s2_l2_hold_out_a2",
+            "textEn": "She's holding out some bread to a customer.",
+            "textKo": "아주머니가 손님에게 빵을 내밀고 있어요.",
+            "audio": "audio/s2_l2_hold_out_a2.mp3"
+          },
+          {
+            "id": "s2_l2_hold_out_a3",
+            "textEn": "A woman in an apron is holding out a big round loaf.",
+            "textKo": "앞치마를 두른 아주머니가 큼직하고 둥근 빵을 내밀고 있어요.",
+            "audio": "audio/s2_l2_hold_out_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_keep_eye",
+        "key": "keep an eye on",
+        "keyHint": "keep an eye on ~ (~에서 눈을 떼지 않다)",
+        "image": "images/s2_l2_keep_eye.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d4",
+          "textEn": "The lifeguard's keeping an eye on the water.",
+          "textKo": "안전요원이 물에서 눈을 떼지 않고 있어요.",
+          "audio": "audio/hint_s2_l2_keep_eye.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_keep_eye_a1",
+            "textEn": "The mom's keeping an eye on her kid.",
+            "textKo": "엄마가 아이에게서 눈을 떼지 않고 있어요.",
+            "audio": "audio/s2_l2_keep_eye_a1.mp3"
+          },
+          {
+            "id": "s2_l2_keep_eye_a2",
+            "textEn": "She's keeping an eye on the little one on the slide.",
+            "textKo": "엄마가 미끄럼틀 위 아이를 계속 지켜보고 있어요.",
+            "audio": "audio/s2_l2_keep_eye_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_splash",
+        "key": "splash around",
+        "keyHint": "splash around (첨벙거리며 놀다)",
+        "image": "images/s2_l2_splash.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d5",
+          "textEn": "Two kids are splashing around in the shallow water.",
+          "textKo": "아이 둘이 얕은 물에서 첨벙거리며 놀고 있어요.",
+          "audio": "audio/hint_s2_l2_splash.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_splash_a1",
+            "textEn": "The ducks are splashing around.",
+            "textKo": "오리들이 첨벙거리고 있어요.",
+            "audio": "audio/s2_l2_splash_a1.mp3"
+          },
+          {
+            "id": "s2_l2_splash_a2",
+            "textEn": "Three ducks are splashing around in a puddle.",
+            "textKo": "오리 세 마리가 웅덩이에서 첨벙거리며 놀고 있어요.",
+            "audio": "audio/s2_l2_splash_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "s2_l3_hand",
+        "key": "hand",
+        "keyHint": "hand ~ (건네주다)",
+        "image": "images/s2_l3_hand.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d3",
+          "textEn": "The guy at the fruit cart is handing a girl a slice of watermelon.",
+          "textKo": "과일 수레의 아저씨가 여자아이에게 수박 한 조각을 건네주고 있어요.",
+          "audio": "audio/hint_s2_l3_hand.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_hand_a1",
+            "textEn": "The boy's handing the girl a cup of lemonade.",
+            "textKo": "남자아이가 여자아이에게 레모네이드 한 컵을 건네주고 있어요.",
+            "audio": "audio/s2_l3_hand_a1.mp3"
+          },
+          {
+            "id": "s2_l3_hand_a2",
+            "textEn": "He's handing her some lemonade at his little stand.",
+            "textKo": "남자아이가 자기 가판대에서 레모네이드를 건네주고 있어요.",
+            "audio": "audio/s2_l3_hand_a2.mp3"
+          },
+          {
+            "id": "s2_l3_hand_a3",
+            "textEn": "The boy behind the stand is handing a girl a cold drink.",
+            "textKo": "가판대 뒤의 남자아이가 여자아이에게 시원한 음료를 건네주고 있어요.",
+            "audio": "audio/s2_l3_hand_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_cant_wait",
+        "key": "can't wait to",
+        "keyHint": "can't wait to ~ (얼른 ~하고 싶다)",
+        "image": "images/s2_l3_cant_wait.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d4",
+          "textEn": "The girl can't wait to take a bite of it.",
+          "textKo": "여자아이는 얼른 한 입 먹고 싶어 죽겠어요.",
+          "audio": "audio/hint_s2_l3_cant_wait.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_cant_wait_a1",
+            "textEn": "She can't wait to eat her ice cream.",
+            "textKo": "여자아이가 얼른 아이스크림을 먹고 싶어 해요.",
+            "audio": "audio/s2_l3_cant_wait_a1.mp3"
+          },
+          {
+            "id": "s2_l3_cant_wait_a2",
+            "textEn": "The girl can't wait to take a bite.",
+            "textKo": "여자아이가 한 입 먹고 싶어 죽겠어요.",
+            "audio": "audio/s2_l3_cant_wait_a2.mp3"
+          },
+          {
+            "id": "s2_l3_cant_wait_a3",
+            "textEn": "She can't wait to get started on that bowl.",
+            "textKo": "여자아이가 어서 그릇을 비우고 싶어 해요.",
+            "audio": "audio/s2_l3_cant_wait_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_teach",
+        "key": "teach ~ to",
+        "keyHint": "teach ~ to ... (~에게 …하는 법을 가르치다)",
+        "image": "images/s2_l3_teach.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d11",
+          "textEn": "The instructor's teaching the boy to stand up on the surfboard.",
+          "textKo": "강사가 남자아이에게 서프보드 위에 일어서는 법을 가르쳐주고 있어요.",
+          "audio": "audio/hint_s2_l3_teach.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_teach_a1",
+            "textEn": "His mom's teaching him to ride a bike.",
+            "textKo": "엄마가 아이에게 자전거 타는 법을 가르치고 있어요.",
+            "audio": "audio/s2_l3_teach_a1.mp3"
+          },
+          {
+            "id": "s2_l3_teach_a2",
+            "textEn": "She's teaching her son to ride without falling.",
+            "textKo": "엄마가 아들에게 넘어지지 않고 타는 법을 가르치고 있어요.",
+            "audio": "audio/s2_l3_teach_a2.mp3"
+          },
+          {
+            "id": "s2_l3_teach_a3",
+            "textEn": "The mother's teaching the boy to keep his balance.",
+            "textKo": "엄마가 아이에게 균형 잡는 법을 가르치고 있어요.",
+            "audio": "audio/s2_l3_teach_a3.mp3"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "s2_l4_reach_up",
+        "key": "reach up",
+        "keyHint": "reach up (손을 위로 뻗다)",
+        "image": "images/s2_l4_reach_up.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d7",
+          "textEn": "The boy in the blue shorts is tossing the ball so high that the girl has to reach up to catch it.",
+          "textKo": "파란 반바지를 입은 남자아이가 공을 너무 높이 던져서 여자아이가 손을 위로 뻗어야 받을 수 있어요.",
+          "audio": "audio/hint_s2_l4_reach_up.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_reach_up_a1",
+            "textEn": "She's reaching up to catch the ball.",
+            "textKo": "여자아이가 공을 받으려고 손을 위로 뻗고 있어요.",
+            "audio": "audio/s2_l4_reach_up_a1.mp3"
+          },
+          {
+            "id": "s2_l4_reach_up_a2",
+            "textEn": "The girl has to reach up a little higher.",
+            "textKo": "여자아이가 조금 더 위로 손을 뻗어야 해요.",
+            "audio": "audio/s2_l4_reach_up_a2.mp3"
+          },
+          {
+            "id": "s2_l4_reach_up_a3",
+            "textEn": "She's reaching up so she can grab it.",
+            "textKo": "공을 잡으려고 손을 위로 뻗고 있어요.",
+            "audio": "audio/s2_l4_reach_up_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_eyes_off",
+        "key": "take eyes off",
+        "keyHint": "take your eyes off ~ (~에서 눈을 떼다)",
+        "image": "images/s2_l4_eyes_off.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d6",
+          "textEn": "The lifeguard up on the tall chair hasn't taken his eyes off the two kids who went in, and he won't until they're back on the sand.",
+          "textKo": "높은 의자 위의 안전요원은 물에 들어간 아이 둘에게서 눈을 뗀 적이 없고, 아이들이 모래로 돌아올 때까지 그럴 거예요.",
+          "audio": "audio/hint_s2_l4_eyes_off.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_eyes_off_a1",
+            "textEn": "He can't take his eyes off the little race car.",
+            "textKo": "남자아이가 장난감 경주차에서 눈을 떼지 못해요.",
+            "audio": "audio/s2_l4_eyes_off_a1.mp3"
+          },
+          {
+            "id": "s2_l4_eyes_off_a2",
+            "textEn": "The boy hasn't taken his eyes off that car since it started moving.",
+            "textKo": "차가 움직이기 시작한 뒤로 남자아이는 눈을 뗀 적이 없어요.",
+            "audio": "audio/s2_l4_eyes_off_a2.mp3"
+          },
+          {
+            "id": "s2_l4_eyes_off_a3",
+            "textEn": "He won't take his eyes off it until it stops.",
+            "textKo": "차가 멈출 때까지 눈을 떼지 않을 거예요.",
+            "audio": "audio/s2_l4_eyes_off_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_must_be",
+        "key": "must be",
+        "keyHint": "must be ~ (~인가 보다, 추측)",
+        "image": "images/s2_l4_must_be.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d14",
+          "textEn": "The story must be a good one, because the little girl hasn't moved an inch since her grandma started it.",
+          "textKo": "할머니가 이야기를 시작한 뒤로 어린 여자아이가 꼼짝도 안 하는 걸 보면, 이야기가 꽤 재미있나 봐요.",
+          "audio": "audio/hint_s2_l4_must_be.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_must_be_a1",
+            "textEn": "That must be the best dinner he's had all week.",
+            "textKo": "이번 주 저녁 중 제일 맛있었나 봐요.",
+            "audio": "audio/s2_l4_must_be_a1.mp3"
+          },
+          {
+            "id": "s2_l4_must_be_a2",
+            "textEn": "He must be really full, because the plate is completely empty.",
+            "textKo": "접시가 싹 비어 있는 걸 보면 배가 아주 부른가 봐요.",
+            "audio": "audio/s2_l4_must_be_a2.mp3"
+          },
+          {
+            "id": "s2_l4_must_be_a3",
+            "textEn": "The food must be good here, judging by that empty plate.",
+            "textKo": "저 빈 접시를 보면 여기 음식이 맛있나 봐요.",
+            "audio": "audio/s2_l4_must_be_a3.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

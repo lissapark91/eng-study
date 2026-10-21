@@ -1,0 +1,5543 @@
+{
+  "bundleVersion": 2,
+  "publishedAt": "2026-10-19T04:28:05.293Z",
+  "theme": {
+    "slug": "school-classroom",
+    "titleKo": "교실",
+    "titleEn": "A Day in the Classroom"
+  },
+  "scene": {
+    "image": "scene.png",
+    "width": 1536,
+    "height": 1024
+  },
+  "targets": [
+    {
+      "id": "t_teacher",
+      "kind": "person",
+      "box": [
+        0.06,
+        0.061,
+        0.113,
+        0.281
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_board",
+      "kind": "object",
+      "box": [
+        0.053,
+        0.013,
+        0.274,
+        0.231
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_class",
+      "kind": "person",
+      "box": [
+        0.036,
+        0.245,
+        0.288,
+        0.243
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_paper_boy",
+      "kind": "person",
+      "box": [
+        0.413,
+        0.119,
+        0.071,
+        0.254
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_paper",
+      "kind": "object",
+      "box": [
+        0.378,
+        0.158,
+        0.045,
+        0.073
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_pencil_girl",
+      "kind": "person",
+      "box": [
+        0.512,
+        0.199,
+        0.113,
+        0.262
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_pencil_boy",
+      "kind": "person",
+      "box": [
+        0.619,
+        0.216,
+        0.1,
+        0.248
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_pencil",
+      "kind": "object",
+      "box": [
+        0.611,
+        0.276,
+        0.026,
+        0.034
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_reader_girl",
+      "kind": "person",
+      "box": [
+        0.749,
+        0.155,
+        0.087,
+        0.218
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_feed_boy",
+      "kind": "person",
+      "box": [
+        0.129,
+        0.534,
+        0.104,
+        0.254
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_hamster",
+      "kind": "person",
+      "box": [
+        0.07,
+        0.557,
+        0.048,
+        0.074
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_paint_girl",
+      "kind": "person",
+      "box": [
+        0.322,
+        0.486,
+        0.113,
+        0.304
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_painting",
+      "kind": "object",
+      "box": [
+        0.393,
+        0.48,
+        0.096,
+        0.186
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_block_boy",
+      "kind": "person",
+      "box": [
+        0.582,
+        0.605,
+        0.137,
+        0.261
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_blocks",
+      "kind": "object",
+      "box": [
+        0.662,
+        0.736,
+        0.079,
+        0.167
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_plant_girl",
+      "kind": "person",
+      "box": [
+        0.893,
+        0.153,
+        0.077,
+        0.252
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_plant",
+      "kind": "object",
+      "box": [
+        0.962,
+        0.189,
+        0.038,
+        0.117
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_fish_boy",
+      "kind": "person",
+      "box": [
+        0.816,
+        0.442,
+        0.097,
+        0.271
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_fish",
+      "kind": "person",
+      "box": [
+        0.931,
+        0.494,
+        0.035,
+        0.042
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_picture_book",
+      "kind": "object",
+      "box": [
+        0.755,
+        0.258,
+        0.076,
+        0.072
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_listener_boy",
+      "kind": "person",
+      "box": [
+        0.829,
+        0.231,
+        0.055,
+        0.148
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_carrot",
+      "kind": "object",
+      "box": [
+        0.12,
+        0.584,
+        0.022,
+        0.022
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_cage",
+      "kind": "object",
+      "box": [
+        0.01,
+        0.502,
+        0.143,
+        0.161
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_watering_can",
+      "kind": "object",
+      "box": [
+        0.947,
+        0.231,
+        0.035,
+        0.058
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_hamster_girl",
+      "kind": "person",
+      "box": [
+        0.222,
+        0.526,
+        0.083,
+        0.218
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_paint_friend",
+      "kind": "person",
+      "box": [
+        0.512,
+        0.49,
+        0.078,
+        0.289
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_block_friend",
+      "kind": "person",
+      "box": [
+        0.725,
+        0.628,
+        0.117,
+        0.238
+      ],
+      "boxSource": "vision"
+    }
+  ],
+  "descriptionSets": {
+    "1": [
+      {
+        "id": "l1_d1",
+        "textEn": "The teacher's pointing at the board.",
+        "textKo": "선생님이 칠판을 가리키고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d1.mp3",
+        "durationMs": 3900,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "teacher's",
+            "s": 0.42,
+            "e": 1.14
+          },
+          {
+            "w": "pointing",
+            "s": 1.14,
+            "e": 2.12
+          },
+          {
+            "w": "at",
+            "s": 2.12,
+            "e": 2.84
+          },
+          {
+            "w": "the",
+            "s": 2.84,
+            "e": 3.22
+          },
+          {
+            "w": "board.",
+            "s": 3.22,
+            "e": 3.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_teacher",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.053,
+          0.013,
+          0.274,
+          0.329
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d2",
+        "textEn": "Three kids are looking at it.",
+        "textKo": "아이 세 명이 그걸 보고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d2.mp3",
+        "durationMs": 2650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Three",
+            "s": 0,
+            "e": 0.52
+          },
+          {
+            "w": "kids",
+            "s": 0.52,
+            "e": 1.12
+          },
+          {
+            "w": "are",
+            "s": 1.12,
+            "e": 1.5
+          },
+          {
+            "w": "looking",
+            "s": 1.5,
+            "e": 1.92
+          },
+          {
+            "w": "at",
+            "s": 1.92,
+            "e": 2.22
+          },
+          {
+            "w": "it.",
+            "s": 2.22,
+            "e": 2.38
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_class",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.036,
+          0.013,
+          0.291,
+          0.475
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d3",
+        "textEn": "A boy's holding out some paper.",
+        "textKo": "남자아이가 종이를 내밀고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d3.mp3",
+        "durationMs": 3200,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "boy's",
+            "s": 0.36,
+            "e": 1.28
+          },
+          {
+            "w": "holding",
+            "s": 1.28,
+            "e": 1.54
+          },
+          {
+            "w": "out",
+            "s": 1.54,
+            "e": 1.98
+          },
+          {
+            "w": "some",
+            "s": 1.98,
+            "e": 2.44
+          },
+          {
+            "w": "paper.",
+            "s": 2.44,
+            "e": 2.74
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paper_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_paper",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.378,
+          0.119,
+          0.106,
+          0.254
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d4",
+        "textEn": "A girl's giving him a pencil.",
+        "textKo": "여자아이가 친구에게 연필을 주고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d4.mp3",
+        "durationMs": 3050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.24
+          },
+          {
+            "w": "girl's",
+            "s": 0.24,
+            "e": 1.28
+          },
+          {
+            "w": "giving",
+            "s": 1.28,
+            "e": 1.54
+          },
+          {
+            "w": "him",
+            "s": 1.54,
+            "e": 1.84
+          },
+          {
+            "w": "a",
+            "s": 1.84,
+            "e": 2.26
+          },
+          {
+            "w": "pencil.",
+            "s": 2.26,
+            "e": 2.52
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_pencil_boy",
+            "order": 2,
+            "anchorWordIndex": 3
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 3,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.512,
+          0.199,
+          0.207,
+          0.265
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d5",
+        "textEn": "An older girl's reading a story.",
+        "textKo": "큰 여자아이가 이야기를 읽어 주고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d5.mp3",
+        "durationMs": 3450,
+        "alignStatus": "failed",
+        "words": [],
+        "highlights": [
+          {
+            "targetId": "t_reader_girl",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.749,
+          0.155,
+          0.087,
+          0.218
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d6",
+        "textEn": "A boy's feeding the hamster.",
+        "textKo": "남자아이가 햄스터에게 먹이를 주고 있어요.",
+        "difficulty": {
+          "words": 5,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d6.mp3",
+        "durationMs": 2950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "boy's",
+            "s": 0.32,
+            "e": 1.02
+          },
+          {
+            "w": "feeding",
+            "s": 1.02,
+            "e": 1.7
+          },
+          {
+            "w": "the",
+            "s": 1.7,
+            "e": 1.9
+          },
+          {
+            "w": "hamster.",
+            "s": 1.9,
+            "e": 2.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_feed_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_hamster",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.07,
+          0.534,
+          0.163,
+          0.254
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d7",
+        "textEn": "A girl's painting a rainbow.",
+        "textKo": "여자아이가 무지개를 그리고 있어요.",
+        "difficulty": {
+          "words": 5,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d7.mp3",
+        "durationMs": 3850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "girl's",
+            "s": 0.34,
+            "e": 1.48
+          },
+          {
+            "w": "painting",
+            "s": 1.48,
+            "e": 2.06
+          },
+          {
+            "w": "a",
+            "s": 2.06,
+            "e": 2.9
+          },
+          {
+            "w": "rainbow.",
+            "s": 2.9,
+            "e": 3.26
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paint_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_painting",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.322,
+          0.48,
+          0.167,
+          0.31
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d8",
+        "textEn": "Two boys are building a tower.",
+        "textKo": "남자아이 둘이 탑을 쌓고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": false
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d8.mp3",
+        "durationMs": 4350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.66
+          },
+          {
+            "w": "boys",
+            "s": 0.66,
+            "e": 1.52
+          },
+          {
+            "w": "are",
+            "s": 1.52,
+            "e": 2.42
+          },
+          {
+            "w": "building",
+            "s": 2.42,
+            "e": 2.72
+          },
+          {
+            "w": "a",
+            "s": 2.72,
+            "e": 3.92
+          },
+          {
+            "w": "tower.",
+            "s": 3.92,
+            "e": 3.92
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.159,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d9",
+        "textEn": "A girl's watering a plant.",
+        "textKo": "여자아이가 화분에 물을 주고 있어요.",
+        "difficulty": {
+          "words": 5,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d9.mp3",
+        "durationMs": 2700,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "girl's",
+            "s": 0.32,
+            "e": 1.16
+          },
+          {
+            "w": "watering",
+            "s": 1.16,
+            "e": 1.52
+          },
+          {
+            "w": "a",
+            "s": 1.52,
+            "e": 1.98
+          },
+          {
+            "w": "plant.",
+            "s": 1.98,
+            "e": 2.32
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_plant_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_plant",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.893,
+          0.153,
+          0.107,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d10",
+        "textEn": "A boy's watching an orange fish.",
+        "textKo": "남자아이가 주황 금붕어를 보고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d10.mp3",
+        "durationMs": 4050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "boy's",
+            "s": 0.32,
+            "e": 1.38
+          },
+          {
+            "w": "watching",
+            "s": 1.38,
+            "e": 1.88
+          },
+          {
+            "w": "an",
+            "s": 1.88,
+            "e": 2.62
+          },
+          {
+            "w": "orange",
+            "s": 2.62,
+            "e": 2.98
+          },
+          {
+            "w": "fish.",
+            "s": 2.98,
+            "e": 3.6
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_fish_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_fish",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.816,
+          0.442,
+          0.15,
+          0.271
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "2": [
+      {
+        "id": "l2_d1",
+        "textEn": "The teacher's pointing at a big lion on the white board.",
+        "textKo": "선생님이 화이트보드에 그려진 큰 사자를 가리키고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d1.mp3",
+        "durationMs": 4800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "teacher's",
+            "s": 0.3,
+            "e": 1.14
+          },
+          {
+            "w": "pointing",
+            "s": 1.14,
+            "e": 1.42
+          },
+          {
+            "w": "at",
+            "s": 1.42,
+            "e": 1.8
+          },
+          {
+            "w": "a",
+            "s": 1.8,
+            "e": 2.08
+          },
+          {
+            "w": "big",
+            "s": 2.08,
+            "e": 2.4
+          },
+          {
+            "w": "lion",
+            "s": 2.4,
+            "e": 2.86
+          },
+          {
+            "w": "on",
+            "s": 2.86,
+            "e": 3.34
+          },
+          {
+            "w": "the",
+            "s": 3.34,
+            "e": 3.56
+          },
+          {
+            "w": "white",
+            "s": 3.56,
+            "e": 4.12
+          },
+          {
+            "w": "board.",
+            "s": 3.56,
+            "e": 4.12
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_teacher",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.053,
+          0.013,
+          0.274,
+          0.329
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d2",
+        "textEn": "Three kids at their desks are looking right at it.",
+        "textKo": "책상에 앉은 아이 세 명이 그걸 똑바로 보고 있어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d2.mp3",
+        "durationMs": 5550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Three",
+            "s": 0,
+            "e": 0.8
+          },
+          {
+            "w": "kids",
+            "s": 0.8,
+            "e": 1.6
+          },
+          {
+            "w": "at",
+            "s": 1.6,
+            "e": 2
+          },
+          {
+            "w": "their",
+            "s": 2,
+            "e": 2.28
+          },
+          {
+            "w": "desks",
+            "s": 2.28,
+            "e": 2.86
+          },
+          {
+            "w": "are",
+            "s": 2.86,
+            "e": 3.46
+          },
+          {
+            "w": "looking",
+            "s": 3.46,
+            "e": 3.82
+          },
+          {
+            "w": "right",
+            "s": 3.82,
+            "e": 4.44
+          },
+          {
+            "w": "at",
+            "s": 4.44,
+            "e": 5.08
+          },
+          {
+            "w": "it.",
+            "s": 5.08,
+            "e": 5.28
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_class",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.036,
+          0.013,
+          0.291,
+          0.475
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d3",
+        "textEn": "A boy's holding out a sheet of paper with a drawing.",
+        "textKo": "남자아이가 그림이 그려진 종이 한 장을 내밀고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d3.mp3",
+        "durationMs": 4400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.28
+          },
+          {
+            "w": "boy's",
+            "s": 0.28,
+            "e": 1.44
+          },
+          {
+            "w": "holding",
+            "s": 1.44,
+            "e": 1.44
+          },
+          {
+            "w": "out",
+            "s": 1.44,
+            "e": 1.7
+          },
+          {
+            "w": "a",
+            "s": 1.7,
+            "e": 1.92
+          },
+          {
+            "w": "sheet",
+            "s": 1.92,
+            "e": 2.08
+          },
+          {
+            "w": "of",
+            "s": 2.08,
+            "e": 2.8
+          },
+          {
+            "w": "paper",
+            "s": 2.8,
+            "e": 2.8
+          },
+          {
+            "w": "with",
+            "s": 2.8,
+            "e": 3.4
+          },
+          {
+            "w": "a",
+            "s": 3.4,
+            "e": 4.02
+          },
+          {
+            "w": "drawing.",
+            "s": 4.02,
+            "e": 4.02
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paper_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_paper",
+            "order": 2,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.378,
+          0.119,
+          0.106,
+          0.254
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d4",
+        "textEn": "A girl's handing a yellow pencil to the boy next to her.",
+        "textKo": "여자아이가 옆자리 남자아이에게 노란 연필을 건네주고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d4.mp3",
+        "durationMs": 4250,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.22
+          },
+          {
+            "w": "girl's",
+            "s": 0.22,
+            "e": 0.84
+          },
+          {
+            "w": "handing",
+            "s": 0.84,
+            "e": 1.14
+          },
+          {
+            "w": "a",
+            "s": 1.14,
+            "e": 1.6
+          },
+          {
+            "w": "yellow",
+            "s": 1.6,
+            "e": 1.82
+          },
+          {
+            "w": "pencil",
+            "s": 1.82,
+            "e": 2.24
+          },
+          {
+            "w": "to",
+            "s": 2.24,
+            "e": 2.58
+          },
+          {
+            "w": "the",
+            "s": 2.58,
+            "e": 2.9
+          },
+          {
+            "w": "boy",
+            "s": 2.9,
+            "e": 3
+          },
+          {
+            "w": "next",
+            "s": 3,
+            "e": 3.4
+          },
+          {
+            "w": "to",
+            "s": 3.4,
+            "e": 3.6
+          },
+          {
+            "w": "her.",
+            "s": 3.6,
+            "e": 3.72
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_pencil_boy",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.512,
+          0.199,
+          0.207,
+          0.265
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d5",
+        "textEn": "An older girl's reading a picture book out loud on the rug.",
+        "textKo": "큰 여자아이가 깔개 위에서 그림책을 소리 내어 읽고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d5.mp3",
+        "durationMs": 4600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "An",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "older",
+            "s": 0.48,
+            "e": 0.92
+          },
+          {
+            "w": "girl's",
+            "s": 0.92,
+            "e": 1.56
+          },
+          {
+            "w": "reading",
+            "s": 1.56,
+            "e": 1.74
+          },
+          {
+            "w": "a",
+            "s": 1.74,
+            "e": 2
+          },
+          {
+            "w": "picture",
+            "s": 2,
+            "e": 2.3
+          },
+          {
+            "w": "book",
+            "s": 2.3,
+            "e": 2.6
+          },
+          {
+            "w": "out",
+            "s": 2.6,
+            "e": 3
+          },
+          {
+            "w": "loud",
+            "s": 3,
+            "e": 3.34
+          },
+          {
+            "w": "on",
+            "s": 3.34,
+            "e": 3.6
+          },
+          {
+            "w": "the",
+            "s": 3.6,
+            "e": 3.8
+          },
+          {
+            "w": "rug.",
+            "s": 3.8,
+            "e": 4.04
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_reader_girl",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_picture_book",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.749,
+          0.155,
+          0.087,
+          0.218
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d6",
+        "textEn": "A younger boy's sitting cross-legged and laughing at the story.",
+        "textKo": "어린 남자아이가 책상다리로 앉아 이야기에 웃고 있어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d6.mp3",
+        "durationMs": 6150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.8
+          },
+          {
+            "w": "younger",
+            "s": 0.8,
+            "e": 1.22
+          },
+          {
+            "w": "boy's",
+            "s": 1.22,
+            "e": 1.82
+          },
+          {
+            "w": "sitting",
+            "s": 1.82,
+            "e": 2.56
+          },
+          {
+            "w": "cross-legged",
+            "s": 2.56,
+            "e": 3.56
+          },
+          {
+            "w": "and",
+            "s": 3.56,
+            "e": 4.44
+          },
+          {
+            "w": "laughing",
+            "s": 4.44,
+            "e": 4.74
+          },
+          {
+            "w": "at",
+            "s": 4.74,
+            "e": 5.08
+          },
+          {
+            "w": "the",
+            "s": 5.08,
+            "e": 5.22
+          },
+          {
+            "w": "story.",
+            "s": 5.22,
+            "e": 5.58
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_listener_boy",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_picture_book",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.755,
+          0.231,
+          0.129,
+          0.148
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d7",
+        "textEn": "A boy's holding a carrot slice through the cage bars.",
+        "textKo": "남자아이가 당근 조각을 우리 창살 사이로 넣어주고 있어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d7.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "boy's",
+            "s": 0.34,
+            "e": 1.44
+          },
+          {
+            "w": "holding",
+            "s": 1.44,
+            "e": 1.8
+          },
+          {
+            "w": "a",
+            "s": 1.8,
+            "e": 2.38
+          },
+          {
+            "w": "carrot",
+            "s": 2.38,
+            "e": 2.6
+          },
+          {
+            "w": "slice",
+            "s": 2.6,
+            "e": 3.12
+          },
+          {
+            "w": "through",
+            "s": 3.12,
+            "e": 3.82
+          },
+          {
+            "w": "the",
+            "s": 3.82,
+            "e": 4.38
+          },
+          {
+            "w": "cage",
+            "s": 4.38,
+            "e": 4.44
+          },
+          {
+            "w": "bars.",
+            "s": 4.44,
+            "e": 4.92
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_feed_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_carrot",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_cage",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.01,
+          0.502,
+          0.223,
+          0.286
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d8",
+        "textEn": "A girl's painting a bright rainbow at the easel.",
+        "textKo": "여자아이가 이젤에서 밝은 무지개를 그리고 있어요.",
+        "difficulty": {
+          "words": 9,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d8.mp3",
+        "durationMs": 4350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.28
+          },
+          {
+            "w": "girl's",
+            "s": 0.28,
+            "e": 0.98
+          },
+          {
+            "w": "painting",
+            "s": 0.98,
+            "e": 1.42
+          },
+          {
+            "w": "a",
+            "s": 1.42,
+            "e": 1.86
+          },
+          {
+            "w": "bright",
+            "s": 1.86,
+            "e": 2.48
+          },
+          {
+            "w": "rainbow",
+            "s": 2.48,
+            "e": 3
+          },
+          {
+            "w": "at",
+            "s": 3,
+            "e": 3.52
+          },
+          {
+            "w": "the",
+            "s": 3.52,
+            "e": 3.88
+          },
+          {
+            "w": "easel.",
+            "s": 3.88,
+            "e": 4.12
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paint_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_painting",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.322,
+          0.48,
+          0.167,
+          0.31
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d9",
+        "textEn": "Two boys are building a tall tower out of colored blocks.",
+        "textKo": "남자아이 둘이 색색의 블록으로 높은 탑을 쌓고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": false
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d9.mp3",
+        "durationMs": 5900,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "boys",
+            "s": 0.48,
+            "e": 1.04
+          },
+          {
+            "w": "are",
+            "s": 1.04,
+            "e": 1.8
+          },
+          {
+            "w": "building",
+            "s": 1.8,
+            "e": 2.12
+          },
+          {
+            "w": "a",
+            "s": 2.12,
+            "e": 2.56
+          },
+          {
+            "w": "tall",
+            "s": 2.56,
+            "e": 3.04
+          },
+          {
+            "w": "tower",
+            "s": 3.04,
+            "e": 3.54
+          },
+          {
+            "w": "out",
+            "s": 3.54,
+            "e": 4.24
+          },
+          {
+            "w": "of",
+            "s": 4.24,
+            "e": 5
+          },
+          {
+            "w": "colored",
+            "s": 5,
+            "e": 5
+          },
+          {
+            "w": "blocks.",
+            "s": 5,
+            "e": 5.52
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.159,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d10",
+        "textEn": "A girl's watering a leafy plant with a little blue can.",
+        "textKo": "여자아이가 작은 파란 물뿌리개로 잎이 무성한 화분에 물을 주고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d10.mp3",
+        "durationMs": 5850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.24
+          },
+          {
+            "w": "girl's",
+            "s": 0.24,
+            "e": 1.12
+          },
+          {
+            "w": "watering",
+            "s": 1.12,
+            "e": 1.6
+          },
+          {
+            "w": "a",
+            "s": 1.6,
+            "e": 2.1
+          },
+          {
+            "w": "leafy",
+            "s": 2.1,
+            "e": 2.62
+          },
+          {
+            "w": "plant",
+            "s": 2.62,
+            "e": 3.02
+          },
+          {
+            "w": "with",
+            "s": 3.02,
+            "e": 3.76
+          },
+          {
+            "w": "a",
+            "s": 3.76,
+            "e": 4.18
+          },
+          {
+            "w": "little",
+            "s": 4.18,
+            "e": 4.36
+          },
+          {
+            "w": "blue",
+            "s": 4.36,
+            "e": 4.92
+          },
+          {
+            "w": "can.",
+            "s": 4.92,
+            "e": 5.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_plant_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_plant",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_watering_can",
+            "order": 3,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.893,
+          0.153,
+          0.107,
+          0.252
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "3": [
+      {
+        "id": "l3_d1",
+        "textEn": "The teacher's pointing at the lion that she drew on the board.",
+        "textKo": "선생님이 칠판에 직접 그린 사자를 가리키고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d1.mp3",
+        "durationMs": 6900,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "teacher's",
+            "s": 0.34,
+            "e": 0.92
+          },
+          {
+            "w": "pointing",
+            "s": 0.92,
+            "e": 1.8
+          },
+          {
+            "w": "at",
+            "s": 1.8,
+            "e": 2.56
+          },
+          {
+            "w": "the",
+            "s": 2.56,
+            "e": 2.88
+          },
+          {
+            "w": "lion",
+            "s": 2.88,
+            "e": 3.36
+          },
+          {
+            "w": "that",
+            "s": 3.36,
+            "e": 4.26
+          },
+          {
+            "w": "she",
+            "s": 4.26,
+            "e": 4.68
+          },
+          {
+            "w": "drew",
+            "s": 4.68,
+            "e": 5.06
+          },
+          {
+            "w": "on",
+            "s": 5.06,
+            "e": 5.88
+          },
+          {
+            "w": "the",
+            "s": 5.88,
+            "e": 6.12
+          },
+          {
+            "w": "board.",
+            "s": 6.12,
+            "e": 6.5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_teacher",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.053,
+          0.013,
+          0.274,
+          0.329
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d2",
+        "textEn": "Three kids are watching her because they want to guess what it is.",
+        "textKo": "아이 세 명이 무슨 동물인지 맞혀보고 싶어서 선생님을 보고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 3,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d2.mp3",
+        "durationMs": 6350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Three",
+            "s": 0,
+            "e": 0.78
+          },
+          {
+            "w": "kids",
+            "s": 0.78,
+            "e": 1.48
+          },
+          {
+            "w": "are",
+            "s": 1.48,
+            "e": 2.04
+          },
+          {
+            "w": "watching",
+            "s": 2.04,
+            "e": 2.52
+          },
+          {
+            "w": "her",
+            "s": 2.52,
+            "e": 2.92
+          },
+          {
+            "w": "because",
+            "s": 2.92,
+            "e": 3.76
+          },
+          {
+            "w": "they",
+            "s": 3.76,
+            "e": 4.46
+          },
+          {
+            "w": "want",
+            "s": 4.46,
+            "e": 4.72
+          },
+          {
+            "w": "to",
+            "s": 4.72,
+            "e": 5.26
+          },
+          {
+            "w": "guess",
+            "s": 5.26,
+            "e": 5.26
+          },
+          {
+            "w": "what",
+            "s": 5.26,
+            "e": 5.64
+          },
+          {
+            "w": "it",
+            "s": 5.64,
+            "e": 5.76
+          },
+          {
+            "w": "is.",
+            "s": 5.76,
+            "e": 6.14
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_class",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_teacher",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.036,
+          0.061,
+          0.288,
+          0.427
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d3",
+        "textEn": "A boy's holding out his drawing so the teacher can take a look.",
+        "textKo": "남자아이가 선생님이 볼 수 있게 자기 그림을 내밀고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d3.mp3",
+        "durationMs": 4600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "boy's",
+            "s": 0.42,
+            "e": 1.04
+          },
+          {
+            "w": "holding",
+            "s": 1.04,
+            "e": 1.26
+          },
+          {
+            "w": "out",
+            "s": 1.26,
+            "e": 1.54
+          },
+          {
+            "w": "his",
+            "s": 1.54,
+            "e": 1.8
+          },
+          {
+            "w": "drawing",
+            "s": 1.8,
+            "e": 2.28
+          },
+          {
+            "w": "so",
+            "s": 2.28,
+            "e": 2.7
+          },
+          {
+            "w": "the",
+            "s": 2.7,
+            "e": 2.92
+          },
+          {
+            "w": "teacher",
+            "s": 2.92,
+            "e": 3.24
+          },
+          {
+            "w": "can",
+            "s": 3.24,
+            "e": 3.58
+          },
+          {
+            "w": "take",
+            "s": 3.58,
+            "e": 3.76
+          },
+          {
+            "w": "a",
+            "s": 3.76,
+            "e": 3.94
+          },
+          {
+            "w": "look.",
+            "s": 3.94,
+            "e": 4.22
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paper_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_paper",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_teacher",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.06,
+          0.061,
+          0.424,
+          0.312
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d4",
+        "textEn": "A girl's handing a boy her yellow pencil because his broke.",
+        "textKo": "남자아이 연필이 부러져서 여자아이가 자기 노란 연필을 건네주고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d4.mp3",
+        "durationMs": 5600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.38
+          },
+          {
+            "w": "girl's",
+            "s": 0.38,
+            "e": 1.34
+          },
+          {
+            "w": "handing",
+            "s": 1.34,
+            "e": 1.34
+          },
+          {
+            "w": "a",
+            "s": 1.34,
+            "e": 1.76
+          },
+          {
+            "w": "boy",
+            "s": 1.76,
+            "e": 1.88
+          },
+          {
+            "w": "her",
+            "s": 1.88,
+            "e": 2.34
+          },
+          {
+            "w": "yellow",
+            "s": 2.34,
+            "e": 2.74
+          },
+          {
+            "w": "pencil",
+            "s": 2.74,
+            "e": 3.26
+          },
+          {
+            "w": "because",
+            "s": 3.26,
+            "e": 4.2
+          },
+          {
+            "w": "his",
+            "s": 4.2,
+            "e": 4.68
+          },
+          {
+            "w": "broke.",
+            "s": 4.68,
+            "e": 5.14
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_pencil_boy",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.512,
+          0.199,
+          0.207,
+          0.265
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d5",
+        "textEn": "He's reaching for it before she even lets go.",
+        "textKo": "아이는 여자아이가 손을 놓기도 전에 연필을 잡으려 하고 있어요.",
+        "difficulty": {
+          "words": 9,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d5.mp3",
+        "durationMs": 4050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He's",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "reaching",
+            "s": 0.5,
+            "e": 0.76
+          },
+          {
+            "w": "for",
+            "s": 0.76,
+            "e": 1.16
+          },
+          {
+            "w": "it",
+            "s": 1.16,
+            "e": 1.64
+          },
+          {
+            "w": "before",
+            "s": 1.64,
+            "e": 2.18
+          },
+          {
+            "w": "she",
+            "s": 2.18,
+            "e": 2.52
+          },
+          {
+            "w": "even",
+            "s": 2.52,
+            "e": 2.9
+          },
+          {
+            "w": "lets",
+            "s": 2.9,
+            "e": 3.24
+          },
+          {
+            "w": "go.",
+            "s": 3.24,
+            "e": 3.62
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_boy",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.611,
+          0.216,
+          0.108,
+          0.248
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d6",
+        "textEn": "The older girl's reading a story out loud while the little boy listens.",
+        "textKo": "큰 여자아이가 소리 내어 이야기를 읽고, 어린 남자아이는 듣고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d6.mp3",
+        "durationMs": 6550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.26
+          },
+          {
+            "w": "older",
+            "s": 0.26,
+            "e": 0.7
+          },
+          {
+            "w": "girl's",
+            "s": 0.7,
+            "e": 1.26
+          },
+          {
+            "w": "reading",
+            "s": 1.26,
+            "e": 1.72
+          },
+          {
+            "w": "a",
+            "s": 1.72,
+            "e": 2.5
+          },
+          {
+            "w": "story",
+            "s": 2.5,
+            "e": 2.5
+          },
+          {
+            "w": "out",
+            "s": 2.5,
+            "e": 3.1
+          },
+          {
+            "w": "loud",
+            "s": 3.1,
+            "e": 3.52
+          },
+          {
+            "w": "while",
+            "s": 3.92,
+            "e": 4.36
+          },
+          {
+            "w": "the",
+            "s": 4.36,
+            "e": 4.68
+          },
+          {
+            "w": "little",
+            "s": 4.68,
+            "e": 4.94
+          },
+          {
+            "w": "boy",
+            "s": 4.94,
+            "e": 5.36
+          },
+          {
+            "w": "listens.",
+            "s": 5.36,
+            "e": 5.94
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_reader_girl",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_picture_book",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_listener_boy",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.749,
+          0.155,
+          0.135,
+          0.224
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d7",
+        "textEn": "A boy's poking a carrot through the bars so the hamster can grab it.",
+        "textKo": "남자아이가 햄스터가 잡을 수 있게 창살 사이로 당근을 밀어 넣고 있어요.",
+        "difficulty": {
+          "words": 14,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d7.mp3",
+        "durationMs": 7000,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "boy's",
+            "s": 0.34,
+            "e": 1.42
+          },
+          {
+            "w": "poking",
+            "s": 1.42,
+            "e": 1.42
+          },
+          {
+            "w": "a",
+            "s": 1.42,
+            "e": 2.14
+          },
+          {
+            "w": "carrot",
+            "s": 2.14,
+            "e": 2.14
+          },
+          {
+            "w": "through",
+            "s": 2.14,
+            "e": 2.92
+          },
+          {
+            "w": "the",
+            "s": 2.92,
+            "e": 3.22
+          },
+          {
+            "w": "bars",
+            "s": 3.22,
+            "e": 3.74
+          },
+          {
+            "w": "so",
+            "s": 3.74,
+            "e": 4.56
+          },
+          {
+            "w": "the",
+            "s": 4.56,
+            "e": 4.86
+          },
+          {
+            "w": "hamster",
+            "s": 4.86,
+            "e": 5.4
+          },
+          {
+            "w": "can",
+            "s": 5.4,
+            "e": 5.92
+          },
+          {
+            "w": "grab",
+            "s": 5.92,
+            "e": 6.28
+          },
+          {
+            "w": "it.",
+            "s": 6.28,
+            "e": 6.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_feed_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_carrot",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_cage",
+            "order": 3,
+            "anchorWordIndex": 7
+          },
+          {
+            "targetId": "t_hamster",
+            "order": 4,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.01,
+          0.502,
+          0.223,
+          0.286
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d8",
+        "textEn": "The girl next to him is leaning in to get a better look.",
+        "textKo": "옆에 있는 여자아이가 더 잘 보려고 가까이 몸을 기울이고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d8.mp3",
+        "durationMs": 4750,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.26
+          },
+          {
+            "w": "girl",
+            "s": 0.26,
+            "e": 0.58
+          },
+          {
+            "w": "next",
+            "s": 0.58,
+            "e": 1
+          },
+          {
+            "w": "to",
+            "s": 1,
+            "e": 1.22
+          },
+          {
+            "w": "him",
+            "s": 1.22,
+            "e": 1.46
+          },
+          {
+            "w": "is",
+            "s": 1.46,
+            "e": 2.26
+          },
+          {
+            "w": "leaning",
+            "s": 2.26,
+            "e": 2.62
+          },
+          {
+            "w": "in",
+            "s": 2.62,
+            "e": 3.26
+          },
+          {
+            "w": "to",
+            "s": 3.26,
+            "e": 3.4
+          },
+          {
+            "w": "get",
+            "s": 3.4,
+            "e": 3.52
+          },
+          {
+            "w": "a",
+            "s": 3.52,
+            "e": 3.78
+          },
+          {
+            "w": "better",
+            "s": 3.78,
+            "e": 3.98
+          },
+          {
+            "w": "look.",
+            "s": 3.98,
+            "e": 4.36
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_hamster_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_feed_boy",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.129,
+          0.526,
+          0.176,
+          0.262
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d9",
+        "textEn": "A girl's painting a rainbow while her friend watches every stroke.",
+        "textKo": "여자아이가 무지개를 그리고, 친구는 붓질 하나하나를 보고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d9.mp3",
+        "durationMs": 6150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "girl's",
+            "s": 0.36,
+            "e": 1.06
+          },
+          {
+            "w": "painting",
+            "s": 1.06,
+            "e": 1.34
+          },
+          {
+            "w": "a",
+            "s": 1.34,
+            "e": 2.22
+          },
+          {
+            "w": "rainbow",
+            "s": 2.22,
+            "e": 2.22
+          },
+          {
+            "w": "while",
+            "s": 2.22,
+            "e": 2.9
+          },
+          {
+            "w": "her",
+            "s": 2.9,
+            "e": 3.22
+          },
+          {
+            "w": "friend",
+            "s": 3.22,
+            "e": 3.68
+          },
+          {
+            "w": "watches",
+            "s": 3.68,
+            "e": 4.34
+          },
+          {
+            "w": "every",
+            "s": 4.34,
+            "e": 5.08
+          },
+          {
+            "w": "stroke.",
+            "s": 5.08,
+            "e": 5.6
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paint_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_painting",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_paint_friend",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.322,
+          0.48,
+          0.268,
+          0.31
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d10",
+        "textEn": "One boy's holding out a red block so his friend can finish the top.",
+        "textKo": "한 남자아이가 친구가 꼭대기를 완성할 수 있게 빨간 블록을 내밀고 있어요.",
+        "difficulty": {
+          "words": 14,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d10.mp3",
+        "durationMs": 5850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "One",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "boy's",
+            "s": 0.44,
+            "e": 0.94
+          },
+          {
+            "w": "holding",
+            "s": 0.94,
+            "e": 1.26
+          },
+          {
+            "w": "out",
+            "s": 1.26,
+            "e": 1.62
+          },
+          {
+            "w": "a",
+            "s": 1.62,
+            "e": 2.02
+          },
+          {
+            "w": "red",
+            "s": 2.02,
+            "e": 2.22
+          },
+          {
+            "w": "block",
+            "s": 2.22,
+            "e": 2.68
+          },
+          {
+            "w": "so",
+            "s": 2.68,
+            "e": 3.32
+          },
+          {
+            "w": "his",
+            "s": 3.32,
+            "e": 3.68
+          },
+          {
+            "w": "friend",
+            "s": 3.68,
+            "e": 4.06
+          },
+          {
+            "w": "can",
+            "s": 4.06,
+            "e": 4.58
+          },
+          {
+            "w": "finish",
+            "s": 4.58,
+            "e": 4.86
+          },
+          {
+            "w": "the",
+            "s": 4.86,
+            "e": 5.1
+          },
+          {
+            "w": "top.",
+            "s": 5.1,
+            "e": 5.42
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_block_friend",
+            "order": 3,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.26,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d11",
+        "textEn": "They're stacking it up slowly because the whole thing could fall over.",
+        "textKo": "통째로 무너질 수 있어서 아이들이 천천히 쌓아 올리고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d11.mp3",
+        "durationMs": 5500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "They're",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "stacking",
+            "s": 0.5,
+            "e": 0.82
+          },
+          {
+            "w": "it",
+            "s": 0.82,
+            "e": 1.1
+          },
+          {
+            "w": "up",
+            "s": 1.1,
+            "e": 1.4
+          },
+          {
+            "w": "slowly",
+            "s": 1.4,
+            "e": 1.92
+          },
+          {
+            "w": "because",
+            "s": 2.34,
+            "e": 2.66
+          },
+          {
+            "w": "the",
+            "s": 2.66,
+            "e": 2.98
+          },
+          {
+            "w": "whole",
+            "s": 2.98,
+            "e": 3.48
+          },
+          {
+            "w": "thing",
+            "s": 3.48,
+            "e": 3.9
+          },
+          {
+            "w": "could",
+            "s": 3.9,
+            "e": 4.3
+          },
+          {
+            "w": "fall",
+            "s": 4.3,
+            "e": 4.8
+          },
+          {
+            "w": "over.",
+            "s": 4.8,
+            "e": 5.18
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.159,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d12",
+        "textEn": "A girl's watering the plant on the windowsill before it gets too dry.",
+        "textKo": "여자아이가 너무 마르기 전에 창턱의 화분에 물을 주고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d12.mp3",
+        "durationMs": 5800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.22
+          },
+          {
+            "w": "girl's",
+            "s": 0.22,
+            "e": 1.04
+          },
+          {
+            "w": "watering",
+            "s": 1.04,
+            "e": 1.42
+          },
+          {
+            "w": "the",
+            "s": 1.42,
+            "e": 1.76
+          },
+          {
+            "w": "plant",
+            "s": 1.76,
+            "e": 2.16
+          },
+          {
+            "w": "on",
+            "s": 2.16,
+            "e": 2.54
+          },
+          {
+            "w": "the",
+            "s": 2.54,
+            "e": 2.86
+          },
+          {
+            "w": "windowsill",
+            "s": 2.86,
+            "e": 3.5
+          },
+          {
+            "w": "before",
+            "s": 3.52,
+            "e": 4.24
+          },
+          {
+            "w": "it",
+            "s": 4.24,
+            "e": 4.54
+          },
+          {
+            "w": "gets",
+            "s": 4.54,
+            "e": 4.76
+          },
+          {
+            "w": "too",
+            "s": 4.76,
+            "e": 5.18
+          },
+          {
+            "w": "dry.",
+            "s": 5.18,
+            "e": 5.46
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_plant_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_plant",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.893,
+          0.153,
+          0.107,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d13",
+        "textEn": "A boy's got his nose on the glass so he can see the fish up close.",
+        "textKo": "남자아이가 금붕어를 가까이서 보려고 유리에 코를 대고 있어요.",
+        "difficulty": {
+          "words": 16,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d13.mp3",
+        "durationMs": 7500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "boy's",
+            "s": 0.34,
+            "e": 1.18
+          },
+          {
+            "w": "got",
+            "s": 1.18,
+            "e": 1.44
+          },
+          {
+            "w": "his",
+            "s": 1.44,
+            "e": 1.86
+          },
+          {
+            "w": "nose",
+            "s": 1.86,
+            "e": 2.24
+          },
+          {
+            "w": "on",
+            "s": 2.24,
+            "e": 2.78
+          },
+          {
+            "w": "the",
+            "s": 2.78,
+            "e": 3.04
+          },
+          {
+            "w": "glass",
+            "s": 3.04,
+            "e": 3.48
+          },
+          {
+            "w": "so",
+            "s": 3.8,
+            "e": 4.2
+          },
+          {
+            "w": "he",
+            "s": 4.2,
+            "e": 4.48
+          },
+          {
+            "w": "can",
+            "s": 4.48,
+            "e": 4.78
+          },
+          {
+            "w": "see",
+            "s": 4.78,
+            "e": 4.98
+          },
+          {
+            "w": "the",
+            "s": 4.98,
+            "e": 5.52
+          },
+          {
+            "w": "fish",
+            "s": 5.52,
+            "e": 5.52
+          },
+          {
+            "w": "up",
+            "s": 5.52,
+            "e": 6.08
+          },
+          {
+            "w": "close.",
+            "s": 6.08,
+            "e": 6.52
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_fish_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_fish",
+            "order": 2,
+            "anchorWordIndex": 13
+          }
+        ],
+        "box": [
+          0.816,
+          0.442,
+          0.15,
+          0.271
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "4": [
+      {
+        "id": "l4_d1",
+        "textEn": "The teacher's pointing at the lion she drew on the board, and three kids are trying to figure out what animal it is.",
+        "textKo": "선생님이 칠판에 그린 사자를 가리키고 있고, 아이 세 명이 무슨 동물인지 알아내려 애쓰고 있어요.",
+        "difficulty": {
+          "words": 23,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d1.mp3",
+        "durationMs": 10450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.72
+          },
+          {
+            "w": "teacher's",
+            "s": 0.72,
+            "e": 2.06
+          },
+          {
+            "w": "pointing",
+            "s": 2.06,
+            "e": 2.06
+          },
+          {
+            "w": "at",
+            "s": 2.06,
+            "e": 2.34
+          },
+          {
+            "w": "the",
+            "s": 2.34,
+            "e": 2.66
+          },
+          {
+            "w": "lion",
+            "s": 2.66,
+            "e": 3.04
+          },
+          {
+            "w": "she",
+            "s": 3.04,
+            "e": 3.5
+          },
+          {
+            "w": "drew",
+            "s": 3.5,
+            "e": 3.86
+          },
+          {
+            "w": "on",
+            "s": 3.86,
+            "e": 4.18
+          },
+          {
+            "w": "the",
+            "s": 4.18,
+            "e": 4.5
+          },
+          {
+            "w": "board,",
+            "s": 4.5,
+            "e": 4.68
+          },
+          {
+            "w": "and",
+            "s": 5.46,
+            "e": 5.62
+          },
+          {
+            "w": "three",
+            "s": 5.62,
+            "e": 6.16
+          },
+          {
+            "w": "kids",
+            "s": 6.16,
+            "e": 6.6
+          },
+          {
+            "w": "are",
+            "s": 6.6,
+            "e": 6.96
+          },
+          {
+            "w": "trying",
+            "s": 6.96,
+            "e": 7.32
+          },
+          {
+            "w": "to",
+            "s": 7.32,
+            "e": 7.84
+          },
+          {
+            "w": "figure",
+            "s": 7.84,
+            "e": 7.84
+          },
+          {
+            "w": "out",
+            "s": 7.84,
+            "e": 8.32
+          },
+          {
+            "w": "what",
+            "s": 8.32,
+            "e": 8.98
+          },
+          {
+            "w": "animal",
+            "s": 8.98,
+            "e": 9.34
+          },
+          {
+            "w": "it",
+            "s": 9.34,
+            "e": 9.56
+          },
+          {
+            "w": "is.",
+            "s": 9.56,
+            "e": 9.92
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_teacher",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_board",
+            "order": 2,
+            "anchorWordIndex": 10
+          },
+          {
+            "targetId": "t_class",
+            "order": 3,
+            "anchorWordIndex": 13
+          }
+        ],
+        "box": [
+          0.036,
+          0.013,
+          0.291,
+          0.475
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d2",
+        "textEn": "One of them already knows, but he's waiting to see if anybody else says it first.",
+        "textKo": "그중 한 명은 벌써 알지만, 다른 애가 먼저 말하는지 보려고 기다리고 있어요.",
+        "difficulty": {
+          "words": 16,
+          "links": 3,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d2.mp3",
+        "durationMs": 7500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "One",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "of",
+            "s": 0.4,
+            "e": 0.66
+          },
+          {
+            "w": "them",
+            "s": 0.66,
+            "e": 0.98
+          },
+          {
+            "w": "already",
+            "s": 0.98,
+            "e": 1.88
+          },
+          {
+            "w": "knows,",
+            "s": 1.88,
+            "e": 2.38
+          },
+          {
+            "w": "but",
+            "s": 3.02,
+            "e": 3.18
+          },
+          {
+            "w": "he's",
+            "s": 3.18,
+            "e": 3.52
+          },
+          {
+            "w": "waiting",
+            "s": 3.52,
+            "e": 3.94
+          },
+          {
+            "w": "to",
+            "s": 3.94,
+            "e": 4.34
+          },
+          {
+            "w": "see",
+            "s": 4.34,
+            "e": 4.6
+          },
+          {
+            "w": "if",
+            "s": 4.6,
+            "e": 4.98
+          },
+          {
+            "w": "anybody",
+            "s": 4.98,
+            "e": 5.42
+          },
+          {
+            "w": "else",
+            "s": 5.42,
+            "e": 6.2
+          },
+          {
+            "w": "says",
+            "s": 6.2,
+            "e": 6.52
+          },
+          {
+            "w": "it",
+            "s": 6.52,
+            "e": 6.82
+          },
+          {
+            "w": "first.",
+            "s": 6.82,
+            "e": 7.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_class",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.036,
+          0.245,
+          0.288,
+          0.243
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d3",
+        "textEn": "The boy by the teacher's desk is holding out a sheet of paper so she can see the drawing that he made this morning.",
+        "textKo": "선생님 책상 옆 남자아이가 오늘 아침에 그린 그림을 선생님이 볼 수 있게 종이를 내밀고 있어요.",
+        "difficulty": {
+          "words": 24,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d3.mp3",
+        "durationMs": 10400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.38
+          },
+          {
+            "w": "boy",
+            "s": 0.38,
+            "e": 0.84
+          },
+          {
+            "w": "by",
+            "s": 0.84,
+            "e": 1.24
+          },
+          {
+            "w": "the",
+            "s": 1.24,
+            "e": 1.6
+          },
+          {
+            "w": "teacher's",
+            "s": 1.6,
+            "e": 2.28
+          },
+          {
+            "w": "desk",
+            "s": 2.28,
+            "e": 2.68
+          },
+          {
+            "w": "is",
+            "s": 2.68,
+            "e": 3.48
+          },
+          {
+            "w": "holding",
+            "s": 3.48,
+            "e": 3.8
+          },
+          {
+            "w": "out",
+            "s": 3.8,
+            "e": 4.3
+          },
+          {
+            "w": "a",
+            "s": 4.3,
+            "e": 4.68
+          },
+          {
+            "w": "sheet",
+            "s": 4.68,
+            "e": 4.74
+          },
+          {
+            "w": "of",
+            "s": 4.74,
+            "e": 5.46
+          },
+          {
+            "w": "paper",
+            "s": 5.46,
+            "e": 5.46
+          },
+          {
+            "w": "so",
+            "s": 5.46,
+            "e": 6.38
+          },
+          {
+            "w": "she",
+            "s": 6.38,
+            "e": 6.72
+          },
+          {
+            "w": "can",
+            "s": 6.72,
+            "e": 7.04
+          },
+          {
+            "w": "see",
+            "s": 7.04,
+            "e": 7.36
+          },
+          {
+            "w": "the",
+            "s": 7.36,
+            "e": 7.72
+          },
+          {
+            "w": "drawing",
+            "s": 7.72,
+            "e": 8.14
+          },
+          {
+            "w": "that",
+            "s": 8.14,
+            "e": 8.82
+          },
+          {
+            "w": "he",
+            "s": 8.82,
+            "e": 9.04
+          },
+          {
+            "w": "made",
+            "s": 9.04,
+            "e": 9.34
+          },
+          {
+            "w": "this",
+            "s": 9.34,
+            "e": 9.72
+          },
+          {
+            "w": "morning.",
+            "s": 9.72,
+            "e": 10.02
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paper_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_paper",
+            "order": 2,
+            "anchorWordIndex": 12
+          },
+          {
+            "targetId": "t_teacher",
+            "order": 3,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.06,
+          0.061,
+          0.424,
+          0.312
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d4",
+        "textEn": "A girl at a shared desk is handing a boy her yellow pencil, because his snapped in half while he was writing, so he's got nothing to write with.",
+        "textKo": "글씨를 쓰다가 연필이 반으로 부러져 쓸 게 없어진 남자아이에게, 같은 책상에 앉은 여자아이가 자기 노란 연필을 건네주고 있어요.",
+        "difficulty": {
+          "words": 29,
+          "links": 4,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d4.mp3",
+        "durationMs": 11800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "girl",
+            "s": 0.4,
+            "e": 0.8
+          },
+          {
+            "w": "at",
+            "s": 0.8,
+            "e": 1.1
+          },
+          {
+            "w": "a",
+            "s": 1.1,
+            "e": 1.54
+          },
+          {
+            "w": "shared",
+            "s": 1.54,
+            "e": 1.76
+          },
+          {
+            "w": "desk",
+            "s": 1.76,
+            "e": 2.18
+          },
+          {
+            "w": "is",
+            "s": 2.18,
+            "e": 2.9
+          },
+          {
+            "w": "handing",
+            "s": 2.9,
+            "e": 3.18
+          },
+          {
+            "w": "a",
+            "s": 3.18,
+            "e": 3.48
+          },
+          {
+            "w": "boy",
+            "s": 3.48,
+            "e": 3.72
+          },
+          {
+            "w": "her",
+            "s": 3.72,
+            "e": 4.18
+          },
+          {
+            "w": "yellow",
+            "s": 4.18,
+            "e": 4.6
+          },
+          {
+            "w": "pencil,",
+            "s": 4.6,
+            "e": 5.08
+          },
+          {
+            "w": "because",
+            "s": 5.08,
+            "e": 6.04
+          },
+          {
+            "w": "his",
+            "s": 6.04,
+            "e": 6.64
+          },
+          {
+            "w": "snapped",
+            "s": 6.64,
+            "e": 7.14
+          },
+          {
+            "w": "in",
+            "s": 7.14,
+            "e": 7.44
+          },
+          {
+            "w": "half",
+            "s": 7.44,
+            "e": 7.78
+          },
+          {
+            "w": "while",
+            "s": 7.78,
+            "e": 8.02
+          },
+          {
+            "w": "he",
+            "s": 8.02,
+            "e": 8.16
+          },
+          {
+            "w": "was",
+            "s": 8.16,
+            "e": 8.42
+          },
+          {
+            "w": "writing,",
+            "s": 8.42,
+            "e": 8.7
+          },
+          {
+            "w": "so",
+            "s": 9.4,
+            "e": 9.56
+          },
+          {
+            "w": "he's",
+            "s": 9.56,
+            "e": 9.84
+          },
+          {
+            "w": "got",
+            "s": 9.84,
+            "e": 10.28
+          },
+          {
+            "w": "nothing",
+            "s": 10.28,
+            "e": 10.68
+          },
+          {
+            "w": "to",
+            "s": 10.68,
+            "e": 11.06
+          },
+          {
+            "w": "write",
+            "s": 11.06,
+            "e": 11.24
+          },
+          {
+            "w": "with.",
+            "s": 11.24,
+            "e": 11.58
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_pencil_boy",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 3,
+            "anchorWordIndex": 12
+          }
+        ],
+        "box": [
+          0.512,
+          0.199,
+          0.207,
+          0.265
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d5",
+        "textEn": "He's reaching for it before she even lets go, which tells you how badly he wants to keep drawing.",
+        "textKo": "여자아이가 손을 놓기도 전에 받으려 하는 걸 보면, 그림을 얼마나 더 그리고 싶은지 알 수 있어요.",
+        "difficulty": {
+          "words": 19,
+          "links": 4,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d5.mp3",
+        "durationMs": 7850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He's",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "reaching",
+            "s": 0.48,
+            "e": 0.76
+          },
+          {
+            "w": "for",
+            "s": 0.76,
+            "e": 1.18
+          },
+          {
+            "w": "it",
+            "s": 1.18,
+            "e": 1.42
+          },
+          {
+            "w": "before",
+            "s": 1.42,
+            "e": 1.8
+          },
+          {
+            "w": "she",
+            "s": 1.8,
+            "e": 2.18
+          },
+          {
+            "w": "even",
+            "s": 2.18,
+            "e": 2.68
+          },
+          {
+            "w": "lets",
+            "s": 2.68,
+            "e": 2.96
+          },
+          {
+            "w": "go,",
+            "s": 2.96,
+            "e": 3.42
+          },
+          {
+            "w": "which",
+            "s": 4.14,
+            "e": 4.2
+          },
+          {
+            "w": "tells",
+            "s": 4.2,
+            "e": 4.6
+          },
+          {
+            "w": "you",
+            "s": 4.6,
+            "e": 4.94
+          },
+          {
+            "w": "how",
+            "s": 4.94,
+            "e": 5.36
+          },
+          {
+            "w": "badly",
+            "s": 5.36,
+            "e": 5.82
+          },
+          {
+            "w": "he",
+            "s": 5.82,
+            "e": 6.22
+          },
+          {
+            "w": "wants",
+            "s": 6.22,
+            "e": 6.48
+          },
+          {
+            "w": "to",
+            "s": 6.48,
+            "e": 6.7
+          },
+          {
+            "w": "keep",
+            "s": 6.7,
+            "e": 7
+          },
+          {
+            "w": "drawing.",
+            "s": 7,
+            "e": 7.46
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pencil_boy",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_pencil",
+            "order": 2,
+            "anchorWordIndex": 3
+          },
+          {
+            "targetId": "t_pencil_girl",
+            "order": 3,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.512,
+          0.199,
+          0.207,
+          0.265
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d6",
+        "textEn": "The older girl on the rug is reading a picture book out loud, and the little boy's laughing so hard that he can't sit up straight.",
+        "textKo": "깔개 위의 큰 여자아이가 그림책을 소리 내어 읽고 있고, 어린 남자아이는 너무 웃겨서 똑바로 앉아 있지도 못해요.",
+        "difficulty": {
+          "words": 26,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d6.mp3",
+        "durationMs": 11000,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "older",
+            "s": 0.36,
+            "e": 0.84
+          },
+          {
+            "w": "girl",
+            "s": 0.84,
+            "e": 1.32
+          },
+          {
+            "w": "on",
+            "s": 1.32,
+            "e": 1.7
+          },
+          {
+            "w": "the",
+            "s": 1.7,
+            "e": 1.94
+          },
+          {
+            "w": "rug",
+            "s": 1.94,
+            "e": 2.26
+          },
+          {
+            "w": "is",
+            "s": 2.26,
+            "e": 3
+          },
+          {
+            "w": "reading",
+            "s": 3,
+            "e": 3.28
+          },
+          {
+            "w": "a",
+            "s": 3.28,
+            "e": 3.66
+          },
+          {
+            "w": "picture",
+            "s": 3.66,
+            "e": 3.98
+          },
+          {
+            "w": "book",
+            "s": 3.98,
+            "e": 4.24
+          },
+          {
+            "w": "out",
+            "s": 4.24,
+            "e": 4.6
+          },
+          {
+            "w": "loud,",
+            "s": 4.6,
+            "e": 5.26
+          },
+          {
+            "w": "and",
+            "s": 5.54,
+            "e": 5.86
+          },
+          {
+            "w": "the",
+            "s": 5.86,
+            "e": 6.08
+          },
+          {
+            "w": "little",
+            "s": 6.08,
+            "e": 6.46
+          },
+          {
+            "w": "boy's",
+            "s": 6.46,
+            "e": 7.58
+          },
+          {
+            "w": "laughing",
+            "s": 7.58,
+            "e": 7.58
+          },
+          {
+            "w": "so",
+            "s": 7.58,
+            "e": 8.12
+          },
+          {
+            "w": "hard",
+            "s": 8.12,
+            "e": 8.6
+          },
+          {
+            "w": "that",
+            "s": 8.6,
+            "e": 9.08
+          },
+          {
+            "w": "he",
+            "s": 9.08,
+            "e": 9.3
+          },
+          {
+            "w": "can't",
+            "s": 9.3,
+            "e": 9.78
+          },
+          {
+            "w": "sit",
+            "s": 9.78,
+            "e": 9.98
+          },
+          {
+            "w": "up",
+            "s": 9.98,
+            "e": 10.36
+          },
+          {
+            "w": "straight.",
+            "s": 10.36,
+            "e": 10.72
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_reader_girl",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_picture_book",
+            "order": 2,
+            "anchorWordIndex": 10
+          },
+          {
+            "targetId": "t_listener_boy",
+            "order": 3,
+            "anchorWordIndex": 16
+          }
+        ],
+        "box": [
+          0.749,
+          0.155,
+          0.135,
+          0.224
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d7",
+        "textEn": "A boy's holding a slice of carrot through the cage bars, so the hamster's already got it in both front paws.",
+        "textKo": "남자아이가 우리 창살 사이로 당근 조각을 넣어줘서, 햄스터가 벌써 앞발로 그걸 잡고 있어요.",
+        "difficulty": {
+          "words": 21,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d7.mp3",
+        "durationMs": 9050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "boy's",
+            "s": 0.3,
+            "e": 0.92
+          },
+          {
+            "w": "holding",
+            "s": 0.92,
+            "e": 1.26
+          },
+          {
+            "w": "a",
+            "s": 1.26,
+            "e": 1.56
+          },
+          {
+            "w": "slice",
+            "s": 1.56,
+            "e": 1.88
+          },
+          {
+            "w": "of",
+            "s": 1.88,
+            "e": 2.62
+          },
+          {
+            "w": "carrot",
+            "s": 2.62,
+            "e": 2.62
+          },
+          {
+            "w": "through",
+            "s": 2.62,
+            "e": 3.24
+          },
+          {
+            "w": "the",
+            "s": 3.24,
+            "e": 3.5
+          },
+          {
+            "w": "cage",
+            "s": 3.5,
+            "e": 3.82
+          },
+          {
+            "w": "bars,",
+            "s": 3.82,
+            "e": 4.32
+          },
+          {
+            "w": "so",
+            "s": 5.06,
+            "e": 5.22
+          },
+          {
+            "w": "the",
+            "s": 5.22,
+            "e": 5.44
+          },
+          {
+            "w": "hamster's",
+            "s": 5.44,
+            "e": 5.92
+          },
+          {
+            "w": "already",
+            "s": 5.92,
+            "e": 6.48
+          },
+          {
+            "w": "got",
+            "s": 6.48,
+            "e": 6.8
+          },
+          {
+            "w": "it",
+            "s": 6.8,
+            "e": 7.12
+          },
+          {
+            "w": "in",
+            "s": 7.12,
+            "e": 7.42
+          },
+          {
+            "w": "both",
+            "s": 7.42,
+            "e": 7.72
+          },
+          {
+            "w": "front",
+            "s": 7.72,
+            "e": 8.1
+          },
+          {
+            "w": "paws.",
+            "s": 8.1,
+            "e": 8.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_feed_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_carrot",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_cage",
+            "order": 3,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_hamster",
+            "order": 4,
+            "anchorWordIndex": 13
+          }
+        ],
+        "box": [
+          0.01,
+          0.502,
+          0.223,
+          0.286
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d8",
+        "textEn": "The girl beside him is leaning in with her hands on her knees, because she doesn't want to miss a single bite.",
+        "textKo": "옆에 있는 여자아이는 한 입도 놓치기 싫어서, 무릎에 손을 얹고 가까이 몸을 기울이고 있어요.",
+        "difficulty": {
+          "words": 22,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d8.mp3",
+        "durationMs": 9450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.6
+          },
+          {
+            "w": "girl",
+            "s": 0.6,
+            "e": 0.98
+          },
+          {
+            "w": "beside",
+            "s": 0.98,
+            "e": 1.52
+          },
+          {
+            "w": "him",
+            "s": 1.52,
+            "e": 1.86
+          },
+          {
+            "w": "is",
+            "s": 1.86,
+            "e": 2.6
+          },
+          {
+            "w": "leaning",
+            "s": 2.6,
+            "e": 2.88
+          },
+          {
+            "w": "in",
+            "s": 2.88,
+            "e": 3.4
+          },
+          {
+            "w": "with",
+            "s": 3.4,
+            "e": 3.56
+          },
+          {
+            "w": "her",
+            "s": 3.56,
+            "e": 3.84
+          },
+          {
+            "w": "hands",
+            "s": 3.84,
+            "e": 4.26
+          },
+          {
+            "w": "on",
+            "s": 4.26,
+            "e": 4.56
+          },
+          {
+            "w": "her",
+            "s": 4.56,
+            "e": 5.14
+          },
+          {
+            "w": "knees,",
+            "s": 5.14,
+            "e": 5.18
+          },
+          {
+            "w": "because",
+            "s": 5.18,
+            "e": 6.2
+          },
+          {
+            "w": "she",
+            "s": 6.2,
+            "e": 6.64
+          },
+          {
+            "w": "doesn't",
+            "s": 6.64,
+            "e": 7.06
+          },
+          {
+            "w": "want",
+            "s": 7.06,
+            "e": 7.34
+          },
+          {
+            "w": "to",
+            "s": 7.34,
+            "e": 7.92
+          },
+          {
+            "w": "miss",
+            "s": 7.92,
+            "e": 7.92
+          },
+          {
+            "w": "a",
+            "s": 7.92,
+            "e": 8.4
+          },
+          {
+            "w": "single",
+            "s": 8.4,
+            "e": 8.94
+          },
+          {
+            "w": "bite.",
+            "s": 8.94,
+            "e": 9.2
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_hamster_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_feed_boy",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.129,
+          0.526,
+          0.176,
+          0.262
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d9",
+        "textEn": "The girl at the easel is painting a bright rainbow, and her friend hasn't said a word since she started, which is how you know it's good.",
+        "textKo": "이젤 앞 여자아이가 밝은 무지개를 그리고 있고, 친구는 시작한 뒤로 한마디도 안 했는데 그게 잘 그렸다는 뜻이에요.",
+        "difficulty": {
+          "words": 27,
+          "links": 3,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d9.mp3",
+        "durationMs": 11600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.88
+          },
+          {
+            "w": "girl",
+            "s": 0.88,
+            "e": 1.3
+          },
+          {
+            "w": "at",
+            "s": 1.3,
+            "e": 1.52
+          },
+          {
+            "w": "the",
+            "s": 1.52,
+            "e": 2
+          },
+          {
+            "w": "easel",
+            "s": 2,
+            "e": 2.2
+          },
+          {
+            "w": "is",
+            "s": 2.2,
+            "e": 2.62
+          },
+          {
+            "w": "painting",
+            "s": 2.62,
+            "e": 2.94
+          },
+          {
+            "w": "a",
+            "s": 2.94,
+            "e": 3.38
+          },
+          {
+            "w": "bright",
+            "s": 3.38,
+            "e": 3.74
+          },
+          {
+            "w": "rainbow,",
+            "s": 3.74,
+            "e": 4.2
+          },
+          {
+            "w": "and",
+            "s": 5,
+            "e": 5.08
+          },
+          {
+            "w": "her",
+            "s": 5.08,
+            "e": 5.38
+          },
+          {
+            "w": "friend",
+            "s": 5.38,
+            "e": 5.72
+          },
+          {
+            "w": "hasn't",
+            "s": 5.72,
+            "e": 6.28
+          },
+          {
+            "w": "said",
+            "s": 6.28,
+            "e": 6.54
+          },
+          {
+            "w": "a",
+            "s": 6.54,
+            "e": 7.18
+          },
+          {
+            "w": "word",
+            "s": 7.18,
+            "e": 7.18
+          },
+          {
+            "w": "since",
+            "s": 7.18,
+            "e": 7.52
+          },
+          {
+            "w": "she",
+            "s": 7.52,
+            "e": 7.88
+          },
+          {
+            "w": "started,",
+            "s": 7.88,
+            "e": 8.22
+          },
+          {
+            "w": "which",
+            "s": 8.88,
+            "e": 9.14
+          },
+          {
+            "w": "is",
+            "s": 9.14,
+            "e": 9.42
+          },
+          {
+            "w": "how",
+            "s": 9.42,
+            "e": 9.62
+          },
+          {
+            "w": "you",
+            "s": 9.62,
+            "e": 9.96
+          },
+          {
+            "w": "know",
+            "s": 9.96,
+            "e": 10.32
+          },
+          {
+            "w": "it's",
+            "s": 10.32,
+            "e": 10.66
+          },
+          {
+            "w": "good.",
+            "s": 10.66,
+            "e": 10.96
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_paint_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_painting",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_paint_friend",
+            "order": 3,
+            "anchorWordIndex": 12
+          }
+        ],
+        "box": [
+          0.322,
+          0.48,
+          0.268,
+          0.31
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d10",
+        "textEn": "One boy's holding out a red block so his friend can put it on top of a tower they've been stacking all morning.",
+        "textKo": "한 남자아이가, 아침 내내 쌓아 온 탑 꼭대기에 친구가 올릴 수 있게 빨간 블록을 내밀고 있어요.",
+        "difficulty": {
+          "words": 23,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d10.mp3",
+        "durationMs": 10150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "One",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "boy's",
+            "s": 0.48,
+            "e": 1.68
+          },
+          {
+            "w": "holding",
+            "s": 1.68,
+            "e": 2
+          },
+          {
+            "w": "out",
+            "s": 2,
+            "e": 2.26
+          },
+          {
+            "w": "a",
+            "s": 2.26,
+            "e": 2.52
+          },
+          {
+            "w": "red",
+            "s": 2.52,
+            "e": 2.74
+          },
+          {
+            "w": "block",
+            "s": 2.74,
+            "e": 3.18
+          },
+          {
+            "w": "so",
+            "s": 3.18,
+            "e": 4.26
+          },
+          {
+            "w": "his",
+            "s": 4.26,
+            "e": 4.58
+          },
+          {
+            "w": "friend",
+            "s": 4.58,
+            "e": 4.98
+          },
+          {
+            "w": "can",
+            "s": 4.98,
+            "e": 5.3
+          },
+          {
+            "w": "put",
+            "s": 5.3,
+            "e": 5.48
+          },
+          {
+            "w": "it",
+            "s": 5.48,
+            "e": 5.7
+          },
+          {
+            "w": "on",
+            "s": 5.7,
+            "e": 5.9
+          },
+          {
+            "w": "top",
+            "s": 5.9,
+            "e": 6.38
+          },
+          {
+            "w": "of",
+            "s": 6.38,
+            "e": 6.84
+          },
+          {
+            "w": "a",
+            "s": 6.84,
+            "e": 7.54
+          },
+          {
+            "w": "tower",
+            "s": 7.54,
+            "e": 7.54
+          },
+          {
+            "w": "they've",
+            "s": 7.54,
+            "e": 7.94
+          },
+          {
+            "w": "been",
+            "s": 7.94,
+            "e": 8.24
+          },
+          {
+            "w": "stacking",
+            "s": 8.24,
+            "e": 8.6
+          },
+          {
+            "w": "all",
+            "s": 8.6,
+            "e": 9.3
+          },
+          {
+            "w": "morning.",
+            "s": 9.3,
+            "e": 9.72
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_block_friend",
+            "order": 3,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.26,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d11",
+        "textEn": "They're both holding their breath, because if one block goes in crooked, the whole thing comes down.",
+        "textKo": "블록 하나만 삐뚤어져도 통째로 무너지기 때문에, 둘 다 숨을 참고 있어요.",
+        "difficulty": {
+          "words": 17,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d11.mp3",
+        "durationMs": 8550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "They're",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "both",
+            "s": 0.34,
+            "e": 1
+          },
+          {
+            "w": "holding",
+            "s": 1,
+            "e": 1.4
+          },
+          {
+            "w": "their",
+            "s": 1.4,
+            "e": 1.8
+          },
+          {
+            "w": "breath,",
+            "s": 1.8,
+            "e": 2.14
+          },
+          {
+            "w": "because",
+            "s": 2.74,
+            "e": 3
+          },
+          {
+            "w": "if",
+            "s": 3,
+            "e": 3.34
+          },
+          {
+            "w": "one",
+            "s": 3.34,
+            "e": 3.9
+          },
+          {
+            "w": "block",
+            "s": 3.9,
+            "e": 4.28
+          },
+          {
+            "w": "goes",
+            "s": 4.28,
+            "e": 4.6
+          },
+          {
+            "w": "in",
+            "s": 4.6,
+            "e": 5.38
+          },
+          {
+            "w": "crooked,",
+            "s": 5.38,
+            "e": 5.38
+          },
+          {
+            "w": "the",
+            "s": 5.96,
+            "e": 6.12
+          },
+          {
+            "w": "whole",
+            "s": 6.12,
+            "e": 6.68
+          },
+          {
+            "w": "thing",
+            "s": 6.68,
+            "e": 7.04
+          },
+          {
+            "w": "comes",
+            "s": 7.04,
+            "e": 7.48
+          },
+          {
+            "w": "down.",
+            "s": 7.48,
+            "e": 7.9
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_block_boy",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_blocks",
+            "order": 2,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.582,
+          0.605,
+          0.159,
+          0.298
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d12",
+        "textEn": "A girl at the windowsill is watering a leafy plant with a little blue can, so it stays green until summer.",
+        "textKo": "창턱의 여자아이가 작은 파란 물뿌리개로 잎 무성한 화분에 물을 줘서, 여름까지 푸르게 지낼 거예요.",
+        "difficulty": {
+          "words": 21,
+          "links": 2,
+          "spoken": false
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d12.mp3",
+        "durationMs": 10350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "girl",
+            "s": 0.4,
+            "e": 0.78
+          },
+          {
+            "w": "at",
+            "s": 0.78,
+            "e": 1.28
+          },
+          {
+            "w": "the",
+            "s": 1.28,
+            "e": 1.5
+          },
+          {
+            "w": "windowsill",
+            "s": 1.5,
+            "e": 2.28
+          },
+          {
+            "w": "is",
+            "s": 2.28,
+            "e": 2.92
+          },
+          {
+            "w": "watering",
+            "s": 2.92,
+            "e": 3.3
+          },
+          {
+            "w": "a",
+            "s": 3.3,
+            "e": 3.78
+          },
+          {
+            "w": "leafy",
+            "s": 3.78,
+            "e": 4.28
+          },
+          {
+            "w": "plant",
+            "s": 4.28,
+            "e": 4.7
+          },
+          {
+            "w": "with",
+            "s": 4.7,
+            "e": 5.22
+          },
+          {
+            "w": "a",
+            "s": 5.22,
+            "e": 5.54
+          },
+          {
+            "w": "little",
+            "s": 5.54,
+            "e": 5.76
+          },
+          {
+            "w": "blue",
+            "s": 5.76,
+            "e": 6.2
+          },
+          {
+            "w": "can,",
+            "s": 6.2,
+            "e": 6.64
+          },
+          {
+            "w": "so",
+            "s": 7.32,
+            "e": 7.46
+          },
+          {
+            "w": "it",
+            "s": 7.46,
+            "e": 7.74
+          },
+          {
+            "w": "stays",
+            "s": 7.74,
+            "e": 8.06
+          },
+          {
+            "w": "green",
+            "s": 8.06,
+            "e": 8.74
+          },
+          {
+            "w": "until",
+            "s": 8.74,
+            "e": 9.44
+          },
+          {
+            "w": "summer.",
+            "s": 9.44,
+            "e": 9.86
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_plant_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_plant",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_watering_can",
+            "order": 3,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.893,
+          0.153,
+          0.107,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d13",
+        "textEn": "She waters it every single morning, which is probably why it's the biggest plant in the room.",
+        "textKo": "아이가 아침마다 빠짐없이 물을 주는데, 아마 그래서 교실에서 제일 큰 화분일 거예요.",
+        "difficulty": {
+          "words": 17,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d13.mp3",
+        "durationMs": 8200,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "She",
+            "s": 0,
+            "e": 0.54
+          },
+          {
+            "w": "waters",
+            "s": 0.54,
+            "e": 0.94
+          },
+          {
+            "w": "it",
+            "s": 0.94,
+            "e": 1.36
+          },
+          {
+            "w": "every",
+            "s": 1.36,
+            "e": 2.08
+          },
+          {
+            "w": "single",
+            "s": 2.08,
+            "e": 2.58
+          },
+          {
+            "w": "morning,",
+            "s": 2.58,
+            "e": 3
+          },
+          {
+            "w": "which",
+            "s": 3.74,
+            "e": 3.82
+          },
+          {
+            "w": "is",
+            "s": 3.82,
+            "e": 4.06
+          },
+          {
+            "w": "probably",
+            "s": 4.06,
+            "e": 4.48
+          },
+          {
+            "w": "why",
+            "s": 4.48,
+            "e": 4.92
+          },
+          {
+            "w": "it's",
+            "s": 4.92,
+            "e": 5.16
+          },
+          {
+            "w": "the",
+            "s": 5.16,
+            "e": 5.46
+          },
+          {
+            "w": "biggest",
+            "s": 5.46,
+            "e": 5.88
+          },
+          {
+            "w": "plant",
+            "s": 5.88,
+            "e": 6.4
+          },
+          {
+            "w": "in",
+            "s": 6.4,
+            "e": 6.66
+          },
+          {
+            "w": "the",
+            "s": 6.66,
+            "e": 7.06
+          },
+          {
+            "w": "room.",
+            "s": 7.06,
+            "e": 7.18
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_plant_girl",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_plant",
+            "order": 2,
+            "anchorWordIndex": 13
+          }
+        ],
+        "box": [
+          0.893,
+          0.153,
+          0.107,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d14",
+        "textEn": "A boy's got his nose almost on the glass, watching the orange fish turn around, because he wants to see it up close.",
+        "textKo": "남자아이가 주황 금붕어가 도는 걸 가까이서 보고 싶어서, 유리에 코를 거의 붙이고 있어요.",
+        "difficulty": {
+          "words": 23,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d14.mp3",
+        "durationMs": 10950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "boy's",
+            "s": 0.3,
+            "e": 0.92
+          },
+          {
+            "w": "got",
+            "s": 0.92,
+            "e": 1.12
+          },
+          {
+            "w": "his",
+            "s": 1.12,
+            "e": 1.48
+          },
+          {
+            "w": "nose",
+            "s": 1.48,
+            "e": 1.92
+          },
+          {
+            "w": "almost",
+            "s": 1.92,
+            "e": 2.7
+          },
+          {
+            "w": "on",
+            "s": 2.7,
+            "e": 3.2
+          },
+          {
+            "w": "the",
+            "s": 3.2,
+            "e": 3.48
+          },
+          {
+            "w": "glass,",
+            "s": 3.48,
+            "e": 3.88
+          },
+          {
+            "w": "watching",
+            "s": 4.98,
+            "e": 4.98
+          },
+          {
+            "w": "the",
+            "s": 4.98,
+            "e": 5.42
+          },
+          {
+            "w": "orange",
+            "s": 5.42,
+            "e": 5.76
+          },
+          {
+            "w": "fish",
+            "s": 5.76,
+            "e": 6.26
+          },
+          {
+            "w": "turn",
+            "s": 6.26,
+            "e": 6.66
+          },
+          {
+            "w": "around,",
+            "s": 6.66,
+            "e": 7.16
+          },
+          {
+            "w": "because",
+            "s": 7.16,
+            "e": 7.94
+          },
+          {
+            "w": "he",
+            "s": 7.94,
+            "e": 8.28
+          },
+          {
+            "w": "wants",
+            "s": 8.28,
+            "e": 8.56
+          },
+          {
+            "w": "to",
+            "s": 8.56,
+            "e": 8.94
+          },
+          {
+            "w": "see",
+            "s": 8.94,
+            "e": 9.14
+          },
+          {
+            "w": "it",
+            "s": 9.14,
+            "e": 9.32
+          },
+          {
+            "w": "up",
+            "s": 9.32,
+            "e": 9.86
+          },
+          {
+            "w": "close.",
+            "s": 9.86,
+            "e": 10.24
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_fish_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_fish",
+            "order": 2,
+            "anchorWordIndex": 12
+          }
+        ],
+        "box": [
+          0.816,
+          0.442,
+          0.15,
+          0.271
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d15",
+        "textEn": "The fish keeps swimming right past him, so he keeps moving along the glass, and he's not going anywhere until it comes back.",
+        "textKo": "금붕어가 자꾸 그냥 지나가 버려서 아이는 유리를 따라 옮겨 다니고, 돌아올 때까지 자리를 뜨지 않을 거예요.",
+        "difficulty": {
+          "words": 23,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d15.mp3",
+        "durationMs": 9850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "fish",
+            "s": 0.3,
+            "e": 0.66
+          },
+          {
+            "w": "keeps",
+            "s": 0.66,
+            "e": 1.18
+          },
+          {
+            "w": "swimming",
+            "s": 1.18,
+            "e": 1.6
+          },
+          {
+            "w": "right",
+            "s": 1.6,
+            "e": 2.1
+          },
+          {
+            "w": "past",
+            "s": 2.1,
+            "e": 2.48
+          },
+          {
+            "w": "him,",
+            "s": 2.48,
+            "e": 2.78
+          },
+          {
+            "w": "so",
+            "s": 3.36,
+            "e": 3.5
+          },
+          {
+            "w": "he",
+            "s": 3.5,
+            "e": 3.86
+          },
+          {
+            "w": "keeps",
+            "s": 3.86,
+            "e": 4.2
+          },
+          {
+            "w": "moving",
+            "s": 4.2,
+            "e": 4.7
+          },
+          {
+            "w": "along",
+            "s": 4.7,
+            "e": 5.04
+          },
+          {
+            "w": "the",
+            "s": 5.04,
+            "e": 5.36
+          },
+          {
+            "w": "glass,",
+            "s": 5.36,
+            "e": 5.74
+          },
+          {
+            "w": "and",
+            "s": 6.44,
+            "e": 6.54
+          },
+          {
+            "w": "he's",
+            "s": 6.54,
+            "e": 6.84
+          },
+          {
+            "w": "not",
+            "s": 6.84,
+            "e": 7.1
+          },
+          {
+            "w": "going",
+            "s": 7.1,
+            "e": 7.36
+          },
+          {
+            "w": "anywhere",
+            "s": 7.36,
+            "e": 7.88
+          },
+          {
+            "w": "until",
+            "s": 7.88,
+            "e": 8.42
+          },
+          {
+            "w": "it",
+            "s": 8.42,
+            "e": 8.74
+          },
+          {
+            "w": "comes",
+            "s": 8.74,
+            "e": 9.04
+          },
+          {
+            "w": "back.",
+            "s": 9.04,
+            "e": 9.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_fish",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_fish_boy",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.816,
+          0.442,
+          0.15,
+          0.271
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d16",
+        "textEn": "The three kids at their desks are the only ones facing the front, which is pretty much a miracle in a room where everybody else has something going on.",
+        "textKo": "책상에 앉은 아이 세 명만 앞을 보고 있는데, 다른 아이들은 저마다 딴 일에 빠져 있는 교실에서 그건 거의 기적이에요.",
+        "difficulty": {
+          "words": 29,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d16.mp3",
+        "durationMs": 12350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "three",
+            "s": 0.32,
+            "e": 0.82
+          },
+          {
+            "w": "kids",
+            "s": 0.82,
+            "e": 1.24
+          },
+          {
+            "w": "at",
+            "s": 1.24,
+            "e": 1.56
+          },
+          {
+            "w": "their",
+            "s": 1.56,
+            "e": 1.84
+          },
+          {
+            "w": "desks",
+            "s": 1.84,
+            "e": 2.32
+          },
+          {
+            "w": "are",
+            "s": 2.32,
+            "e": 2.88
+          },
+          {
+            "w": "the",
+            "s": 2.88,
+            "e": 3.06
+          },
+          {
+            "w": "only",
+            "s": 3.06,
+            "e": 3.54
+          },
+          {
+            "w": "ones",
+            "s": 3.54,
+            "e": 4
+          },
+          {
+            "w": "facing",
+            "s": 4,
+            "e": 4.46
+          },
+          {
+            "w": "the",
+            "s": 4.46,
+            "e": 5.06
+          },
+          {
+            "w": "front,",
+            "s": 5.06,
+            "e": 5.06
+          },
+          {
+            "w": "which",
+            "s": 5.82,
+            "e": 5.9
+          },
+          {
+            "w": "is",
+            "s": 5.9,
+            "e": 6.26
+          },
+          {
+            "w": "pretty",
+            "s": 6.26,
+            "e": 6.64
+          },
+          {
+            "w": "much",
+            "s": 6.64,
+            "e": 6.94
+          },
+          {
+            "w": "a",
+            "s": 6.94,
+            "e": 7.58
+          },
+          {
+            "w": "miracle",
+            "s": 7.58,
+            "e": 7.58
+          },
+          {
+            "w": "in",
+            "s": 7.58,
+            "e": 8.14
+          },
+          {
+            "w": "a",
+            "s": 8.14,
+            "e": 8.68
+          },
+          {
+            "w": "room",
+            "s": 8.68,
+            "e": 8.68
+          },
+          {
+            "w": "where",
+            "s": 8.68,
+            "e": 9.18
+          },
+          {
+            "w": "everybody",
+            "s": 9.18,
+            "e": 9.84
+          },
+          {
+            "w": "else",
+            "s": 9.84,
+            "e": 10.38
+          },
+          {
+            "w": "has",
+            "s": 10.38,
+            "e": 10.84
+          },
+          {
+            "w": "something",
+            "s": 10.84,
+            "e": 11.36
+          },
+          {
+            "w": "going",
+            "s": 11.36,
+            "e": 11.72
+          },
+          {
+            "w": "on.",
+            "s": 11.72,
+            "e": 12.06
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_class",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.036,
+          0.245,
+          0.288,
+          0.243
+        ],
+        "boxSource": "union"
+      }
+    ]
+  },
+  "prompts": {
+    "nudge": {
+      "text": "다 말했으면 다음을 눌러요.",
+      "audio": "audio/prompt_nudge.mp3"
+    }
+  }
+}

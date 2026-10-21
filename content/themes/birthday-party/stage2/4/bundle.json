@@ -1,0 +1,389 @@
+{
+  "bundleVersion": 4,
+  "publishedAt": "2026-10-19T04:16:35.960Z",
+  "theme": {
+    "slug": "birthday-party"
+  },
+  "levels": {
+    "1": [
+      {
+        "id": "s2_l1_clap",
+        "key": "clap",
+        "keyHint": "clap (박수를 치다)",
+        "image": "images/s2_l1_clap.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d5",
+          "textEn": "Three kids are clapping.",
+          "textKo": "아이 세 명이 박수를 치고 있어요.",
+          "audio": "audio/hint_s2_l1_clap.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_clap_a1",
+            "textEn": "The kids are clapping.",
+            "textKo": "아이들이 박수를 치고 있어요.",
+            "audio": "audio/s2_l1_clap_a1.mp3"
+          },
+          {
+            "id": "s2_l1_clap_a2",
+            "textEn": "Everybody's clapping on the stage.",
+            "textKo": "무대 위에서 다들 박수를 치고 있어요.",
+            "audio": "audio/s2_l1_clap_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_pour",
+        "key": "pour",
+        "keyHint": "pour ~ (따르다)",
+        "image": "images/s2_l1_pour.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d6",
+          "textEn": "Dad's pouring some juice.",
+          "textKo": "아빠가 주스를 따르고 있어요.",
+          "audio": "audio/hint_s2_l1_pour.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_pour_a1",
+            "textEn": "The boy's pouring milk.",
+            "textKo": "남자아이가 우유를 따르고 있어요.",
+            "audio": "audio/s2_l1_pour_a1.mp3"
+          },
+          {
+            "id": "s2_l1_pour_a2",
+            "textEn": "He's pouring milk into his bowl.",
+            "textKo": "남자아이가 그릇에 우유를 따르고 있어요.",
+            "audio": "audio/s2_l1_pour_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_look_at",
+        "key": "look at",
+        "keyHint": "look at ~ (~을 보다)",
+        "image": "images/s2_l1_look_at.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d10",
+          "textEn": "Two boys are looking at a robot.",
+          "textKo": "남자아이 둘이 로봇을 보고 있어요.",
+          "audio": "audio/hint_s2_l1_look_at.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_look_at_a1",
+            "textEn": "Two girls are looking at a bug.",
+            "textKo": "여자아이 둘이 벌레를 보고 있어요.",
+            "audio": "audio/s2_l1_look_at_a1.mp3"
+          },
+          {
+            "id": "s2_l1_look_at_a2",
+            "textEn": "They're looking at a little ladybug.",
+            "textKo": "아이들이 작은 무당벌레를 보고 있어요.",
+            "audio": "audio/s2_l1_look_at_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "s2_l2_cheer_on",
+        "key": "cheer on",
+        "keyHint": "cheer ~ on (~을 응원하다)",
+        "image": "images/s2_l2_cheer_on.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d5",
+          "textEn": "Three kids are clapping and cheering him on.",
+          "textKo": "아이 세 명이 박수를 치며 마술사를 응원하고 있어요.",
+          "audio": "audio/hint_s2_l2_cheer_on.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_cheer_on_a1",
+            "textEn": "The kids are cheering on the runner.",
+            "textKo": "아이들이 달리는 선수를 응원하고 있어요.",
+            "audio": "audio/s2_l2_cheer_on_a1.mp3"
+          },
+          {
+            "id": "s2_l2_cheer_on_a2",
+            "textEn": "They're cheering her on at the finish line.",
+            "textKo": "아이들이 결승선에서 선수를 응원하고 있어요.",
+            "audio": "audio/s2_l2_cheer_on_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_show",
+        "key": "show",
+        "keyHint": "show ~ (보여주다)",
+        "image": "images/s2_l2_show.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d7",
+          "textEn": "Grandma's showing the toddler the pictures in her book.",
+          "textKo": "할머니가 아기에게 책 속 그림을 보여주고 있어요.",
+          "audio": "audio/hint_s2_l2_show.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_show_a1",
+            "textEn": "The boy's showing his grandpa a shell.",
+            "textKo": "남자아이가 할아버지에게 조개를 보여주고 있어요.",
+            "audio": "audio/s2_l2_show_a1.mp3"
+          },
+          {
+            "id": "s2_l2_show_a2",
+            "textEn": "He's showing him the shell he found.",
+            "textKo": "남자아이가 주운 조개를 보여주고 있어요.",
+            "audio": "audio/s2_l2_show_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_put_on",
+        "key": "put on",
+        "keyHint": "put ~ on (씌우다, 입히다)",
+        "image": "images/s2_l2_put_on.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d8",
+          "textEn": "The big sister's putting a party hat on her brother.",
+          "textKo": "누나가 남동생에게 파티 모자를 씌워주고 있어요.",
+          "audio": "audio/hint_s2_l2_put_on.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_put_on_a1",
+            "textEn": "Mom's putting a hat on her daughter.",
+            "textKo": "엄마가 딸에게 모자를 씌워주고 있어요.",
+            "audio": "audio/s2_l2_put_on_a1.mp3"
+          },
+          {
+            "id": "s2_l2_put_on_a2",
+            "textEn": "She's putting a red hat on the little girl.",
+            "textKo": "엄마가 어린 여자아이에게 빨간 모자를 씌우고 있어요.",
+            "audio": "audio/s2_l2_put_on_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "s2_l3_blow_out",
+        "key": "blow out",
+        "keyHint": "blow out ~ (불어서 끄다)",
+        "image": "images/s2_l3_blow_out.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d2",
+          "textEn": "Her mom's holding out the cake so she can blow out the candles.",
+          "textKo": "엄마가 아이가 촛불을 끌 수 있게 케이크를 내밀고 있어요.",
+          "audio": "audio/hint_s2_l3_blow_out.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_blow_out_a1",
+            "textEn": "He's about to blow out the candles.",
+            "textKo": "남자아이가 촛불을 끄려는 참이에요.",
+            "audio": "audio/s2_l3_blow_out_a1.mp3"
+          },
+          {
+            "id": "s2_l3_blow_out_a2",
+            "textEn": "The boy's blowing out his birthday candles.",
+            "textKo": "남자아이가 생일 촛불을 끄고 있어요.",
+            "audio": "audio/s2_l3_blow_out_a2.mp3"
+          },
+          {
+            "id": "s2_l3_blow_out_a3",
+            "textEn": "He's getting ready to blow them all out in one go.",
+            "textKo": "한 번에 다 끄려고 준비하고 있어요.",
+            "audio": "audio/s2_l3_blow_out_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_about_to",
+        "key": "about to",
+        "keyHint": "be about to ~ (막 ~하려는 참이다)",
+        "image": "images/s2_l3_about_to.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d3",
+          "textEn": "She's about to make a wish, so everybody's waiting.",
+          "textKo": "아이가 소원을 빌려는 참이라 다들 기다리고 있어요.",
+          "audio": "audio/hint_s2_l3_about_to.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_about_to_a1",
+            "textEn": "She's about to jump into the pool.",
+            "textKo": "여자아이가 수영장에 뛰어들려는 참이에요.",
+            "audio": "audio/s2_l3_about_to_a1.mp3"
+          },
+          {
+            "id": "s2_l3_about_to_a2",
+            "textEn": "The girl's about to jump in.",
+            "textKo": "여자아이가 막 뛰어들려고 해요.",
+            "audio": "audio/s2_l3_about_to_a2.mp3"
+          },
+          {
+            "id": "s2_l3_about_to_a3",
+            "textEn": "She's about to go straight into the water.",
+            "textKo": "여자아이가 곧장 물로 들어가려는 참이에요.",
+            "audio": "audio/s2_l3_about_to_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_lean_in",
+        "key": "lean in to",
+        "keyHint": "lean in to ~ (가까이 몸을 기울여 ~하다)",
+        "image": "images/s2_l3_lean_in.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d10",
+          "textEn": "His friend's leaning in to touch it with one finger.",
+          "textKo": "친구는 손가락 하나로 만져보려고 가까이 몸을 기울이고 있어요.",
+          "audio": "audio/hint_s2_l3_lean_in.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_lean_in_a1",
+            "textEn": "He's leaning in to look at the beetle.",
+            "textKo": "남자아이가 딱정벌레를 보려고 몸을 가까이 기울이고 있어요.",
+            "audio": "audio/s2_l3_lean_in_a1.mp3"
+          },
+          {
+            "id": "s2_l3_lean_in_a2",
+            "textEn": "The boy's leaning in to get a better look.",
+            "textKo": "남자아이가 더 잘 보려고 가까이 기울이고 있어요.",
+            "audio": "audio/s2_l3_lean_in_a2.mp3"
+          },
+          {
+            "id": "s2_l3_lean_in_a3",
+            "textEn": "He's leaning in so he can see the bug up close.",
+            "textKo": "벌레를 가까이서 보려고 몸을 기울이고 있어요.",
+            "audio": "audio/s2_l3_lean_in_a3.mp3"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "s2_l4_show_off",
+        "key": "show off",
+        "keyHint": "show off (뽐내다, 자랑하다)",
+        "image": "images/s2_l4_show_off.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d11",
+          "textEn": "The kid in the red cap is showing off his toy robot, and his friend is leaning in so close that their heads almost touch.",
+          "textKo": "빨간 모자를 쓴 아이가 장난감 로봇을 자랑하고 있고, 친구는 머리가 닿을 만큼 가까이 몸을 기울이고 있어요.",
+          "audio": "audio/hint_s2_l4_show_off.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_show_off_a1",
+            "textEn": "She's showing off for her friends.",
+            "textKo": "여자아이가 친구들 앞에서 뽐내고 있어요.",
+            "audio": "audio/s2_l4_show_off_a1.mp3"
+          },
+          {
+            "id": "s2_l4_show_off_a2",
+            "textEn": "The girl's showing off how long she can balance.",
+            "textKo": "여자아이가 얼마나 오래 버티는지 자랑하고 있어요.",
+            "audio": "audio/s2_l4_show_off_a2.mp3"
+          },
+          {
+            "id": "s2_l4_show_off_a3",
+            "textEn": "She's showing off a little, and her friends are watching.",
+            "textKo": "여자아이가 좀 으스대고 있고 친구들은 보고 있어요.",
+            "audio": "audio/s2_l4_show_off_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_cant_believe",
+        "key": "can't believe",
+        "keyHint": "can't believe ~ (~이 믿기지 않는다)",
+        "image": "images/s2_l4_cant_believe.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d4",
+          "textEn": "The magician's pulling a white rabbit out of his tall black hat, and the kids can't believe what they're seeing, so they're screaming.",
+          "textKo": "마술사가 길쭉한 검은 모자에서 흰 토끼를 꺼내고 있고, 아이들은 눈앞의 광경이 믿기지 않아 소리를 지르고 있어요.",
+          "audio": "audio/hint_s2_l4_cant_believe.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_cant_believe_a1",
+            "textEn": "He can't believe there's a puppy in the box.",
+            "textKo": "상자 안에 강아지가 있다는 게 믿기지 않아요.",
+            "audio": "audio/s2_l4_cant_believe_a1.mp3"
+          },
+          {
+            "id": "s2_l4_cant_believe_a2",
+            "textEn": "The boy can't believe what he's seeing.",
+            "textKo": "남자아이는 눈앞의 광경이 믿기지 않아요.",
+            "audio": "audio/s2_l4_cant_believe_a2.mp3"
+          },
+          {
+            "id": "s2_l4_cant_believe_a3",
+            "textEn": "He can't believe somebody got him a puppy.",
+            "textKo": "누가 강아지를 줬다는 게 믿기지 않아요.",
+            "audio": "audio/s2_l4_cant_believe_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_even_though",
+        "key": "even though",
+        "keyHint": "even though ~ (~인데도)",
+        "image": "images/s2_l4_even_though.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d10",
+          "textEn": "He's sitting perfectly still so she can get it right, even though he'd rather be eating cake.",
+          "textKo": "동생은 사실 케이크가 더 먹고 싶지만, 누나가 제대로 씌울 수 있게 꼼짝 않고 앉아 있어요.",
+          "audio": "audio/hint_s2_l4_even_though.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_even_though_a1",
+            "textEn": "He's still smiling, even though he's soaked.",
+            "textKo": "흠뻑 젖었는데도 아이는 웃고 있어요.",
+            "audio": "audio/s2_l4_even_though_a1.mp3"
+          },
+          {
+            "id": "s2_l4_even_though_a2",
+            "textEn": "Even though it's pouring, the boy isn't going inside.",
+            "textKo": "비가 쏟아지는데도 아이는 들어갈 생각이 없어요.",
+            "audio": "audio/s2_l4_even_though_a2.mp3"
+          },
+          {
+            "id": "s2_l4_even_though_a3",
+            "textEn": "He's staying out with his kite even though it's raining hard.",
+            "textKo": "비가 세게 오는데도 연을 들고 밖에 있어요.",
+            "audio": "audio/s2_l4_even_though_a3.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

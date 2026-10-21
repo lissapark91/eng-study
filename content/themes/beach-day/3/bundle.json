@@ -1,0 +1,5366 @@
+{
+  "bundleVersion": 3,
+  "publishedAt": "2026-10-19T04:22:33.961Z",
+  "theme": {
+    "slug": "beach-day",
+    "titleKo": "바닷가의 하루",
+    "titleEn": "A Day at the Beach"
+  },
+  "scene": {
+    "image": "scene.png",
+    "width": 1536,
+    "height": 1024
+  },
+  "targets": [
+    {
+      "id": "t_dad",
+      "kind": "person",
+      "box": [
+        0.015,
+        0.321,
+        0.115,
+        0.239
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_bucket",
+      "kind": "object",
+      "box": [
+        0.115,
+        0.409,
+        0.038,
+        0.059
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_castle_girl",
+      "kind": "person",
+      "box": [
+        0.141,
+        0.386,
+        0.083,
+        0.148
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_vendor",
+      "kind": "person",
+      "box": [
+        0.357,
+        0.207,
+        0.086,
+        0.125
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_melon",
+      "kind": "object",
+      "box": [
+        0.424,
+        0.27,
+        0.031,
+        0.046
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_mom",
+      "kind": "person",
+      "box": [
+        0.811,
+        0.4,
+        0.117,
+        0.22
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_sunscreen",
+      "kind": "object",
+      "box": [
+        0.92,
+        0.493,
+        0.029,
+        0.052
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_lifeguard",
+      "kind": "person",
+      "box": [
+        0.098,
+        0.059,
+        0.061,
+        0.131
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_sea",
+      "kind": "object",
+      "box": [
+        0,
+        0.185,
+        1,
+        0.162
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_swimmers",
+      "kind": "person",
+      "box": [
+        0.201,
+        0.229,
+        0.108,
+        0.065
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_ball_boy",
+      "kind": "person",
+      "box": [
+        0.512,
+        0.359,
+        0.092,
+        0.206
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_ball",
+      "kind": "object",
+      "box": [
+        0.607,
+        0.302,
+        0.044,
+        0.067
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_gull",
+      "kind": "person",
+      "box": [
+        0.139,
+        0.601,
+        0.119,
+        0.145
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_picnic_girl",
+      "kind": "person",
+      "box": [
+        0.057,
+        0.704,
+        0.119,
+        0.176
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_sandwich",
+      "kind": "object",
+      "box": [
+        0.148,
+        0.725,
+        0.031,
+        0.044
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_grandma",
+      "kind": "person",
+      "box": [
+        0.784,
+        0.708,
+        0.119,
+        0.257
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_book",
+      "kind": "object",
+      "box": [
+        0.802,
+        0.805,
+        0.081,
+        0.071
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_kite",
+      "kind": "object",
+      "box": [
+        0.804,
+        0.017,
+        0.1,
+        0.126
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_melon_girl",
+      "kind": "person",
+      "box": [
+        0.438,
+        0.29,
+        0.066,
+        0.169
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_son",
+      "kind": "person",
+      "box": [
+        0.786,
+        0.458,
+        0.077,
+        0.169
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_ball_girl",
+      "kind": "person",
+      "box": [
+        0.65,
+        0.375,
+        0.097,
+        0.188
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_instructor",
+      "kind": "person",
+      "box": [
+        0.506,
+        0.655,
+        0.155,
+        0.223
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_surfboard",
+      "kind": "object",
+      "box": [
+        0.339,
+        0.804,
+        0.266,
+        0.084
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_surf_boy",
+      "kind": "person",
+      "box": [
+        0.394,
+        0.583,
+        0.154,
+        0.259
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_umbrella",
+      "kind": "object",
+      "box": [
+        0.704,
+        0.625,
+        0.231,
+        0.189
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_kite_boy",
+      "kind": "person",
+      "box": [
+        0.807,
+        0.213,
+        0.061,
+        0.193
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_little_girl",
+      "kind": "person",
+      "box": [
+        0.739,
+        0.776,
+        0.063,
+        0.151
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_kite_girl",
+      "kind": "person",
+      "box": [
+        0.885,
+        0.269,
+        0.06,
+        0.139
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_sandcastle",
+      "kind": "object",
+      "box": [
+        0.085,
+        0.439,
+        0.213,
+        0.172
+      ],
+      "boxSource": "vision"
+    }
+  ],
+  "descriptionSets": {
+    "1": [
+      {
+        "id": "l1_d1",
+        "textEn": "A dad is holding out a bucket.",
+        "textKo": "아빠가 양동이를 내밀고 있어요.",
+        "difficulty": {
+          "words": 7,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d1.mp3",
+        "durationMs": 3300,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.24
+          },
+          {
+            "w": "dad",
+            "s": 0.24,
+            "e": 0.68
+          },
+          {
+            "w": "is",
+            "s": 0.68,
+            "e": 1.24
+          },
+          {
+            "w": "holding",
+            "s": 1.24,
+            "e": 1.5
+          },
+          {
+            "w": "out",
+            "s": 1.5,
+            "e": 1.9
+          },
+          {
+            "w": "a",
+            "s": 1.9,
+            "e": 2.28
+          },
+          {
+            "w": "bucket.",
+            "s": 2.28,
+            "e": 2.3
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.015,
+          0.321,
+          0.138,
+          0.239
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d2",
+        "textEn": "The little girl's reaching for it.",
+        "textKo": "어린 여자아이가 그걸 잡으려고 손을 뻗고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d2.mp3",
+        "durationMs": 3000,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "little",
+            "s": 0.44,
+            "e": 0.84
+          },
+          {
+            "w": "girl's",
+            "s": 0.84,
+            "e": 1.34
+          },
+          {
+            "w": "reaching",
+            "s": 1.34,
+            "e": 1.84
+          },
+          {
+            "w": "for",
+            "s": 1.84,
+            "e": 2.26
+          },
+          {
+            "w": "it.",
+            "s": 2.26,
+            "e": 2.5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_castle_girl",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.141,
+          0.386,
+          0.083,
+          0.148
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d3",
+        "textEn": "A man is selling watermelon.",
+        "textKo": "아저씨가 수박을 팔고 있어요.",
+        "difficulty": {
+          "words": 5,
+          "links": 0,
+          "spoken": false
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d3.mp3",
+        "durationMs": 3850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "man",
+            "s": 0.46,
+            "e": 0.9
+          },
+          {
+            "w": "is",
+            "s": 0.9,
+            "e": 1.68
+          },
+          {
+            "w": "selling",
+            "s": 1.68,
+            "e": 2.2
+          },
+          {
+            "w": "watermelon.",
+            "s": 2.2,
+            "e": 3.34
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_melon",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.357,
+          0.207,
+          0.098,
+          0.125
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d4",
+        "textEn": "Mom's putting on sunscreen.",
+        "textKo": "엄마가 선크림을 발라주고 있어요.",
+        "difficulty": {
+          "words": 4,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d4.mp3",
+        "durationMs": 3650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Mom's",
+            "s": 0,
+            "e": 1.12
+          },
+          {
+            "w": "putting",
+            "s": 1.12,
+            "e": 1.5
+          },
+          {
+            "w": "on",
+            "s": 1.5,
+            "e": 2.44
+          },
+          {
+            "w": "sunscreen.",
+            "s": 2.44,
+            "e": 2.98
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_sunscreen",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.811,
+          0.4,
+          0.138,
+          0.22
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d5",
+        "textEn": "The lifeguard's watching the water.",
+        "textKo": "안전요원이 물을 보고 있어요.",
+        "difficulty": {
+          "words": 5,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d5.mp3",
+        "durationMs": 3350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "lifeguard's",
+            "s": 0.36,
+            "e": 1.22
+          },
+          {
+            "w": "watching",
+            "s": 1.22,
+            "e": 2.1
+          },
+          {
+            "w": "the",
+            "s": 2.1,
+            "e": 2.6
+          },
+          {
+            "w": "water.",
+            "s": 2.6,
+            "e": 2.86
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_lifeguard",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_sea",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0,
+          0.059,
+          0.178,
+          0.253
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l1_d6",
+        "textEn": "Two kids are swimming out there.",
+        "textKo": "저기서 아이 둘이 수영하고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d6.mp3",
+        "durationMs": 3400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "kids",
+            "s": 0.62,
+            "e": 1.16
+          },
+          {
+            "w": "are",
+            "s": 1.16,
+            "e": 1.8
+          },
+          {
+            "w": "swimming",
+            "s": 1.8,
+            "e": 2.16
+          },
+          {
+            "w": "out",
+            "s": 2.16,
+            "e": 2.72
+          },
+          {
+            "w": "there.",
+            "s": 2.72,
+            "e": 3
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_swimmers",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.201,
+          0.229,
+          0.108,
+          0.065
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d7",
+        "textEn": "The boy's throwing a beach ball.",
+        "textKo": "남자아이가 비치볼을 던지고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d7.mp3",
+        "durationMs": 4200,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "boy's",
+            "s": 0.4,
+            "e": 1
+          },
+          {
+            "w": "throwing",
+            "s": 1,
+            "e": 2.1
+          },
+          {
+            "w": "a",
+            "s": 2.1,
+            "e": 3.06
+          },
+          {
+            "w": "beach",
+            "s": 3.06,
+            "e": 3.16
+          },
+          {
+            "w": "ball.",
+            "s": 3.16,
+            "e": 3.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_ball_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_ball",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.512,
+          0.302,
+          0.139,
+          0.263
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d8",
+        "textEn": "A seagull's going for her sandwich.",
+        "textKo": "갈매기가 그 아이 샌드위치를 노리고 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d8.mp3",
+        "durationMs": 3650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "seagull's",
+            "s": 0.32,
+            "e": 1.52
+          },
+          {
+            "w": "going",
+            "s": 1.52,
+            "e": 1.82
+          },
+          {
+            "w": "for",
+            "s": 1.82,
+            "e": 2.24
+          },
+          {
+            "w": "her",
+            "s": 2.24,
+            "e": 2.62
+          },
+          {
+            "w": "sandwich.",
+            "s": 2.62,
+            "e": 3.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_picnic_girl",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_sandwich",
+            "order": 3,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.057,
+          0.601,
+          0.201,
+          0.279
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d9",
+        "textEn": "Grandma's reading a story.",
+        "textKo": "할머니가 이야기를 읽어주고 있어요.",
+        "difficulty": {
+          "words": 4,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d9.mp3",
+        "durationMs": 2700,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Grandma's",
+            "s": 0,
+            "e": 1
+          },
+          {
+            "w": "reading",
+            "s": 1,
+            "e": 1.4
+          },
+          {
+            "w": "a",
+            "s": 1.4,
+            "e": 1.98
+          },
+          {
+            "w": "story.",
+            "s": 1.98,
+            "e": 2.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandma",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_book",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.784,
+          0.708,
+          0.119,
+          0.257
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d10",
+        "textEn": "The red kite's way up high.",
+        "textKo": "빨간 연이 저 높이 떠 있어요.",
+        "difficulty": {
+          "words": 6,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l1_d10.mp3",
+        "durationMs": 4400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "red",
+            "s": 0.44,
+            "e": 1.22
+          },
+          {
+            "w": "kite's",
+            "s": 1.22,
+            "e": 1.84
+          },
+          {
+            "w": "way",
+            "s": 1.84,
+            "e": 2.9
+          },
+          {
+            "w": "up",
+            "s": 2.9,
+            "e": 3.5
+          },
+          {
+            "w": "high.",
+            "s": 3.5,
+            "e": 3.9
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kite",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.804,
+          0.017,
+          0.1,
+          0.126
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "2": [
+      {
+        "id": "l2_d1",
+        "textEn": "The dad's holding out a bucket of wet sand to his daughter.",
+        "textKo": "아빠가 젖은 모래가 든 양동이를 딸에게 내밀고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d1.mp3",
+        "durationMs": 5300,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "dad's",
+            "s": 0.34,
+            "e": 1.46
+          },
+          {
+            "w": "holding",
+            "s": 1.46,
+            "e": 1.46
+          },
+          {
+            "w": "out",
+            "s": 1.46,
+            "e": 1.9
+          },
+          {
+            "w": "a",
+            "s": 1.9,
+            "e": 2.42
+          },
+          {
+            "w": "bucket",
+            "s": 2.42,
+            "e": 2.42
+          },
+          {
+            "w": "of",
+            "s": 2.42,
+            "e": 3.02
+          },
+          {
+            "w": "wet",
+            "s": 3.02,
+            "e": 3.24
+          },
+          {
+            "w": "sand",
+            "s": 3.24,
+            "e": 3.66
+          },
+          {
+            "w": "to",
+            "s": 3.66,
+            "e": 4.28
+          },
+          {
+            "w": "his",
+            "s": 4.28,
+            "e": 4.64
+          },
+          {
+            "w": "daughter.",
+            "s": 4.64,
+            "e": 4.94
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_castle_girl",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.015,
+          0.321,
+          0.209,
+          0.239
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d2",
+        "textEn": "The guy in the straw hat is selling a girl some watermelon.",
+        "textKo": "밀짚모자 쓴 아저씨가 여자아이에게 수박을 팔고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d2.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.28
+          },
+          {
+            "w": "guy",
+            "s": 0.28,
+            "e": 0.66
+          },
+          {
+            "w": "in",
+            "s": 0.66,
+            "e": 0.94
+          },
+          {
+            "w": "the",
+            "s": 0.94,
+            "e": 1.24
+          },
+          {
+            "w": "straw",
+            "s": 1.24,
+            "e": 1.58
+          },
+          {
+            "w": "hat",
+            "s": 1.58,
+            "e": 2.08
+          },
+          {
+            "w": "is",
+            "s": 2.08,
+            "e": 2.76
+          },
+          {
+            "w": "selling",
+            "s": 2.76,
+            "e": 3.1
+          },
+          {
+            "w": "a",
+            "s": 3.1,
+            "e": 3.58
+          },
+          {
+            "w": "girl",
+            "s": 3.58,
+            "e": 3.88
+          },
+          {
+            "w": "some",
+            "s": 3.88,
+            "e": 4.58
+          },
+          {
+            "w": "watermelon.",
+            "s": 4.58,
+            "e": 5.06
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_melon_girl",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_melon",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.357,
+          0.207,
+          0.147,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d3",
+        "textEn": "Mom's rubbing sunscreen onto her little boy's shoulders.",
+        "textKo": "엄마가 어린 아들 어깨에 선크림을 문질러 발라주고 있어요.",
+        "difficulty": {
+          "words": 8,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d3.mp3",
+        "durationMs": 5500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Mom's",
+            "s": 0,
+            "e": 1.1
+          },
+          {
+            "w": "rubbing",
+            "s": 1.1,
+            "e": 1.12
+          },
+          {
+            "w": "sunscreen",
+            "s": 1.12,
+            "e": 2
+          },
+          {
+            "w": "onto",
+            "s": 2,
+            "e": 2.94
+          },
+          {
+            "w": "her",
+            "s": 2.94,
+            "e": 3.36
+          },
+          {
+            "w": "little",
+            "s": 3.36,
+            "e": 3.66
+          },
+          {
+            "w": "boy's",
+            "s": 3.66,
+            "e": 4.5
+          },
+          {
+            "w": "shoulders.",
+            "s": 4.5,
+            "e": 4.66
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_sunscreen",
+            "order": 2,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_son",
+            "order": 3,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.786,
+          0.4,
+          0.163,
+          0.227
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d4",
+        "textEn": "The lifeguard's keeping an eye on the water.",
+        "textKo": "안전요원이 물에서 눈을 떼지 않고 있어요.",
+        "difficulty": {
+          "words": 8,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d4.mp3",
+        "durationMs": 3150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "lifeguard's",
+            "s": 0.32,
+            "e": 1.1
+          },
+          {
+            "w": "keeping",
+            "s": 1.1,
+            "e": 1.56
+          },
+          {
+            "w": "an",
+            "s": 1.56,
+            "e": 1.76
+          },
+          {
+            "w": "eye",
+            "s": 1.76,
+            "e": 2.08
+          },
+          {
+            "w": "on",
+            "s": 2.08,
+            "e": 2.38
+          },
+          {
+            "w": "the",
+            "s": 2.38,
+            "e": 2.58
+          },
+          {
+            "w": "water.",
+            "s": 2.58,
+            "e": 2.84
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_lifeguard",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_sea",
+            "order": 2,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0,
+          0.059,
+          0.169,
+          0.183
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l2_d5",
+        "textEn": "Two kids are splashing around in the shallow water.",
+        "textKo": "아이 둘이 얕은 물에서 첨벙거리며 놀고 있어요.",
+        "difficulty": {
+          "words": 9,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d5.mp3",
+        "durationMs": 4500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "kids",
+            "s": 0.46,
+            "e": 0.92
+          },
+          {
+            "w": "are",
+            "s": 0.92,
+            "e": 1.66
+          },
+          {
+            "w": "splashing",
+            "s": 1.66,
+            "e": 2.02
+          },
+          {
+            "w": "around",
+            "s": 2.02,
+            "e": 2.68
+          },
+          {
+            "w": "in",
+            "s": 2.68,
+            "e": 3.1
+          },
+          {
+            "w": "the",
+            "s": 3.1,
+            "e": 3.72
+          },
+          {
+            "w": "shallow",
+            "s": 3.72,
+            "e": 3.72
+          },
+          {
+            "w": "water.",
+            "s": 3.72,
+            "e": 4.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_swimmers",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.201,
+          0.229,
+          0.108,
+          0.065
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d6",
+        "textEn": "A boy in blue shorts is tossing a ball to a girl.",
+        "textKo": "파란 반바지를 입은 남자아이가 여자아이에게 공을 던지고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d6.mp3",
+        "durationMs": 5950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "boy",
+            "s": 0.36,
+            "e": 0.72
+          },
+          {
+            "w": "in",
+            "s": 0.72,
+            "e": 1.54
+          },
+          {
+            "w": "blue",
+            "s": 1.54,
+            "e": 2.1
+          },
+          {
+            "w": "shorts",
+            "s": 2.1,
+            "e": 2.58
+          },
+          {
+            "w": "is",
+            "s": 2.58,
+            "e": 3.54
+          },
+          {
+            "w": "tossing",
+            "s": 3.54,
+            "e": 4
+          },
+          {
+            "w": "a",
+            "s": 4,
+            "e": 4.58
+          },
+          {
+            "w": "ball",
+            "s": 4.58,
+            "e": 4.58
+          },
+          {
+            "w": "to",
+            "s": 4.58,
+            "e": 5.12
+          },
+          {
+            "w": "a",
+            "s": 5.12,
+            "e": 5.54
+          },
+          {
+            "w": "girl.",
+            "s": 5.54,
+            "e": 5.54
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_ball_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_ball",
+            "order": 2,
+            "anchorWordIndex": 8
+          },
+          {
+            "targetId": "t_ball_girl",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.512,
+          0.302,
+          0.235,
+          0.263
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d7",
+        "textEn": "A seagull's swooping down on the girl's sandwich.",
+        "textKo": "갈매기가 여자아이 샌드위치로 확 내려오고 있어요.",
+        "difficulty": {
+          "words": 8,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d7.mp3",
+        "durationMs": 4750,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "seagull's",
+            "s": 0.34,
+            "e": 1.4
+          },
+          {
+            "w": "swooping",
+            "s": 1.4,
+            "e": 1.9
+          },
+          {
+            "w": "down",
+            "s": 1.9,
+            "e": 2.54
+          },
+          {
+            "w": "on",
+            "s": 2.54,
+            "e": 2.84
+          },
+          {
+            "w": "the",
+            "s": 2.84,
+            "e": 3.12
+          },
+          {
+            "w": "girl's",
+            "s": 3.12,
+            "e": 3.82
+          },
+          {
+            "w": "sandwich.",
+            "s": 3.82,
+            "e": 3.96
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_picnic_girl",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_sandwich",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.057,
+          0.601,
+          0.201,
+          0.279
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d8",
+        "textEn": "A surf instructor's holding the board still for a teenage boy.",
+        "textKo": "서핑 강사가 형아를 위해 보드를 잡아주고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d8.mp3",
+        "durationMs": 5550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.54
+          },
+          {
+            "w": "surf",
+            "s": 0.54,
+            "e": 0.9
+          },
+          {
+            "w": "instructor's",
+            "s": 0.9,
+            "e": 2.14
+          },
+          {
+            "w": "holding",
+            "s": 2.14,
+            "e": 2.14
+          },
+          {
+            "w": "the",
+            "s": 2.14,
+            "e": 2.52
+          },
+          {
+            "w": "board",
+            "s": 2.52,
+            "e": 2.74
+          },
+          {
+            "w": "still",
+            "s": 2.74,
+            "e": 3.38
+          },
+          {
+            "w": "for",
+            "s": 3.38,
+            "e": 3.92
+          },
+          {
+            "w": "a",
+            "s": 3.92,
+            "e": 4.22
+          },
+          {
+            "w": "teenage",
+            "s": 4.22,
+            "e": 4.66
+          },
+          {
+            "w": "boy.",
+            "s": 4.66,
+            "e": 5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_instructor",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_surfboard",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_surf_boy",
+            "order": 3,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.339,
+          0.583,
+          0.322,
+          0.305
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d9",
+        "textEn": "Grandma's reading a picture book under the big striped umbrella.",
+        "textKo": "할머니가 큰 줄무늬 파라솔 아래에서 그림책을 읽고 있어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d9.mp3",
+        "durationMs": 5400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Grandma's",
+            "s": 0,
+            "e": 0.96
+          },
+          {
+            "w": "reading",
+            "s": 0.96,
+            "e": 1.36
+          },
+          {
+            "w": "a",
+            "s": 1.36,
+            "e": 1.8
+          },
+          {
+            "w": "picture",
+            "s": 1.8,
+            "e": 2.14
+          },
+          {
+            "w": "book",
+            "s": 2.14,
+            "e": 2.48
+          },
+          {
+            "w": "under",
+            "s": 2.48,
+            "e": 3.1
+          },
+          {
+            "w": "the",
+            "s": 3.1,
+            "e": 3.36
+          },
+          {
+            "w": "big",
+            "s": 3.36,
+            "e": 4
+          },
+          {
+            "w": "striped",
+            "s": 4,
+            "e": 4.48
+          },
+          {
+            "w": "umbrella.",
+            "s": 4.48,
+            "e": 5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandma",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_book",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_umbrella",
+            "order": 3,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.704,
+          0.625,
+          0.231,
+          0.34
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d10",
+        "textEn": "A boy's flying his red kite way up in the sky.",
+        "textKo": "남자아이가 빨간 연을 하늘 저 높이 날리고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l2_d10.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.24
+          },
+          {
+            "w": "boy's",
+            "s": 0.24,
+            "e": 1
+          },
+          {
+            "w": "flying",
+            "s": 1,
+            "e": 1.36
+          },
+          {
+            "w": "his",
+            "s": 1.36,
+            "e": 1.76
+          },
+          {
+            "w": "red",
+            "s": 1.76,
+            "e": 2.1
+          },
+          {
+            "w": "kite",
+            "s": 2.1,
+            "e": 2.48
+          },
+          {
+            "w": "way",
+            "s": 2.48,
+            "e": 3.44
+          },
+          {
+            "w": "up",
+            "s": 3.44,
+            "e": 3.86
+          },
+          {
+            "w": "in",
+            "s": 3.86,
+            "e": 4.14
+          },
+          {
+            "w": "the",
+            "s": 4.14,
+            "e": 4.42
+          },
+          {
+            "w": "sky.",
+            "s": 4.42,
+            "e": 4.68
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kite_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_kite",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.804,
+          0.017,
+          0.1,
+          0.389
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "3": [
+      {
+        "id": "l3_d1",
+        "textEn": "The dad's holding the bucket out so his daughter can dump it on top.",
+        "textKo": "아빠가 양동이를 내밀어서 딸이 꼭대기에 쏟을 수 있게 해주고 있어요.",
+        "difficulty": {
+          "words": 14,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d1.mp3",
+        "durationMs": 6450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "dad's",
+            "s": 0.36,
+            "e": 1.14
+          },
+          {
+            "w": "holding",
+            "s": 1.14,
+            "e": 1.58
+          },
+          {
+            "w": "the",
+            "s": 1.58,
+            "e": 2.06
+          },
+          {
+            "w": "bucket",
+            "s": 2.06,
+            "e": 2.18
+          },
+          {
+            "w": "out",
+            "s": 2.18,
+            "e": 2.68
+          },
+          {
+            "w": "so",
+            "s": 2.68,
+            "e": 3.18
+          },
+          {
+            "w": "his",
+            "s": 3.18,
+            "e": 3.54
+          },
+          {
+            "w": "daughter",
+            "s": 3.54,
+            "e": 3.96
+          },
+          {
+            "w": "can",
+            "s": 3.96,
+            "e": 4.58
+          },
+          {
+            "w": "dump",
+            "s": 4.58,
+            "e": 4.8
+          },
+          {
+            "w": "it",
+            "s": 4.8,
+            "e": 5.1
+          },
+          {
+            "w": "on",
+            "s": 5.1,
+            "e": 5.5
+          },
+          {
+            "w": "top.",
+            "s": 5.5,
+            "e": 5.86
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_castle_girl",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.015,
+          0.321,
+          0.209,
+          0.239
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d2",
+        "textEn": "She's reaching for it with both hands because it's really heavy.",
+        "textKo": "꽤 무거워서 아이가 두 손으로 잡으려 하고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d2.mp3",
+        "durationMs": 5000,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "She's",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "reaching",
+            "s": 0.48,
+            "e": 0.78
+          },
+          {
+            "w": "for",
+            "s": 0.78,
+            "e": 1.16
+          },
+          {
+            "w": "it",
+            "s": 1.16,
+            "e": 1.34
+          },
+          {
+            "w": "with",
+            "s": 1.34,
+            "e": 1.58
+          },
+          {
+            "w": "both",
+            "s": 1.58,
+            "e": 1.98
+          },
+          {
+            "w": "hands",
+            "s": 1.98,
+            "e": 2.5
+          },
+          {
+            "w": "because",
+            "s": 2.94,
+            "e": 3.16
+          },
+          {
+            "w": "it's",
+            "s": 3.16,
+            "e": 3.42
+          },
+          {
+            "w": "really",
+            "s": 3.42,
+            "e": 4.02
+          },
+          {
+            "w": "heavy.",
+            "s": 4.02,
+            "e": 4.34
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_castle_girl",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.115,
+          0.386,
+          0.109,
+          0.148
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d3",
+        "textEn": "The guy at the fruit cart is handing a girl a slice of watermelon.",
+        "textKo": "과일 수레의 아저씨가 여자아이에게 수박 한 조각을 건네주고 있어요.",
+        "difficulty": {
+          "words": 14,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d3.mp3",
+        "durationMs": 6250,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "guy",
+            "s": 0.32,
+            "e": 0.72
+          },
+          {
+            "w": "at",
+            "s": 0.72,
+            "e": 1.02
+          },
+          {
+            "w": "the",
+            "s": 1.02,
+            "e": 1.34
+          },
+          {
+            "w": "fruit",
+            "s": 1.34,
+            "e": 1.62
+          },
+          {
+            "w": "cart",
+            "s": 1.62,
+            "e": 2
+          },
+          {
+            "w": "is",
+            "s": 2,
+            "e": 2.66
+          },
+          {
+            "w": "handing",
+            "s": 2.66,
+            "e": 3.08
+          },
+          {
+            "w": "a",
+            "s": 3.08,
+            "e": 3.9
+          },
+          {
+            "w": "girl",
+            "s": 3.9,
+            "e": 3.9
+          },
+          {
+            "w": "a",
+            "s": 3.9,
+            "e": 4.5
+          },
+          {
+            "w": "slice",
+            "s": 4.5,
+            "e": 4.88
+          },
+          {
+            "w": "of",
+            "s": 4.88,
+            "e": 5.54
+          },
+          {
+            "w": "watermelon.",
+            "s": 5.54,
+            "e": 5.84
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_melon_girl",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_melon",
+            "order": 3,
+            "anchorWordIndex": 13
+          }
+        ],
+        "box": [
+          0.357,
+          0.207,
+          0.147,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d4",
+        "textEn": "The girl can't wait to take a bite of it.",
+        "textKo": "여자아이는 얼른 한 입 먹고 싶어 죽겠어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d4.mp3",
+        "durationMs": 4550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "girl",
+            "s": 0.42,
+            "e": 0.88
+          },
+          {
+            "w": "can't",
+            "s": 0.88,
+            "e": 1.76
+          },
+          {
+            "w": "wait",
+            "s": 1.76,
+            "e": 2.12
+          },
+          {
+            "w": "to",
+            "s": 2.12,
+            "e": 2.88
+          },
+          {
+            "w": "take",
+            "s": 2.88,
+            "e": 3.04
+          },
+          {
+            "w": "a",
+            "s": 3.04,
+            "e": 3.46
+          },
+          {
+            "w": "bite",
+            "s": 3.46,
+            "e": 3.58
+          },
+          {
+            "w": "of",
+            "s": 3.58,
+            "e": 3.72
+          },
+          {
+            "w": "it.",
+            "s": 3.72,
+            "e": 3.9
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_melon_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_melon",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.424,
+          0.27,
+          0.08,
+          0.189
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d5",
+        "textEn": "Mom's helping her son rub sunscreen on his shoulders so he doesn't burn.",
+        "textKo": "엄마가 아들이 타지 않게 어깨에 선크림 바르는 걸 도와주고 있어요.",
+        "difficulty": {
+          "words": 13,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d5.mp3",
+        "durationMs": 6350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Mom's",
+            "s": 0,
+            "e": 0.7
+          },
+          {
+            "w": "helping",
+            "s": 0.7,
+            "e": 1
+          },
+          {
+            "w": "her",
+            "s": 1,
+            "e": 1.36
+          },
+          {
+            "w": "son",
+            "s": 1.36,
+            "e": 1.82
+          },
+          {
+            "w": "rub",
+            "s": 1.82,
+            "e": 2.44
+          },
+          {
+            "w": "sunscreen",
+            "s": 2.44,
+            "e": 2.96
+          },
+          {
+            "w": "on",
+            "s": 2.96,
+            "e": 3.58
+          },
+          {
+            "w": "his",
+            "s": 3.58,
+            "e": 3.84
+          },
+          {
+            "w": "shoulders",
+            "s": 3.84,
+            "e": 4.26
+          },
+          {
+            "w": "so",
+            "s": 4.26,
+            "e": 4.9
+          },
+          {
+            "w": "he",
+            "s": 4.9,
+            "e": 5.1
+          },
+          {
+            "w": "doesn't",
+            "s": 5.1,
+            "e": 5.56
+          },
+          {
+            "w": "burn.",
+            "s": 5.56,
+            "e": 5.78
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_son",
+            "order": 2,
+            "anchorWordIndex": 3
+          },
+          {
+            "targetId": "t_sunscreen",
+            "order": 3,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.786,
+          0.4,
+          0.163,
+          0.227
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d6",
+        "textEn": "The lifeguard's watching the two kids who are swimming near the shore.",
+        "textKo": "안전요원이 물가에서 수영하는 아이 둘을 지켜보고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d6.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "lifeguard's",
+            "s": 0.42,
+            "e": 0.84
+          },
+          {
+            "w": "watching",
+            "s": 0.84,
+            "e": 1.4
+          },
+          {
+            "w": "the",
+            "s": 1.4,
+            "e": 1.68
+          },
+          {
+            "w": "two",
+            "s": 1.68,
+            "e": 2.02
+          },
+          {
+            "w": "kids",
+            "s": 2.02,
+            "e": 2.46
+          },
+          {
+            "w": "who",
+            "s": 2.46,
+            "e": 2.88
+          },
+          {
+            "w": "are",
+            "s": 2.88,
+            "e": 3.22
+          },
+          {
+            "w": "swimming",
+            "s": 3.22,
+            "e": 3.62
+          },
+          {
+            "w": "near",
+            "s": 3.62,
+            "e": 4.14
+          },
+          {
+            "w": "the",
+            "s": 4.14,
+            "e": 4.64
+          },
+          {
+            "w": "shore.",
+            "s": 4.64,
+            "e": 4.7
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_lifeguard",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_swimmers",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.098,
+          0.059,
+          0.211,
+          0.235
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d7",
+        "textEn": "He won't look away until they're back on the sand.",
+        "textKo": "아이들이 모래로 돌아올 때까지 안전요원은 눈을 떼지 않을 거예요.",
+        "difficulty": {
+          "words": 10,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d7.mp3",
+        "durationMs": 5150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "won't",
+            "s": 0.42,
+            "e": 0.76
+          },
+          {
+            "w": "look",
+            "s": 0.76,
+            "e": 1.1
+          },
+          {
+            "w": "away",
+            "s": 1.1,
+            "e": 1.62
+          },
+          {
+            "w": "until",
+            "s": 1.62,
+            "e": 2.48
+          },
+          {
+            "w": "they're",
+            "s": 2.48,
+            "e": 2.9
+          },
+          {
+            "w": "back",
+            "s": 2.9,
+            "e": 3.3
+          },
+          {
+            "w": "on",
+            "s": 3.3,
+            "e": 3.82
+          },
+          {
+            "w": "the",
+            "s": 3.82,
+            "e": 4.3
+          },
+          {
+            "w": "sand.",
+            "s": 4.3,
+            "e": 4.34
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_lifeguard",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_swimmers",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.098,
+          0.059,
+          0.211,
+          0.235
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d8",
+        "textEn": "The boy's tossing the ball to the girl, and she's getting ready to catch it.",
+        "textKo": "남자아이가 여자아이에게 공을 던지고, 아이는 받을 준비를 하고 있어요.",
+        "difficulty": {
+          "words": 15,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d8.mp3",
+        "durationMs": 5950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "boy's",
+            "s": 0.5,
+            "e": 1.28
+          },
+          {
+            "w": "tossing",
+            "s": 1.28,
+            "e": 1.8
+          },
+          {
+            "w": "the",
+            "s": 1.8,
+            "e": 2
+          },
+          {
+            "w": "ball",
+            "s": 2,
+            "e": 2.28
+          },
+          {
+            "w": "to",
+            "s": 2.28,
+            "e": 2.54
+          },
+          {
+            "w": "the",
+            "s": 2.54,
+            "e": 2.82
+          },
+          {
+            "w": "girl,",
+            "s": 2.82,
+            "e": 3
+          },
+          {
+            "w": "and",
+            "s": 3.62,
+            "e": 3.8
+          },
+          {
+            "w": "she's",
+            "s": 3.8,
+            "e": 4.26
+          },
+          {
+            "w": "getting",
+            "s": 4.26,
+            "e": 4.54
+          },
+          {
+            "w": "ready",
+            "s": 4.54,
+            "e": 4.92
+          },
+          {
+            "w": "to",
+            "s": 4.92,
+            "e": 5.44
+          },
+          {
+            "w": "catch",
+            "s": 5.44,
+            "e": 5.44
+          },
+          {
+            "w": "it.",
+            "s": 5.44,
+            "e": 5.7
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_ball_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_ball",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_ball_girl",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.512,
+          0.302,
+          0.235,
+          0.263
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d9",
+        "textEn": "A seagull's diving at the sandwich before the girl can even scream.",
+        "textKo": "여자아이가 소리치기도 전에 갈매기가 샌드위치로 내리꽂고 있어요.",
+        "difficulty": {
+          "words": 12,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d9.mp3",
+        "durationMs": 5500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "seagull's",
+            "s": 0.48,
+            "e": 1.24
+          },
+          {
+            "w": "diving",
+            "s": 1.24,
+            "e": 1.58
+          },
+          {
+            "w": "at",
+            "s": 1.58,
+            "e": 1.9
+          },
+          {
+            "w": "the",
+            "s": 1.9,
+            "e": 2.12
+          },
+          {
+            "w": "sandwich",
+            "s": 2.12,
+            "e": 2.56
+          },
+          {
+            "w": "before",
+            "s": 2.56,
+            "e": 3.34
+          },
+          {
+            "w": "the",
+            "s": 3.34,
+            "e": 3.6
+          },
+          {
+            "w": "girl",
+            "s": 3.6,
+            "e": 3.88
+          },
+          {
+            "w": "can",
+            "s": 3.88,
+            "e": 4.24
+          },
+          {
+            "w": "even",
+            "s": 4.24,
+            "e": 4.82
+          },
+          {
+            "w": "scream.",
+            "s": 4.82,
+            "e": 5.22
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_sandwich",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_picnic_girl",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.057,
+          0.601,
+          0.201,
+          0.279
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d10",
+        "textEn": "That bird's done this before, if you ask me.",
+        "textKo": "제가 보기엔 저 새는 전에도 해본 솜씨예요.",
+        "difficulty": {
+          "words": 9,
+          "links": 3,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d10.mp3",
+        "durationMs": 4350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "That",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "bird's",
+            "s": 0.5,
+            "e": 1.22
+          },
+          {
+            "w": "done",
+            "s": 1.22,
+            "e": 1.46
+          },
+          {
+            "w": "this",
+            "s": 1.46,
+            "e": 1.78
+          },
+          {
+            "w": "before,",
+            "s": 1.78,
+            "e": 2.58
+          },
+          {
+            "w": "if",
+            "s": 3.04,
+            "e": 3.14
+          },
+          {
+            "w": "you",
+            "s": 3.14,
+            "e": 3.3
+          },
+          {
+            "w": "ask",
+            "s": 3.3,
+            "e": 3.6
+          },
+          {
+            "w": "me.",
+            "s": 3.6,
+            "e": 3.86
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.139,
+          0.601,
+          0.119,
+          0.145
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d11",
+        "textEn": "The instructor's teaching the boy to stand up on the surfboard.",
+        "textKo": "강사가 남자아이에게 서프보드 위에 일어서는 법을 가르쳐주고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d11.mp3",
+        "durationMs": 5400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "instructor's",
+            "s": 0.36,
+            "e": 1.18
+          },
+          {
+            "w": "teaching",
+            "s": 1.18,
+            "e": 1.86
+          },
+          {
+            "w": "the",
+            "s": 1.86,
+            "e": 2.16
+          },
+          {
+            "w": "boy",
+            "s": 2.16,
+            "e": 2.48
+          },
+          {
+            "w": "to",
+            "s": 2.48,
+            "e": 2.86
+          },
+          {
+            "w": "stand",
+            "s": 2.86,
+            "e": 3.16
+          },
+          {
+            "w": "up",
+            "s": 3.16,
+            "e": 3.48
+          },
+          {
+            "w": "on",
+            "s": 3.48,
+            "e": 4.08
+          },
+          {
+            "w": "the",
+            "s": 4.08,
+            "e": 4.4
+          },
+          {
+            "w": "surfboard.",
+            "s": 4.4,
+            "e": 5.02
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_instructor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_surf_boy",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_surfboard",
+            "order": 3,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.339,
+          0.583,
+          0.322,
+          0.305
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d12",
+        "textEn": "Grandma's reading the little girl a story about the sea.",
+        "textKo": "할머니가 어린 여자아이에게 바다 이야기를 읽어주고 있어요.",
+        "difficulty": {
+          "words": 10,
+          "links": 0,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d12.mp3",
+        "durationMs": 5100,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Grandma's",
+            "s": 0,
+            "e": 1.1
+          },
+          {
+            "w": "reading",
+            "s": 1.1,
+            "e": 1.5
+          },
+          {
+            "w": "the",
+            "s": 1.5,
+            "e": 1.84
+          },
+          {
+            "w": "little",
+            "s": 1.84,
+            "e": 2.1
+          },
+          {
+            "w": "girl",
+            "s": 2.1,
+            "e": 2.54
+          },
+          {
+            "w": "a",
+            "s": 2.84,
+            "e": 3.26
+          },
+          {
+            "w": "story",
+            "s": 3.26,
+            "e": 3.48
+          },
+          {
+            "w": "about",
+            "s": 3.48,
+            "e": 4.1
+          },
+          {
+            "w": "the",
+            "s": 4.1,
+            "e": 4.38
+          },
+          {
+            "w": "sea.",
+            "s": 4.38,
+            "e": 4.66
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandma",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_little_girl",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_book",
+            "order": 3,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.739,
+          0.708,
+          0.164,
+          0.257
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d13",
+        "textEn": "The boy's showing his sister how high his kite can go.",
+        "textKo": "남자아이가 여동생에게 자기 연이 얼마나 높이 올라가는지 보여주고 있어요.",
+        "difficulty": {
+          "words": 11,
+          "links": 1,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l3_d13.mp3",
+        "durationMs": 4600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "boy's",
+            "s": 0.34,
+            "e": 0.86
+          },
+          {
+            "w": "showing",
+            "s": 0.86,
+            "e": 1.4
+          },
+          {
+            "w": "his",
+            "s": 1.4,
+            "e": 1.72
+          },
+          {
+            "w": "sister",
+            "s": 1.72,
+            "e": 2.1
+          },
+          {
+            "w": "how",
+            "s": 2.1,
+            "e": 2.76
+          },
+          {
+            "w": "high",
+            "s": 2.76,
+            "e": 3.24
+          },
+          {
+            "w": "his",
+            "s": 3.24,
+            "e": 3.8
+          },
+          {
+            "w": "kite",
+            "s": 3.8,
+            "e": 3.88
+          },
+          {
+            "w": "can",
+            "s": 3.88,
+            "e": 4.24
+          },
+          {
+            "w": "go.",
+            "s": 4.24,
+            "e": 4.5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kite_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_kite_girl",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_kite",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.804,
+          0.017,
+          0.141,
+          0.391
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "4": [
+      {
+        "id": "l4_d1",
+        "textEn": "The dad kneeling by the sandcastle is holding out a bucket that's packed with wet sand, so the tower gets even taller.",
+        "textKo": "모래성 옆에 무릎 꿇은 아빠가 젖은 모래를 꾹 눌러 담은 양동이를 내밀어서, 탑이 더 높아지게 하고 있어요.",
+        "difficulty": {
+          "words": 22,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d1.mp3",
+        "durationMs": 8800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.18
+          },
+          {
+            "w": "dad",
+            "s": 0.18,
+            "e": 0.56
+          },
+          {
+            "w": "kneeling",
+            "s": 0.56,
+            "e": 0.98
+          },
+          {
+            "w": "by",
+            "s": 0.98,
+            "e": 1.24
+          },
+          {
+            "w": "the",
+            "s": 1.24,
+            "e": 1.58
+          },
+          {
+            "w": "sandcastle",
+            "s": 1.58,
+            "e": 2.24
+          },
+          {
+            "w": "is",
+            "s": 2.24,
+            "e": 2.74
+          },
+          {
+            "w": "holding",
+            "s": 2.74,
+            "e": 3
+          },
+          {
+            "w": "out",
+            "s": 3,
+            "e": 3.34
+          },
+          {
+            "w": "a",
+            "s": 3.34,
+            "e": 3.52
+          },
+          {
+            "w": "bucket",
+            "s": 3.52,
+            "e": 3.74
+          },
+          {
+            "w": "that's",
+            "s": 3.74,
+            "e": 4.42
+          },
+          {
+            "w": "packed",
+            "s": 4.42,
+            "e": 4.72
+          },
+          {
+            "w": "with",
+            "s": 4.72,
+            "e": 5.12
+          },
+          {
+            "w": "wet",
+            "s": 5.12,
+            "e": 5.46
+          },
+          {
+            "w": "sand,",
+            "s": 5.46,
+            "e": 5.9
+          },
+          {
+            "w": "so",
+            "s": 6.34,
+            "e": 6.46
+          },
+          {
+            "w": "the",
+            "s": 6.46,
+            "e": 6.68
+          },
+          {
+            "w": "tower",
+            "s": 6.68,
+            "e": 7.02
+          },
+          {
+            "w": "gets",
+            "s": 7.02,
+            "e": 7.4
+          },
+          {
+            "w": "even",
+            "s": 7.4,
+            "e": 8.04
+          },
+          {
+            "w": "taller.",
+            "s": 8.04,
+            "e": 8.42
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_sandcastle",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 3,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.015,
+          0.321,
+          0.283,
+          0.29
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d2",
+        "textEn": "His daughter's up on her toes, reaching for it with both hands, because she wants to flip it over herself.",
+        "textKo": "딸은 자기가 직접 뒤집고 싶어서 까치발을 들고 두 손으로 양동이를 잡으려 하고 있어요.",
+        "difficulty": {
+          "words": 20,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d2.mp3",
+        "durationMs": 8800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "His",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "daughter's",
+            "s": 0.34,
+            "e": 0.96
+          },
+          {
+            "w": "up",
+            "s": 0.96,
+            "e": 1.2
+          },
+          {
+            "w": "on",
+            "s": 1.2,
+            "e": 1.38
+          },
+          {
+            "w": "her",
+            "s": 1.38,
+            "e": 1.62
+          },
+          {
+            "w": "toes,",
+            "s": 1.62,
+            "e": 2.04
+          },
+          {
+            "w": "reaching",
+            "s": 2.64,
+            "e": 2.94
+          },
+          {
+            "w": "for",
+            "s": 2.94,
+            "e": 3.36
+          },
+          {
+            "w": "it",
+            "s": 3.36,
+            "e": 3.52
+          },
+          {
+            "w": "with",
+            "s": 3.52,
+            "e": 3.74
+          },
+          {
+            "w": "both",
+            "s": 3.74,
+            "e": 4.1
+          },
+          {
+            "w": "hands,",
+            "s": 4.1,
+            "e": 4.64
+          },
+          {
+            "w": "because",
+            "s": 5.16,
+            "e": 5.66
+          },
+          {
+            "w": "she",
+            "s": 5.66,
+            "e": 6.26
+          },
+          {
+            "w": "wants",
+            "s": 6.26,
+            "e": 6.56
+          },
+          {
+            "w": "to",
+            "s": 6.56,
+            "e": 7
+          },
+          {
+            "w": "flip",
+            "s": 7,
+            "e": 7
+          },
+          {
+            "w": "it",
+            "s": 7,
+            "e": 7.3
+          },
+          {
+            "w": "over",
+            "s": 7.3,
+            "e": 7.58
+          },
+          {
+            "w": "herself.",
+            "s": 7.58,
+            "e": 8.24
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_castle_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bucket",
+            "order": 2,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.115,
+          0.386,
+          0.109,
+          0.148
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d3",
+        "textEn": "The guy at the fruit cart is handing a girl a thick slice of watermelon that looks so cold it's dripping.",
+        "textKo": "과일 수레의 아저씨가 여자아이에게 어찌나 시원해 보이는지 물이 뚝뚝 떨어지는 두꺼운 수박 한 조각을 건네주고 있어요.",
+        "difficulty": {
+          "words": 21,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d3.mp3",
+        "durationMs": 9800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "guy",
+            "s": 0.3,
+            "e": 0.82
+          },
+          {
+            "w": "at",
+            "s": 0.82,
+            "e": 1.14
+          },
+          {
+            "w": "the",
+            "s": 1.14,
+            "e": 1.44
+          },
+          {
+            "w": "fruit",
+            "s": 1.44,
+            "e": 1.7
+          },
+          {
+            "w": "cart",
+            "s": 1.7,
+            "e": 2.04
+          },
+          {
+            "w": "is",
+            "s": 2.04,
+            "e": 2.84
+          },
+          {
+            "w": "handing",
+            "s": 2.84,
+            "e": 3.18
+          },
+          {
+            "w": "a",
+            "s": 3.18,
+            "e": 3.56
+          },
+          {
+            "w": "girl",
+            "s": 3.56,
+            "e": 3.86
+          },
+          {
+            "w": "a",
+            "s": 3.86,
+            "e": 4.38
+          },
+          {
+            "w": "thick",
+            "s": 4.38,
+            "e": 4.86
+          },
+          {
+            "w": "slice",
+            "s": 4.86,
+            "e": 5.3
+          },
+          {
+            "w": "of",
+            "s": 5.3,
+            "e": 5.74
+          },
+          {
+            "w": "watermelon",
+            "s": 5.74,
+            "e": 6.22
+          },
+          {
+            "w": "that",
+            "s": 6.22,
+            "e": 6.98
+          },
+          {
+            "w": "looks",
+            "s": 6.98,
+            "e": 7.3
+          },
+          {
+            "w": "so",
+            "s": 7.3,
+            "e": 7.9
+          },
+          {
+            "w": "cold",
+            "s": 7.9,
+            "e": 8.38
+          },
+          {
+            "w": "it's",
+            "s": 8.38,
+            "e": 9.16
+          },
+          {
+            "w": "dripping.",
+            "s": 9.16,
+            "e": 9.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_melon_girl",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_melon",
+            "order": 3,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.357,
+          0.207,
+          0.147,
+          0.252
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d4",
+        "textEn": "She can't wait to take a bite of it, and you can tell she's going to finish the whole slice.",
+        "textKo": "아이는 얼른 한 입 먹고 싶어 하고, 한 조각을 다 해치울 게 딱 보여요.",
+        "difficulty": {
+          "words": 20,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d4.mp3",
+        "durationMs": 6800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "She",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "can't",
+            "s": 0.36,
+            "e": 0.74
+          },
+          {
+            "w": "wait",
+            "s": 0.74,
+            "e": 1.16
+          },
+          {
+            "w": "to",
+            "s": 1.16,
+            "e": 1.44
+          },
+          {
+            "w": "take",
+            "s": 1.44,
+            "e": 1.56
+          },
+          {
+            "w": "a",
+            "s": 1.56,
+            "e": 1.92
+          },
+          {
+            "w": "bite",
+            "s": 1.92,
+            "e": 1.92
+          },
+          {
+            "w": "of",
+            "s": 1.92,
+            "e": 2.08
+          },
+          {
+            "w": "it,",
+            "s": 2.08,
+            "e": 2.24
+          },
+          {
+            "w": "and",
+            "s": 2.78,
+            "e": 2.88
+          },
+          {
+            "w": "you",
+            "s": 2.88,
+            "e": 3.06
+          },
+          {
+            "w": "can",
+            "s": 3.06,
+            "e": 3.32
+          },
+          {
+            "w": "tell",
+            "s": 3.32,
+            "e": 3.62
+          },
+          {
+            "w": "she's",
+            "s": 3.62,
+            "e": 4.14
+          },
+          {
+            "w": "going",
+            "s": 4.14,
+            "e": 4.46
+          },
+          {
+            "w": "to",
+            "s": 4.46,
+            "e": 5
+          },
+          {
+            "w": "finish",
+            "s": 5,
+            "e": 5
+          },
+          {
+            "w": "the",
+            "s": 5,
+            "e": 5.32
+          },
+          {
+            "w": "whole",
+            "s": 5.32,
+            "e": 5.84
+          },
+          {
+            "w": "slice.",
+            "s": 5.84,
+            "e": 6.26
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_melon_girl",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_melon",
+            "order": 2,
+            "anchorWordIndex": 19
+          }
+        ],
+        "box": [
+          0.424,
+          0.27,
+          0.08,
+          0.189
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d5",
+        "textEn": "Mom's got the sunscreen in one hand so she can rub it on her son's shoulders before he burns.",
+        "textKo": "엄마가 아들이 타기 전에 어깨에 발라주려고 한 손에 선크림을 들고 있어요.",
+        "difficulty": {
+          "words": 19,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d5.mp3",
+        "durationMs": 8650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Mom's",
+            "s": 0,
+            "e": 0.74
+          },
+          {
+            "w": "got",
+            "s": 0.74,
+            "e": 0.94
+          },
+          {
+            "w": "the",
+            "s": 0.94,
+            "e": 1.22
+          },
+          {
+            "w": "sunscreen",
+            "s": 1.22,
+            "e": 1.64
+          },
+          {
+            "w": "in",
+            "s": 1.64,
+            "e": 2.18
+          },
+          {
+            "w": "one",
+            "s": 2.18,
+            "e": 2.66
+          },
+          {
+            "w": "hand",
+            "s": 2.66,
+            "e": 3.28
+          },
+          {
+            "w": "so",
+            "s": 3.28,
+            "e": 3.9
+          },
+          {
+            "w": "she",
+            "s": 3.9,
+            "e": 4.12
+          },
+          {
+            "w": "can",
+            "s": 4.12,
+            "e": 4.6
+          },
+          {
+            "w": "rub",
+            "s": 4.6,
+            "e": 4.62
+          },
+          {
+            "w": "it",
+            "s": 4.62,
+            "e": 4.92
+          },
+          {
+            "w": "on",
+            "s": 4.92,
+            "e": 5.06
+          },
+          {
+            "w": "her",
+            "s": 5.06,
+            "e": 5.36
+          },
+          {
+            "w": "son's",
+            "s": 5.36,
+            "e": 6.44
+          },
+          {
+            "w": "shoulders",
+            "s": 6.44,
+            "e": 6.44
+          },
+          {
+            "w": "before",
+            "s": 6.44,
+            "e": 7.44
+          },
+          {
+            "w": "he",
+            "s": 7.44,
+            "e": 7.86
+          },
+          {
+            "w": "burns.",
+            "s": 7.86,
+            "e": 8.18
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_sunscreen",
+            "order": 2,
+            "anchorWordIndex": 3
+          },
+          {
+            "targetId": "t_son",
+            "order": 3,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.786,
+          0.4,
+          0.163,
+          0.227
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d6",
+        "textEn": "The lifeguard up on the tall chair hasn't taken his eyes off the two kids who went in, and he won't until they're back on the sand.",
+        "textKo": "높은 의자 위의 안전요원은 물에 들어간 아이 둘에게서 눈을 뗀 적이 없고, 아이들이 모래로 돌아올 때까지 그럴 거예요.",
+        "difficulty": {
+          "words": 27,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d6.mp3",
+        "durationMs": 11050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "lifeguard",
+            "s": 0.3,
+            "e": 0.94
+          },
+          {
+            "w": "up",
+            "s": 0.94,
+            "e": 1.46
+          },
+          {
+            "w": "on",
+            "s": 1.46,
+            "e": 1.64
+          },
+          {
+            "w": "the",
+            "s": 1.64,
+            "e": 1.8
+          },
+          {
+            "w": "tall",
+            "s": 1.8,
+            "e": 2.24
+          },
+          {
+            "w": "chair",
+            "s": 2.24,
+            "e": 2.62
+          },
+          {
+            "w": "hasn't",
+            "s": 2.62,
+            "e": 3.56
+          },
+          {
+            "w": "taken",
+            "s": 3.56,
+            "e": 3.9
+          },
+          {
+            "w": "his",
+            "s": 3.9,
+            "e": 4.32
+          },
+          {
+            "w": "eyes",
+            "s": 4.32,
+            "e": 4.76
+          },
+          {
+            "w": "off",
+            "s": 4.76,
+            "e": 5.1
+          },
+          {
+            "w": "the",
+            "s": 5.1,
+            "e": 5.3
+          },
+          {
+            "w": "two",
+            "s": 5.3,
+            "e": 5.66
+          },
+          {
+            "w": "kids",
+            "s": 5.66,
+            "e": 6.04
+          },
+          {
+            "w": "who",
+            "s": 6.04,
+            "e": 6.5
+          },
+          {
+            "w": "went",
+            "s": 6.5,
+            "e": 6.74
+          },
+          {
+            "w": "in,",
+            "s": 6.74,
+            "e": 7.1
+          },
+          {
+            "w": "and",
+            "s": 7.4,
+            "e": 7.92
+          },
+          {
+            "w": "he",
+            "s": 7.92,
+            "e": 8.22
+          },
+          {
+            "w": "won't",
+            "s": 8.22,
+            "e": 8.62
+          },
+          {
+            "w": "until",
+            "s": 8.62,
+            "e": 9.36
+          },
+          {
+            "w": "they're",
+            "s": 9.36,
+            "e": 9.7
+          },
+          {
+            "w": "back",
+            "s": 9.7,
+            "e": 10
+          },
+          {
+            "w": "on",
+            "s": 10,
+            "e": 10.2
+          },
+          {
+            "w": "the",
+            "s": 10.2,
+            "e": 10.6
+          },
+          {
+            "w": "sand.",
+            "s": 10.6,
+            "e": 10.7
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_lifeguard",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_swimmers",
+            "order": 2,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.098,
+          0.059,
+          0.211,
+          0.235
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d7",
+        "textEn": "The boy in the blue shorts is tossing the ball so high that the girl has to reach up to catch it.",
+        "textKo": "파란 반바지를 입은 남자아이가 공을 너무 높이 던져서 여자아이가 손을 위로 뻗어야 받을 수 있어요.",
+        "difficulty": {
+          "words": 22,
+          "links": 4,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d7.mp3",
+        "durationMs": 8800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "boy",
+            "s": 0.62,
+            "e": 0.92
+          },
+          {
+            "w": "in",
+            "s": 0.92,
+            "e": 1.1
+          },
+          {
+            "w": "the",
+            "s": 1.1,
+            "e": 1.34
+          },
+          {
+            "w": "blue",
+            "s": 1.34,
+            "e": 1.58
+          },
+          {
+            "w": "shorts",
+            "s": 1.58,
+            "e": 1.98
+          },
+          {
+            "w": "is",
+            "s": 1.98,
+            "e": 2.64
+          },
+          {
+            "w": "tossing",
+            "s": 2.64,
+            "e": 3.14
+          },
+          {
+            "w": "the",
+            "s": 3.14,
+            "e": 3.56
+          },
+          {
+            "w": "ball",
+            "s": 3.56,
+            "e": 3.6
+          },
+          {
+            "w": "so",
+            "s": 3.6,
+            "e": 4.26
+          },
+          {
+            "w": "high",
+            "s": 4.26,
+            "e": 4.68
+          },
+          {
+            "w": "that",
+            "s": 4.68,
+            "e": 5.24
+          },
+          {
+            "w": "the",
+            "s": 5.24,
+            "e": 5.6
+          },
+          {
+            "w": "girl",
+            "s": 5.6,
+            "e": 5.78
+          },
+          {
+            "w": "has",
+            "s": 5.78,
+            "e": 6.16
+          },
+          {
+            "w": "to",
+            "s": 6.16,
+            "e": 6.74
+          },
+          {
+            "w": "reach",
+            "s": 6.74,
+            "e": 6.8
+          },
+          {
+            "w": "up",
+            "s": 6.8,
+            "e": 7.26
+          },
+          {
+            "w": "to",
+            "s": 7.26,
+            "e": 7.9
+          },
+          {
+            "w": "catch",
+            "s": 7.9,
+            "e": 7.92
+          },
+          {
+            "w": "it.",
+            "s": 7.92,
+            "e": 8.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_ball_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_ball",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_ball_girl",
+            "order": 3,
+            "anchorWordIndex": 14
+          }
+        ],
+        "box": [
+          0.512,
+          0.302,
+          0.235,
+          0.263
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d8",
+        "textEn": "She's got her hands up and her eyes on the ball, so she can grab it right when it comes down.",
+        "textKo": "아이는 손을 들고 공에서 눈을 떼지 않아서, 공이 내려오는 순간 바로 잡을 수 있어요.",
+        "difficulty": {
+          "words": 21,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d8.mp3",
+        "durationMs": 8950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "She's",
+            "s": 0,
+            "e": 0.78
+          },
+          {
+            "w": "got",
+            "s": 0.78,
+            "e": 1.02
+          },
+          {
+            "w": "her",
+            "s": 1.02,
+            "e": 1.34
+          },
+          {
+            "w": "hands",
+            "s": 1.34,
+            "e": 1.76
+          },
+          {
+            "w": "up",
+            "s": 1.76,
+            "e": 2.22
+          },
+          {
+            "w": "and",
+            "s": 2.22,
+            "e": 2.76
+          },
+          {
+            "w": "her",
+            "s": 2.76,
+            "e": 3.32
+          },
+          {
+            "w": "eyes",
+            "s": 3.32,
+            "e": 3.48
+          },
+          {
+            "w": "on",
+            "s": 3.48,
+            "e": 3.9
+          },
+          {
+            "w": "the",
+            "s": 3.9,
+            "e": 4.4
+          },
+          {
+            "w": "ball,",
+            "s": 4.4,
+            "e": 4.4
+          },
+          {
+            "w": "so",
+            "s": 5.06,
+            "e": 5.22
+          },
+          {
+            "w": "she",
+            "s": 5.22,
+            "e": 5.5
+          },
+          {
+            "w": "can",
+            "s": 5.5,
+            "e": 5.8
+          },
+          {
+            "w": "grab",
+            "s": 5.8,
+            "e": 6.18
+          },
+          {
+            "w": "it",
+            "s": 6.18,
+            "e": 6.5
+          },
+          {
+            "w": "right",
+            "s": 6.5,
+            "e": 7.02
+          },
+          {
+            "w": "when",
+            "s": 7.02,
+            "e": 7.22
+          },
+          {
+            "w": "it",
+            "s": 7.22,
+            "e": 7.42
+          },
+          {
+            "w": "comes",
+            "s": 7.42,
+            "e": 7.82
+          },
+          {
+            "w": "down.",
+            "s": 7.82,
+            "e": 8.28
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_ball_girl",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_ball",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.607,
+          0.302,
+          0.14,
+          0.261
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d9",
+        "textEn": "A seagull's diving straight at the girl's sandwich, and she's screaming because she didn't see it coming until it was right there.",
+        "textKo": "갈매기가 여자아이 샌드위치로 곧장 내리꽂고 있고, 코앞에 올 때까지 몰랐던 아이는 소리를 지르고 있어요.",
+        "difficulty": {
+          "words": 22,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d9.mp3",
+        "durationMs": 10650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "seagull's",
+            "s": 0.46,
+            "e": 1.9
+          },
+          {
+            "w": "diving",
+            "s": 1.9,
+            "e": 1.9
+          },
+          {
+            "w": "straight",
+            "s": 1.9,
+            "e": 2.62
+          },
+          {
+            "w": "at",
+            "s": 2.62,
+            "e": 2.96
+          },
+          {
+            "w": "the",
+            "s": 2.96,
+            "e": 3.16
+          },
+          {
+            "w": "girl's",
+            "s": 3.16,
+            "e": 4.16
+          },
+          {
+            "w": "sandwich,",
+            "s": 4.16,
+            "e": 4.16
+          },
+          {
+            "w": "and",
+            "s": 4.84,
+            "e": 4.92
+          },
+          {
+            "w": "she's",
+            "s": 4.92,
+            "e": 5.9
+          },
+          {
+            "w": "screaming",
+            "s": 5.9,
+            "e": 5.9
+          },
+          {
+            "w": "because",
+            "s": 5.9,
+            "e": 6.5
+          },
+          {
+            "w": "she",
+            "s": 6.5,
+            "e": 6.76
+          },
+          {
+            "w": "didn't",
+            "s": 6.76,
+            "e": 7.08
+          },
+          {
+            "w": "see",
+            "s": 7.08,
+            "e": 7.36
+          },
+          {
+            "w": "it",
+            "s": 7.36,
+            "e": 7.56
+          },
+          {
+            "w": "coming",
+            "s": 7.56,
+            "e": 7.96
+          },
+          {
+            "w": "until",
+            "s": 8,
+            "e": 8.74
+          },
+          {
+            "w": "it",
+            "s": 8.74,
+            "e": 8.96
+          },
+          {
+            "w": "was",
+            "s": 8.96,
+            "e": 9.24
+          },
+          {
+            "w": "right",
+            "s": 9.24,
+            "e": 9.58
+          },
+          {
+            "w": "there.",
+            "s": 9.58,
+            "e": 10.12
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_picnic_girl",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_sandwich",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.057,
+          0.601,
+          0.201,
+          0.279
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d10",
+        "textEn": "That bird has done this before, for sure, so nobody on the beach even looks surprised.",
+        "textKo": "저 새는 분명 전에도 해봤을 거예요. 그래서 바닷가 누구도 놀란 기색이 없어요.",
+        "difficulty": {
+          "words": 16,
+          "links": 3,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d10.mp3",
+        "durationMs": 8800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "That",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "bird",
+            "s": 0.62,
+            "e": 1
+          },
+          {
+            "w": "has",
+            "s": 1,
+            "e": 1.44
+          },
+          {
+            "w": "done",
+            "s": 1.44,
+            "e": 1.7
+          },
+          {
+            "w": "this",
+            "s": 1.7,
+            "e": 2.06
+          },
+          {
+            "w": "before,",
+            "s": 2.06,
+            "e": 2.72
+          },
+          {
+            "w": "for",
+            "s": 2.94,
+            "e": 3.66
+          },
+          {
+            "w": "sure,",
+            "s": 3.66,
+            "e": 4.1
+          },
+          {
+            "w": "so",
+            "s": 4.84,
+            "e": 5.24
+          },
+          {
+            "w": "nobody",
+            "s": 5.24,
+            "e": 5.68
+          },
+          {
+            "w": "on",
+            "s": 5.68,
+            "e": 6
+          },
+          {
+            "w": "the",
+            "s": 6,
+            "e": 6.58
+          },
+          {
+            "w": "beach",
+            "s": 6.58,
+            "e": 6.58
+          },
+          {
+            "w": "even",
+            "s": 6.58,
+            "e": 7.12
+          },
+          {
+            "w": "looks",
+            "s": 7.12,
+            "e": 7.46
+          },
+          {
+            "w": "surprised.",
+            "s": 7.46,
+            "e": 8.14
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_gull",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.139,
+          0.601,
+          0.119,
+          0.145
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d11",
+        "textEn": "The instructor in the wetsuit is teaching the boy to stand up before he tries it out in the water.",
+        "textKo": "잠수복을 입은 강사가 남자아이에게 물에서 해보기 전에 일어서는 법을 가르치고 있어요.",
+        "difficulty": {
+          "words": 20,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d11.mp3",
+        "durationMs": 7050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "instructor",
+            "s": 0.34,
+            "e": 0.92
+          },
+          {
+            "w": "in",
+            "s": 0.92,
+            "e": 1.16
+          },
+          {
+            "w": "the",
+            "s": 1.16,
+            "e": 1.52
+          },
+          {
+            "w": "wetsuit",
+            "s": 1.52,
+            "e": 1.76
+          },
+          {
+            "w": "is",
+            "s": 1.76,
+            "e": 2.38
+          },
+          {
+            "w": "teaching",
+            "s": 2.38,
+            "e": 2.7
+          },
+          {
+            "w": "the",
+            "s": 2.7,
+            "e": 3
+          },
+          {
+            "w": "boy",
+            "s": 3,
+            "e": 3.14
+          },
+          {
+            "w": "to",
+            "s": 3.14,
+            "e": 3.52
+          },
+          {
+            "w": "stand",
+            "s": 3.52,
+            "e": 3.86
+          },
+          {
+            "w": "up",
+            "s": 3.86,
+            "e": 4.4
+          },
+          {
+            "w": "before",
+            "s": 4.4,
+            "e": 4.96
+          },
+          {
+            "w": "he",
+            "s": 4.96,
+            "e": 5.28
+          },
+          {
+            "w": "tries",
+            "s": 5.28,
+            "e": 5.54
+          },
+          {
+            "w": "it",
+            "s": 5.54,
+            "e": 5.74
+          },
+          {
+            "w": "out",
+            "s": 5.74,
+            "e": 5.92
+          },
+          {
+            "w": "in",
+            "s": 5.92,
+            "e": 6.14
+          },
+          {
+            "w": "the",
+            "s": 6.14,
+            "e": 6.32
+          },
+          {
+            "w": "water.",
+            "s": 6.32,
+            "e": 6.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_instructor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_surf_boy",
+            "order": 2,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.394,
+          0.583,
+          0.267,
+          0.295
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d12",
+        "textEn": "He's holding the board steady on the dry sand so the kid can find his balance before they head out.",
+        "textKo": "강사는 아이가 바다로 나가기 전에 균형을 잡도록 마른 모래 위에서 보드를 잡아주고 있어요.",
+        "difficulty": {
+          "words": 20,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d12.mp3",
+        "durationMs": 7650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He's",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "holding",
+            "s": 0.48,
+            "e": 0.74
+          },
+          {
+            "w": "the",
+            "s": 0.74,
+            "e": 1.04
+          },
+          {
+            "w": "board",
+            "s": 1.04,
+            "e": 1.44
+          },
+          {
+            "w": "steady",
+            "s": 1.44,
+            "e": 1.96
+          },
+          {
+            "w": "on",
+            "s": 1.96,
+            "e": 2.26
+          },
+          {
+            "w": "the",
+            "s": 2.26,
+            "e": 2.5
+          },
+          {
+            "w": "dry",
+            "s": 2.5,
+            "e": 2.9
+          },
+          {
+            "w": "sand",
+            "s": 2.9,
+            "e": 3.32
+          },
+          {
+            "w": "so",
+            "s": 3.38,
+            "e": 3.98
+          },
+          {
+            "w": "the",
+            "s": 3.98,
+            "e": 4.22
+          },
+          {
+            "w": "kid",
+            "s": 4.22,
+            "e": 4.52
+          },
+          {
+            "w": "can",
+            "s": 4.52,
+            "e": 4.84
+          },
+          {
+            "w": "find",
+            "s": 4.84,
+            "e": 5.1
+          },
+          {
+            "w": "his",
+            "s": 5.1,
+            "e": 5.56
+          },
+          {
+            "w": "balance",
+            "s": 5.56,
+            "e": 5.92
+          },
+          {
+            "w": "before",
+            "s": 5.92,
+            "e": 6.68
+          },
+          {
+            "w": "they",
+            "s": 6.68,
+            "e": 6.94
+          },
+          {
+            "w": "head",
+            "s": 6.94,
+            "e": 7.18
+          },
+          {
+            "w": "out.",
+            "s": 7.18,
+            "e": 7.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_instructor",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_surfboard",
+            "order": 2,
+            "anchorWordIndex": 3
+          },
+          {
+            "targetId": "t_surf_boy",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.339,
+          0.583,
+          0.322,
+          0.305
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d13",
+        "textEn": "Grandma's reading the little girl a story about the sea that she's probably heard so many times already.",
+        "textKo": "할머니가 어린 여자아이에게, 아이가 아마 벌써 수없이 들었을 바다 이야기를 읽어주고 있어요.",
+        "difficulty": {
+          "words": 18,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d13.mp3",
+        "durationMs": 8650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Grandma's",
+            "s": 0,
+            "e": 1
+          },
+          {
+            "w": "reading",
+            "s": 1,
+            "e": 1.42
+          },
+          {
+            "w": "the",
+            "s": 1.42,
+            "e": 1.7
+          },
+          {
+            "w": "little",
+            "s": 1.7,
+            "e": 2
+          },
+          {
+            "w": "girl",
+            "s": 2,
+            "e": 2.34
+          },
+          {
+            "w": "a",
+            "s": 2.34,
+            "e": 2.98
+          },
+          {
+            "w": "story",
+            "s": 2.98,
+            "e": 3.3
+          },
+          {
+            "w": "about",
+            "s": 3.3,
+            "e": 3.68
+          },
+          {
+            "w": "the",
+            "s": 3.68,
+            "e": 4.12
+          },
+          {
+            "w": "sea",
+            "s": 4.12,
+            "e": 4.24
+          },
+          {
+            "w": "that",
+            "s": 4.24,
+            "e": 4.82
+          },
+          {
+            "w": "she's",
+            "s": 4.82,
+            "e": 5.2
+          },
+          {
+            "w": "probably",
+            "s": 5.2,
+            "e": 5.86
+          },
+          {
+            "w": "heard",
+            "s": 5.86,
+            "e": 6.3
+          },
+          {
+            "w": "so",
+            "s": 6.3,
+            "e": 6.8
+          },
+          {
+            "w": "many",
+            "s": 6.8,
+            "e": 7.14
+          },
+          {
+            "w": "times",
+            "s": 7.14,
+            "e": 7.58
+          },
+          {
+            "w": "already.",
+            "s": 7.58,
+            "e": 8.06
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandma",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_little_girl",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_book",
+            "order": 3,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.739,
+          0.708,
+          0.164,
+          0.257
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d14",
+        "textEn": "The story must be a good one, because the little girl hasn't moved an inch since her grandma started it.",
+        "textKo": "할머니가 이야기를 시작한 뒤로 어린 여자아이가 꼼짝도 안 하는 걸 보면, 이야기가 꽤 재미있나 봐요.",
+        "difficulty": {
+          "words": 20,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d14.mp3",
+        "durationMs": 8600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "story",
+            "s": 0.3,
+            "e": 0.84
+          },
+          {
+            "w": "must",
+            "s": 0.84,
+            "e": 1.26
+          },
+          {
+            "w": "be",
+            "s": 1.26,
+            "e": 1.5
+          },
+          {
+            "w": "a",
+            "s": 1.5,
+            "e": 1.8
+          },
+          {
+            "w": "good",
+            "s": 1.8,
+            "e": 1.96
+          },
+          {
+            "w": "one,",
+            "s": 1.96,
+            "e": 2.3
+          },
+          {
+            "w": "because",
+            "s": 2.3,
+            "e": 3.14
+          },
+          {
+            "w": "the",
+            "s": 3.14,
+            "e": 3.42
+          },
+          {
+            "w": "little",
+            "s": 3.42,
+            "e": 3.7
+          },
+          {
+            "w": "girl",
+            "s": 3.7,
+            "e": 4.12
+          },
+          {
+            "w": "hasn't",
+            "s": 4.12,
+            "e": 4.64
+          },
+          {
+            "w": "moved",
+            "s": 4.64,
+            "e": 4.96
+          },
+          {
+            "w": "an",
+            "s": 4.96,
+            "e": 5.38
+          },
+          {
+            "w": "inch",
+            "s": 5.38,
+            "e": 5.78
+          },
+          {
+            "w": "since",
+            "s": 5.78,
+            "e": 6.4
+          },
+          {
+            "w": "her",
+            "s": 6.4,
+            "e": 6.66
+          },
+          {
+            "w": "grandma",
+            "s": 6.66,
+            "e": 7.04
+          },
+          {
+            "w": "started",
+            "s": 7.04,
+            "e": 7.5
+          },
+          {
+            "w": "it.",
+            "s": 7.5,
+            "e": 7.78
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_book",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_little_girl",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.739,
+          0.776,
+          0.144,
+          0.151
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d15",
+        "textEn": "The boy with the kite string is showing his little sister how high the red kite can go when the wind picks up.",
+        "textKo": "연줄을 잡은 남자아이가 여동생에게 바람이 세지면 빨간 연이 얼마나 높이 올라가는지 보여주고 있어요.",
+        "difficulty": {
+          "words": 23,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d15.mp3",
+        "durationMs": 8550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "boy",
+            "s": 0.44,
+            "e": 0.78
+          },
+          {
+            "w": "with",
+            "s": 0.78,
+            "e": 1.02
+          },
+          {
+            "w": "the",
+            "s": 1.02,
+            "e": 1.4
+          },
+          {
+            "w": "kite",
+            "s": 1.4,
+            "e": 1.5
+          },
+          {
+            "w": "string",
+            "s": 1.5,
+            "e": 1.88
+          },
+          {
+            "w": "is",
+            "s": 1.88,
+            "e": 2.3
+          },
+          {
+            "w": "showing",
+            "s": 2.3,
+            "e": 2.58
+          },
+          {
+            "w": "his",
+            "s": 2.58,
+            "e": 2.86
+          },
+          {
+            "w": "little",
+            "s": 2.86,
+            "e": 3.28
+          },
+          {
+            "w": "sister",
+            "s": 3.28,
+            "e": 3.66
+          },
+          {
+            "w": "how",
+            "s": 3.66,
+            "e": 4.36
+          },
+          {
+            "w": "high",
+            "s": 4.36,
+            "e": 4.7
+          },
+          {
+            "w": "the",
+            "s": 4.7,
+            "e": 5.02
+          },
+          {
+            "w": "red",
+            "s": 5.02,
+            "e": 5.32
+          },
+          {
+            "w": "kite",
+            "s": 5.32,
+            "e": 5.5
+          },
+          {
+            "w": "can",
+            "s": 5.5,
+            "e": 5.86
+          },
+          {
+            "w": "go",
+            "s": 5.86,
+            "e": 6.26
+          },
+          {
+            "w": "when",
+            "s": 6.26,
+            "e": 6.78
+          },
+          {
+            "w": "the",
+            "s": 6.78,
+            "e": 7
+          },
+          {
+            "w": "wind",
+            "s": 7,
+            "e": 7.3
+          },
+          {
+            "w": "picks",
+            "s": 7.3,
+            "e": 7.72
+          },
+          {
+            "w": "up.",
+            "s": 7.72,
+            "e": 8
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kite_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_kite_girl",
+            "order": 2,
+            "anchorWordIndex": 10
+          },
+          {
+            "targetId": "t_kite",
+            "order": 3,
+            "anchorWordIndex": 15
+          }
+        ],
+        "box": [
+          0.804,
+          0.017,
+          0.141,
+          0.391
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d16",
+        "textEn": "Everybody out by the water looks like they're making the most of the last day, so nobody's heading home until the sun goes down.",
+        "textKo": "물가에 있는 사람들 모두 마지막 날을 실컷 즐기는 것 같아서, 해가 질 때까지 아무도 집에 갈 생각이 없어요.",
+        "difficulty": {
+          "words": 24,
+          "links": 2,
+          "spoken": true
+        },
+        "keyExpression": null,
+        "audio": "audio/l4_d16.mp3",
+        "durationMs": 10400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Everybody",
+            "s": 0,
+            "e": 0.78
+          },
+          {
+            "w": "out",
+            "s": 0.78,
+            "e": 1.14
+          },
+          {
+            "w": "by",
+            "s": 1.14,
+            "e": 1.38
+          },
+          {
+            "w": "the",
+            "s": 1.38,
+            "e": 1.78
+          },
+          {
+            "w": "water",
+            "s": 1.78,
+            "e": 2.26
+          },
+          {
+            "w": "looks",
+            "s": 2.26,
+            "e": 2.72
+          },
+          {
+            "w": "like",
+            "s": 2.72,
+            "e": 3.02
+          },
+          {
+            "w": "they're",
+            "s": 3.02,
+            "e": 3.3
+          },
+          {
+            "w": "making",
+            "s": 3.3,
+            "e": 3.54
+          },
+          {
+            "w": "the",
+            "s": 3.54,
+            "e": 3.92
+          },
+          {
+            "w": "most",
+            "s": 3.92,
+            "e": 4.32
+          },
+          {
+            "w": "of",
+            "s": 4.32,
+            "e": 4.54
+          },
+          {
+            "w": "the",
+            "s": 4.54,
+            "e": 4.72
+          },
+          {
+            "w": "last",
+            "s": 4.72,
+            "e": 5.06
+          },
+          {
+            "w": "day,",
+            "s": 5.06,
+            "e": 5.46
+          },
+          {
+            "w": "so",
+            "s": 6.12,
+            "e": 6.42
+          },
+          {
+            "w": "nobody's",
+            "s": 6.42,
+            "e": 7.12
+          },
+          {
+            "w": "heading",
+            "s": 7.12,
+            "e": 7.28
+          },
+          {
+            "w": "home",
+            "s": 7.28,
+            "e": 7.78
+          },
+          {
+            "w": "until",
+            "s": 7.78,
+            "e": 8.42
+          },
+          {
+            "w": "the",
+            "s": 8.42,
+            "e": 8.8
+          },
+          {
+            "w": "sun",
+            "s": 8.8,
+            "e": 9.04
+          },
+          {
+            "w": "goes",
+            "s": 9.04,
+            "e": 9.38
+          },
+          {
+            "w": "down.",
+            "s": 9.38,
+            "e": 9.7
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_sea",
+            "order": 1,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.29,
+          0.365,
+          0.71,
+          0.602
+        ],
+        "boxSource": "manual"
+      }
+    ]
+  },
+  "prompts": {
+    "nudge": {
+      "text": "다 말했으면 다음을 눌러요.",
+      "audio": "audio/prompt_nudge.mp3"
+    }
+  }
+}

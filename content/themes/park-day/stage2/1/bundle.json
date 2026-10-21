@@ -1,0 +1,377 @@
+{
+  "bundleVersion": 1,
+  "publishedAt": "2026-10-18T13:19:31.113Z",
+  "theme": {
+    "slug": "park-day"
+  },
+  "levels": {
+    "1": [
+      {
+        "id": "s2_l1_dance",
+        "key": "dance",
+        "keyHint": "dance",
+        "image": "images/s2_l1_dance.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d1",
+          "textEn": "A little boy is dancing.",
+          "textKo": "어린 남자아이가 춤추고 있어요.",
+          "audio": "audio/hint_s2_l1_dance.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_dance_a1",
+            "textEn": "A bear is dancing.",
+            "textKo": "곰이 춤추고 있어요.",
+            "audio": "audio/s2_l1_dance_a1.mp3"
+          },
+          {
+            "id": "s2_l1_dance_a2",
+            "textEn": "The happy bear is dancing.",
+            "textKo": "신난 곰이 춤추고 있어요.",
+            "audio": "audio/s2_l1_dance_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_ride",
+        "key": "ride",
+        "keyHint": "ride",
+        "image": "images/s2_l1_ride.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d4",
+          "textEn": "A girl is riding a bicycle.",
+          "textKo": "여자아이가 자전거를 타고 있어요.",
+          "audio": "audio/hint_s2_l1_ride.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_ride_a1",
+            "textEn": "A boy is riding a horse.",
+            "textKo": "남자아이가 말을 타고 있어요.",
+            "audio": "audio/s2_l1_ride_a1.mp3"
+          },
+          {
+            "id": "s2_l1_ride_a2",
+            "textEn": "He is riding a brown horse.",
+            "textKo": "그는 갈색 말을 타고 있어요.",
+            "audio": "audio/s2_l1_ride_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l1_jump",
+        "key": "jump",
+        "keyHint": "jump",
+        "image": "images/s2_l1_jump.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l1_d2",
+          "textEn": "The dog is jumping.",
+          "textKo": "강아지가 점프하고 있어요.",
+          "audio": "audio/hint_s2_l1_jump.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l1_jump_a1",
+            "textEn": "A frog is jumping.",
+            "textKo": "개구리가 점프하고 있어요.",
+            "audio": "audio/s2_l1_jump_a1.mp3"
+          },
+          {
+            "id": "s2_l1_jump_a2",
+            "textEn": "The green frog is jumping.",
+            "textKo": "초록 개구리가 점프하고 있어요.",
+            "audio": "audio/s2_l1_jump_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "s2_l2_laugh",
+        "key": "laugh at",
+        "keyHint": "laugh at ~",
+        "image": "images/s2_l2_laugh.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d3",
+          "textEn": "Two children are laughing at the clown.",
+          "textKo": "아이 두 명이 광대를 보고 웃고 있어요.",
+          "audio": "audio/hint_s2_l2_laugh.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_laugh_a1",
+            "textEn": "A girl is laughing at the funny puppy.",
+            "textKo": "여자아이가 웃긴 강아지를 보고 웃고 있어요.",
+            "audio": "audio/s2_l2_laugh_a1.mp3"
+          },
+          {
+            "id": "s2_l2_laugh_a2",
+            "textEn": "The girl in the red dress is laughing at the puppy.",
+            "textKo": "빨간 원피스를 입은 여자아이가 강아지를 보고 웃고 있어요.",
+            "audio": "audio/s2_l2_laugh_a2.mp3"
+          },
+          {
+            "id": "s2_l2_laugh_a3",
+            "textEn": "She is laughing at a puppy in a big yellow hat.",
+            "textKo": "그 아이는 커다란 노란 모자를 쓴 강아지를 보고 웃고 있어요.",
+            "audio": "audio/s2_l2_laugh_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_play",
+        "key": "play",
+        "keyHint": "play ~",
+        "image": "images/s2_l2_play.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d8",
+          "textEn": "A man in a straw hat is playing the guitar.",
+          "textKo": "밀짚모자를 쓴 남자가 기타를 치고 있어요.",
+          "audio": "audio/hint_s2_l2_play.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_play_a1",
+            "textEn": "Two boys are playing soccer in the park.",
+            "textKo": "남자아이 두 명이 공원에서 축구를 하고 있어요.",
+            "audio": "audio/s2_l2_play_a1.mp3"
+          },
+          {
+            "id": "s2_l2_play_a2",
+            "textEn": "The boys are playing soccer on the grass.",
+            "textKo": "남자아이들이 잔디 위에서 축구를 하고 있어요.",
+            "audio": "audio/s2_l2_play_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l2_eat",
+        "key": "eat",
+        "keyHint": "eat ~",
+        "image": "images/s2_l2_eat.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l2_d7",
+          "textEn": "Many pigeons are eating on the ground.",
+          "textKo": "비둘기 여러 마리가 바닥에서 먹고 있어요.",
+          "audio": "audio/hint_s2_l2_eat.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l2_eat_a1",
+            "textEn": "A rabbit is eating a carrot in the garden.",
+            "textKo": "토끼가 텃밭에서 당근을 먹고 있어요.",
+            "audio": "audio/s2_l2_eat_a1.mp3"
+          },
+          {
+            "id": "s2_l2_eat_a2",
+            "textEn": "The white rabbit is eating a big carrot.",
+            "textKo": "하얀 토끼가 커다란 당근을 먹고 있어요.",
+            "audio": "audio/s2_l2_eat_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "s2_l3_give",
+        "key": "give",
+        "keyHint": "give + 누구에게 + 무엇을",
+        "image": "images/s2_l3_give.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d1",
+          "textEn": "His mom is giving him an ice cream.",
+          "textKo": "엄마가 아이에게 아이스크림을 주고 있어요.",
+          "audio": "audio/hint_s2_l3_give.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_give_a1",
+            "textEn": "The girl is giving the dog a bone.",
+            "textKo": "여자아이가 강아지에게 뼈다귀를 주고 있어요.",
+            "audio": "audio/s2_l3_give_a1.mp3"
+          },
+          {
+            "id": "s2_l3_give_a2",
+            "textEn": "She is giving her dog a big bone.",
+            "textKo": "그 아이가 자기 강아지에게 커다란 뼈다귀를 주고 있어요.",
+            "audio": "audio/s2_l3_give_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_make",
+        "key": "make",
+        "keyHint": "make + 누구 + 동사",
+        "image": "images/s2_l3_make.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d2",
+          "textEn": "The clown is making the children laugh.",
+          "textKo": "광대가 아이들을 웃게 만들고 있어요.",
+          "audio": "audio/hint_s2_l3_make.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_make_a1",
+            "textEn": "The boy is making the baby laugh.",
+            "textKo": "남자아이가 아기를 웃게 만들고 있어요.",
+            "audio": "audio/s2_l3_make_a1.mp3"
+          },
+          {
+            "id": "s2_l3_make_a2",
+            "textEn": "He is making his little sister laugh with a puppet.",
+            "textKo": "그는 인형으로 여동생을 웃게 만들고 있어요.",
+            "audio": "audio/s2_l3_make_a2.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l3_watch",
+        "key": "watch",
+        "keyHint": "watch + 누구 + 동사",
+        "image": "images/s2_l3_watch.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l3_d4",
+          "textEn": "Her dad is watching her ride the bicycle.",
+          "textKo": "아빠가 딸이 자전거 타는 걸 지켜보고 있어요.",
+          "audio": "audio/hint_s2_l3_watch.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l3_watch_a1",
+            "textEn": "The cat is watching the fish swim.",
+            "textKo": "고양이가 물고기가 헤엄치는 걸 보고 있어요.",
+            "audio": "audio/s2_l3_watch_a1.mp3"
+          },
+          {
+            "id": "s2_l3_watch_a2",
+            "textEn": "An orange cat is watching a goldfish swim in the bowl.",
+            "textKo": "주황 고양이가 어항 속에서 금붕어가 헤엄치는 걸 보고 있어요.",
+            "audio": "audio/s2_l3_watch_a2.mp3"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "s2_l4_sell",
+        "key": "sell",
+        "keyHint": "sell + 누구에게 + 무엇을",
+        "image": "images/s2_l4_sell.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d9",
+          "textEn": "The vendor leaning out of the truck window is selling a girl an ice cream cup.",
+          "textKo": "트럭 창밖으로 몸을 내민 상인이 여자아이에게 컵 아이스크림을 팔고 있어요.",
+          "audio": "audio/hint_s2_l4_sell.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_sell_a1",
+            "textEn": "The woman in the green apron is selling the boy some apples.",
+            "textKo": "초록 앞치마를 두른 아주머니가 남자아이에게 사과를 팔고 있어요.",
+            "audio": "audio/s2_l4_sell_a1.mp3"
+          },
+          {
+            "id": "s2_l4_sell_a2",
+            "textEn": "The woman standing behind the fruit stand is selling a little boy a bag of red apples.",
+            "textKo": "과일 가게 뒤에 선 아주머니가 어린 남자아이에게 빨간 사과 한 봉지를 팔고 있어요.",
+            "audio": "audio/s2_l4_sell_a2.mp3"
+          },
+          {
+            "id": "s2_l4_sell_a3",
+            "textEn": "She is selling him apples that look very fresh.",
+            "textKo": "그녀는 아주 싱싱해 보이는 사과를 그 아이에게 팔고 있어요.",
+            "audio": "audio/s2_l4_sell_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_teach",
+        "key": "teach",
+        "keyHint": "teach + 누구 + to 동사",
+        "image": "images/s2_l4_teach.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d6",
+          "textEn": "He seems to have taught the dog to catch it in the air.",
+          "textKo": "그는 강아지에게 공중에서 받는 법을 가르친 것 같아요.",
+          "audio": "audio/hint_s2_l4_teach.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_teach_a1",
+            "textEn": "The grandfather is teaching the boy to fish.",
+            "textKo": "할아버지가 남자아이에게 낚시하는 법을 가르치고 있어요.",
+            "audio": "audio/s2_l4_teach_a1.mp3"
+          },
+          {
+            "id": "s2_l4_teach_a2",
+            "textEn": "The old man sitting on the dock is teaching his grandson to catch a fish.",
+            "textKo": "부두에 앉은 할아버지가 손자에게 물고기 잡는 법을 가르치고 있어요.",
+            "audio": "audio/s2_l4_teach_a2.mp3"
+          },
+          {
+            "id": "s2_l4_teach_a3",
+            "textEn": "He seems to be teaching the boy to hold the fishing rod.",
+            "textKo": "그는 아이에게 낚싯대 잡는 법을 가르치고 있는 것 같아요.",
+            "audio": "audio/s2_l4_teach_a3.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2_l4_make",
+        "key": "make",
+        "keyHint": "make + 누구 + 동사",
+        "image": "images/s2_l4_make.png",
+        "width": 1536,
+        "height": 1024,
+        "hint": {
+          "sentenceId": "l4_d10",
+          "textEn": "The guitar music seems to make the little boy dance without any shyness.",
+          "textKo": "기타 음악이 어린 남자아이를 부끄럼 없이 춤추게 만드는 것 같아요.",
+          "audio": "audio/hint_s2_l4_make.mp3"
+        },
+        "answers": [
+          {
+            "id": "s2_l4_make_a1",
+            "textEn": "The onions are making the man cry.",
+            "textKo": "양파가 남자를 울게 만들고 있어요.",
+            "audio": "audio/s2_l4_make_a1.mp3"
+          },
+          {
+            "id": "s2_l4_make_a2",
+            "textEn": "The man cutting onions in the kitchen looks as if the onions are making him cry.",
+            "textKo": "부엌에서 양파를 써는 남자는 양파 때문에 우는 것처럼 보여요.",
+            "audio": "audio/s2_l4_make_a2.mp3"
+          },
+          {
+            "id": "s2_l4_make_a3",
+            "textEn": "Cutting onions seems to make him cry.",
+            "textKo": "양파를 썰면 그는 눈물이 나는 것 같아요.",
+            "audio": "audio/s2_l4_make_a3.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

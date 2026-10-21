@@ -1,0 +1,3902 @@
+{
+  "bundleVersion": 3,
+  "publishedAt": "2026-10-18T13:40:25.377Z",
+  "theme": {
+    "slug": "park-day",
+    "titleKo": "공원의 하루",
+    "titleEn": "A Day at the Park"
+  },
+  "scene": {
+    "image": "scene.png",
+    "width": 1536,
+    "height": 1024
+  },
+  "targets": [
+    {
+      "id": "t_clown",
+      "kind": "person",
+      "box": [
+        0.421,
+        0.45,
+        0.141,
+        0.405
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_kids",
+      "kind": "person",
+      "box": [
+        0.255,
+        0.586,
+        0.162,
+        0.278
+      ],
+      "boxSource": "manual"
+    },
+    {
+      "id": "t_toddler",
+      "kind": "person",
+      "box": [
+        0.904,
+        0.458,
+        0.078,
+        0.16
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_cyclist_girl",
+      "kind": "person",
+      "box": [
+        0.617,
+        0.218,
+        0.066,
+        0.162
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_bicycle",
+      "kind": "object",
+      "box": [
+        0.614,
+        0.295,
+        0.081,
+        0.118
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_dog",
+      "kind": "person",
+      "box": [
+        0.38,
+        0.28,
+        0.134,
+        0.15
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_grandpa",
+      "kind": "person",
+      "box": [
+        0.797,
+        0.616,
+        0.168,
+        0.315
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_pigeons",
+      "kind": "person",
+      "box": [
+        0.628,
+        0.794,
+        0.365,
+        0.175
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_musician",
+      "kind": "person",
+      "box": [
+        0.747,
+        0.331,
+        0.136,
+        0.283
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_guitar",
+      "kind": "object",
+      "box": [
+        0.749,
+        0.433,
+        0.155,
+        0.095
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_woman_bench",
+      "kind": "person",
+      "box": [
+        0.838,
+        0.212,
+        0.086,
+        0.228
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_friend",
+      "kind": "person",
+      "box": [
+        0.923,
+        0.214,
+        0.064,
+        0.227
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_tree",
+      "kind": "object",
+      "box": [
+        0.546,
+        0,
+        0.454,
+        0.436
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_vendor",
+      "kind": "person",
+      "box": [
+        0.045,
+        0.127,
+        0.068,
+        0.122
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_truck",
+      "kind": "object",
+      "box": [
+        0,
+        0.051,
+        0.188,
+        0.383
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_mom",
+      "kind": "person",
+      "box": [
+        0.003,
+        0.43,
+        0.15,
+        0.381
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_boy",
+      "kind": "person",
+      "box": [
+        0.15,
+        0.524,
+        0.1,
+        0.287
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_icecream",
+      "kind": "object",
+      "box": [
+        0.132,
+        0.527,
+        0.028,
+        0.079
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_girl_balloon",
+      "kind": "person",
+      "box": [
+        0.566,
+        0.617,
+        0.097,
+        0.24
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_balloon_dog",
+      "kind": "object",
+      "box": [
+        0.543,
+        0.56,
+        0.06,
+        0.084
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_bread",
+      "kind": "object",
+      "box": [
+        0.765,
+        0.768,
+        0.049,
+        0.073
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_dad",
+      "kind": "person",
+      "box": [
+        0.682,
+        0.133,
+        0.082,
+        0.246
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_frisbee_boy",
+      "kind": "person",
+      "box": [
+        0.236,
+        0.251,
+        0.109,
+        0.187
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_frisbee",
+      "kind": "object",
+      "box": [
+        0.359,
+        0.262,
+        0.037,
+        0.025
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_girl_cup",
+      "kind": "person",
+      "box": [
+        0.1,
+        0.228,
+        0.068,
+        0.21
+      ],
+      "boxSource": "vision"
+    },
+    {
+      "id": "t_ice_cup",
+      "kind": "object",
+      "box": [
+        0.1,
+        0.205,
+        0.018,
+        0.037
+      ],
+      "boxSource": "vision"
+    }
+  ],
+  "descriptionSets": {
+    "1": [
+      {
+        "id": "l1_d5",
+        "textEn": "The clown is funny.",
+        "textKo": "광대가 재미있어요.",
+        "pattern": "SVC",
+        "keyExpression": null,
+        "audio": "audio/l1_d5.mp3",
+        "durationMs": 2200,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "clown",
+            "s": 0.32,
+            "e": 0.62
+          },
+          {
+            "w": "is",
+            "s": 0.62,
+            "e": 1.3
+          },
+          {
+            "w": "funny.",
+            "s": 1.3,
+            "e": 1.58
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.421,
+          0.45,
+          0.141,
+          0.405
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d3",
+        "textEn": "The children are laughing.",
+        "textKo": "아이들이 웃고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l1_d3.mp3",
+        "durationMs": 2550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "children",
+            "s": 0.36,
+            "e": 0.82
+          },
+          {
+            "w": "are",
+            "s": 0.82,
+            "e": 1.5
+          },
+          {
+            "w": "laughing.",
+            "s": 1.5,
+            "e": 1.92
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kids",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.255,
+          0.586,
+          0.162,
+          0.278
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d1",
+        "textEn": "A little boy is dancing.",
+        "textKo": "어린 남자아이가 춤추고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l1_d1.mp3",
+        "durationMs": 3500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "little",
+            "s": 0.34,
+            "e": 0.76
+          },
+          {
+            "w": "boy",
+            "s": 0.76,
+            "e": 1.32
+          },
+          {
+            "w": "is",
+            "s": 1.32,
+            "e": 2.28
+          },
+          {
+            "w": "dancing.",
+            "s": 2.28,
+            "e": 2.66
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_toddler",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.906,
+          0.454,
+          0.078,
+          0.16
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l1_d4",
+        "textEn": "A girl is riding a bicycle.",
+        "textKo": "여자아이가 자전거를 타고 있어요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l1_d4.mp3",
+        "durationMs": 3350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "girl",
+            "s": 0.36,
+            "e": 0.62
+          },
+          {
+            "w": "is",
+            "s": 0.62,
+            "e": 1.64
+          },
+          {
+            "w": "riding",
+            "s": 1.64,
+            "e": 1.98
+          },
+          {
+            "w": "a",
+            "s": 1.98,
+            "e": 2.78
+          },
+          {
+            "w": "bicycle.",
+            "s": 2.78,
+            "e": 2.8
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_cyclist_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bicycle",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.614,
+          0.218,
+          0.081,
+          0.195
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l1_d2",
+        "textEn": "The dog is jumping.",
+        "textKo": "강아지가 점프하고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l1_d2.mp3",
+        "durationMs": 2100,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "dog",
+            "s": 0.36,
+            "e": 0.76
+          },
+          {
+            "w": "is",
+            "s": 0.76,
+            "e": 1.38
+          },
+          {
+            "w": "jumping.",
+            "s": 1.38,
+            "e": 1.66
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dog",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.38,
+          0.28,
+          0.134,
+          0.15
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "2": [
+      {
+        "id": "l2_d5",
+        "textEn": "The clown with curly orange hair looks very funny.",
+        "textKo": "곱슬곱슬한 주황 머리의 광대가 아주 우스워 보여요.",
+        "pattern": "SVC",
+        "keyExpression": null,
+        "audio": "audio/l2_d5.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "clown",
+            "s": 0.34,
+            "e": 0.78
+          },
+          {
+            "w": "with",
+            "s": 0.78,
+            "e": 1.28
+          },
+          {
+            "w": "curly",
+            "s": 1.28,
+            "e": 1.88
+          },
+          {
+            "w": "orange",
+            "s": 1.88,
+            "e": 2.34
+          },
+          {
+            "w": "hair",
+            "s": 2.34,
+            "e": 2.84
+          },
+          {
+            "w": "looks",
+            "s": 2.84,
+            "e": 3.62
+          },
+          {
+            "w": "very",
+            "s": 3.62,
+            "e": 4.62
+          },
+          {
+            "w": "funny.",
+            "s": 4.62,
+            "e": 5
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.421,
+          0.45,
+          0.141,
+          0.405
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d3",
+        "textEn": "Two children are laughing at the clown.",
+        "textKo": "아이 두 명이 광대를 보고 웃고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d3.mp3",
+        "durationMs": 3500,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "children",
+            "s": 0.5,
+            "e": 1.04
+          },
+          {
+            "w": "are",
+            "s": 1.04,
+            "e": 1.78
+          },
+          {
+            "w": "laughing",
+            "s": 1.78,
+            "e": 2.14
+          },
+          {
+            "w": "at",
+            "s": 2.14,
+            "e": 2.64
+          },
+          {
+            "w": "the",
+            "s": 2.64,
+            "e": 3.12
+          },
+          {
+            "w": "clown.",
+            "s": 3.12,
+            "e": 3.12
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kids",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_clown",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.255,
+          0.45,
+          0.307,
+          0.414
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d6",
+        "textEn": "An old man is sitting near the pigeons.",
+        "textKo": "할아버지가 비둘기들 옆에 앉아 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d6.mp3",
+        "durationMs": 4450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "An",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "old",
+            "s": 0.5,
+            "e": 1.14
+          },
+          {
+            "w": "man",
+            "s": 1.14,
+            "e": 1.6
+          },
+          {
+            "w": "is",
+            "s": 1.6,
+            "e": 2.26
+          },
+          {
+            "w": "sitting",
+            "s": 2.26,
+            "e": 2.62
+          },
+          {
+            "w": "near",
+            "s": 2.62,
+            "e": 3.16
+          },
+          {
+            "w": "the",
+            "s": 3.16,
+            "e": 3.46
+          },
+          {
+            "w": "pigeons.",
+            "s": 3.46,
+            "e": 3.78
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandpa",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.797,
+          0.616,
+          0.168,
+          0.315
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d7",
+        "textEn": "Many pigeons are eating on the ground.",
+        "textKo": "비둘기 여러 마리가 바닥에서 먹고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d7.mp3",
+        "durationMs": 4150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Many",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "pigeons",
+            "s": 0.62,
+            "e": 1.26
+          },
+          {
+            "w": "are",
+            "s": 1.26,
+            "e": 2.18
+          },
+          {
+            "w": "eating",
+            "s": 2.18,
+            "e": 2.58
+          },
+          {
+            "w": "on",
+            "s": 2.58,
+            "e": 3.08
+          },
+          {
+            "w": "the",
+            "s": 3.08,
+            "e": 3.22
+          },
+          {
+            "w": "ground.",
+            "s": 3.22,
+            "e": 3.48
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_pigeons",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.628,
+          0.794,
+          0.365,
+          0.175
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d8",
+        "textEn": "A man in a straw hat is playing the guitar.",
+        "textKo": "밀짚모자를 쓴 남자가 기타를 치고 있어요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l2_d8.mp3",
+        "durationMs": 4650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "man",
+            "s": 0.62,
+            "e": 1.04
+          },
+          {
+            "w": "in",
+            "s": 1.04,
+            "e": 1.42
+          },
+          {
+            "w": "a",
+            "s": 1.42,
+            "e": 1.98
+          },
+          {
+            "w": "straw",
+            "s": 1.98,
+            "e": 2.04
+          },
+          {
+            "w": "hat",
+            "s": 2.04,
+            "e": 2.58
+          },
+          {
+            "w": "is",
+            "s": 2.58,
+            "e": 3.14
+          },
+          {
+            "w": "playing",
+            "s": 3.14,
+            "e": 3.56
+          },
+          {
+            "w": "the",
+            "s": 3.56,
+            "e": 3.98
+          },
+          {
+            "w": "guitar.",
+            "s": 3.98,
+            "e": 4.28
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_musician",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_guitar",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.747,
+          0.331,
+          0.157,
+          0.283
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d9",
+        "textEn": "A little boy is dancing to the music.",
+        "textKo": "어린 남자아이가 음악에 맞춰 춤추고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d9.mp3",
+        "durationMs": 3450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.22
+          },
+          {
+            "w": "little",
+            "s": 0.22,
+            "e": 0.54
+          },
+          {
+            "w": "boy",
+            "s": 0.54,
+            "e": 0.94
+          },
+          {
+            "w": "is",
+            "s": 0.94,
+            "e": 1.44
+          },
+          {
+            "w": "dancing",
+            "s": 1.44,
+            "e": 1.92
+          },
+          {
+            "w": "to",
+            "s": 1.92,
+            "e": 2.28
+          },
+          {
+            "w": "the",
+            "s": 2.28,
+            "e": 2.46
+          },
+          {
+            "w": "music.",
+            "s": 2.46,
+            "e": 2.8
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_toddler",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.904,
+          0.458,
+          0.078,
+          0.16
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d10",
+        "textEn": "Two women are sitting under the big tree.",
+        "textKo": "여자 두 명이 큰 나무 아래에 앉아 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d10.mp3",
+        "durationMs": 4050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Two",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "women",
+            "s": 0.46,
+            "e": 0.86
+          },
+          {
+            "w": "are",
+            "s": 0.86,
+            "e": 1.72
+          },
+          {
+            "w": "sitting",
+            "s": 1.72,
+            "e": 2.04
+          },
+          {
+            "w": "under",
+            "s": 2.04,
+            "e": 2.5
+          },
+          {
+            "w": "the",
+            "s": 2.5,
+            "e": 2.86
+          },
+          {
+            "w": "big",
+            "s": 2.86,
+            "e": 3.36
+          },
+          {
+            "w": "tree.",
+            "s": 3.36,
+            "e": 3.64
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_woman_bench",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_friend",
+            "order": 2,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_tree",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.839,
+          0.192,
+          0.161,
+          0.249
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l2_d4",
+        "textEn": "A girl in a yellow helmet is riding her bicycle.",
+        "textKo": "노란 헬멧을 쓴 여자아이가 자전거를 타고 있어요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l2_d4.mp3",
+        "durationMs": 5400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.36
+          },
+          {
+            "w": "girl",
+            "s": 0.36,
+            "e": 0.78
+          },
+          {
+            "w": "in",
+            "s": 0.78,
+            "e": 1.42
+          },
+          {
+            "w": "a",
+            "s": 1.42,
+            "e": 2.14
+          },
+          {
+            "w": "yellow",
+            "s": 2.14,
+            "e": 2.14
+          },
+          {
+            "w": "helmet",
+            "s": 2.14,
+            "e": 2.68
+          },
+          {
+            "w": "is",
+            "s": 2.68,
+            "e": 3.6
+          },
+          {
+            "w": "riding",
+            "s": 3.6,
+            "e": 3.96
+          },
+          {
+            "w": "her",
+            "s": 3.96,
+            "e": 4.5
+          },
+          {
+            "w": "bicycle.",
+            "s": 4.5,
+            "e": 4.94
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_cyclist_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bicycle",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.614,
+          0.218,
+          0.081,
+          0.195
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d2",
+        "textEn": "A golden dog is jumping high in the air.",
+        "textKo": "황금빛 강아지가 공중으로 높이 뛰고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d2.mp3",
+        "durationMs": 5150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "golden",
+            "s": 0.44,
+            "e": 1
+          },
+          {
+            "w": "dog",
+            "s": 1,
+            "e": 1.64
+          },
+          {
+            "w": "is",
+            "s": 1.64,
+            "e": 2.58
+          },
+          {
+            "w": "jumping",
+            "s": 2.58,
+            "e": 2.94
+          },
+          {
+            "w": "high",
+            "s": 2.94,
+            "e": 3.72
+          },
+          {
+            "w": "in",
+            "s": 3.72,
+            "e": 4.4
+          },
+          {
+            "w": "the",
+            "s": 4.4,
+            "e": 4.62
+          },
+          {
+            "w": "air.",
+            "s": 4.62,
+            "e": 4.9
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dog",
+            "order": 1,
+            "anchorWordIndex": 2
+          }
+        ],
+        "box": [
+          0.38,
+          0.28,
+          0.134,
+          0.15
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l2_d1",
+        "textEn": "A man is leaning out of the ice cream truck.",
+        "textKo": "아저씨가 아이스크림 트럭 밖으로 몸을 내밀고 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l2_d1.mp3",
+        "durationMs": 4650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "A",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "man",
+            "s": 0.34,
+            "e": 0.78
+          },
+          {
+            "w": "is",
+            "s": 0.78,
+            "e": 1.46
+          },
+          {
+            "w": "leaning",
+            "s": 1.46,
+            "e": 1.82
+          },
+          {
+            "w": "out",
+            "s": 1.82,
+            "e": 2.38
+          },
+          {
+            "w": "of",
+            "s": 2.38,
+            "e": 2.9
+          },
+          {
+            "w": "the",
+            "s": 2.9,
+            "e": 3.2
+          },
+          {
+            "w": "ice",
+            "s": 3.2,
+            "e": 3.48
+          },
+          {
+            "w": "cream",
+            "s": 3.48,
+            "e": 3.86
+          },
+          {
+            "w": "truck.",
+            "s": 3.86,
+            "e": 4.32
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_truck",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0,
+          0.051,
+          0.188,
+          0.383
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "3": [
+      {
+        "id": "l3_d1",
+        "textEn": "His mom is giving him an ice cream.",
+        "textKo": "엄마가 아이에게 아이스크림을 주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "give",
+        "audio": "audio/l3_d1.mp3",
+        "durationMs": 3650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "His",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "mom",
+            "s": 0.46,
+            "e": 0.88
+          },
+          {
+            "w": "is",
+            "s": 0.88,
+            "e": 1.44
+          },
+          {
+            "w": "giving",
+            "s": 1.44,
+            "e": 1.68
+          },
+          {
+            "w": "him",
+            "s": 1.68,
+            "e": 1.96
+          },
+          {
+            "w": "an",
+            "s": 1.96,
+            "e": 2.44
+          },
+          {
+            "w": "ice",
+            "s": 2.44,
+            "e": 2.74
+          },
+          {
+            "w": "cream.",
+            "s": 2.74,
+            "e": 3.04
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_boy",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_icecream",
+            "order": 3,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.003,
+          0.43,
+          0.247,
+          0.381
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d2",
+        "textEn": "The clown is making the children laugh.",
+        "textKo": "광대가 아이들을 웃게 만들고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "make",
+        "audio": "audio/l3_d2.mp3",
+        "durationMs": 3400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "clown",
+            "s": 0.42,
+            "e": 0.78
+          },
+          {
+            "w": "is",
+            "s": 0.78,
+            "e": 1.38
+          },
+          {
+            "w": "making",
+            "s": 1.38,
+            "e": 1.62
+          },
+          {
+            "w": "the",
+            "s": 1.62,
+            "e": 2.12
+          },
+          {
+            "w": "children",
+            "s": 2.12,
+            "e": 2.38
+          },
+          {
+            "w": "laugh.",
+            "s": 2.38,
+            "e": 2.94
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_kids",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.255,
+          0.45,
+          0.307,
+          0.414
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d13",
+        "textEn": "The children look very excited.",
+        "textKo": "아이들이 아주 신나 보여요.",
+        "pattern": "SVC",
+        "keyExpression": null,
+        "audio": "audio/l3_d13.mp3",
+        "durationMs": 3550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "children",
+            "s": 0.4,
+            "e": 1.04
+          },
+          {
+            "w": "look",
+            "s": 1.04,
+            "e": 1.56
+          },
+          {
+            "w": "very",
+            "s": 1.56,
+            "e": 2.4
+          },
+          {
+            "w": "excited.",
+            "s": 2.4,
+            "e": 3.08
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_kids",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.255,
+          0.586,
+          0.162,
+          0.278
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d3",
+        "textEn": "The clown is handing the girl a balloon dog.",
+        "textKo": "광대가 여자아이에게 풍선 강아지를 건네고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "hand",
+        "audio": "audio/l3_d3.mp3",
+        "durationMs": 4900,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "clown",
+            "s": 0.34,
+            "e": 0.82
+          },
+          {
+            "w": "is",
+            "s": 0.82,
+            "e": 1.66
+          },
+          {
+            "w": "handing",
+            "s": 1.66,
+            "e": 1.96
+          },
+          {
+            "w": "the",
+            "s": 1.96,
+            "e": 2.36
+          },
+          {
+            "w": "girl",
+            "s": 2.36,
+            "e": 2.56
+          },
+          {
+            "w": "a",
+            "s": 2.56,
+            "e": 3.24
+          },
+          {
+            "w": "balloon",
+            "s": 3.24,
+            "e": 3.58
+          },
+          {
+            "w": "dog.",
+            "s": 3.58,
+            "e": 4.04
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_girl_balloon",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_balloon_dog",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.421,
+          0.45,
+          0.242,
+          0.407
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d6",
+        "textEn": "The old man is giving the pigeons some bread.",
+        "textKo": "할아버지가 비둘기들에게 빵을 주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "give",
+        "audio": "audio/l3_d6.mp3",
+        "durationMs": 4600,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "old",
+            "s": 0.3,
+            "e": 0.84
+          },
+          {
+            "w": "man",
+            "s": 0.84,
+            "e": 1.34
+          },
+          {
+            "w": "is",
+            "s": 1.34,
+            "e": 2.04
+          },
+          {
+            "w": "giving",
+            "s": 2.04,
+            "e": 2.34
+          },
+          {
+            "w": "the",
+            "s": 2.34,
+            "e": 2.8
+          },
+          {
+            "w": "pigeons",
+            "s": 2.8,
+            "e": 3.1
+          },
+          {
+            "w": "some",
+            "s": 3.1,
+            "e": 3.86
+          },
+          {
+            "w": "bread.",
+            "s": 3.86,
+            "e": 4.22
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandpa",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_pigeons",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_bread",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.749,
+          0.602,
+          0.244,
+          0.367
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l3_d7",
+        "textEn": "The old man is watching the pigeons eat.",
+        "textKo": "할아버지가 비둘기들이 먹는 걸 보고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "watch",
+        "audio": "audio/l3_d7.mp3",
+        "durationMs": 5100,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.92
+          },
+          {
+            "w": "old",
+            "s": 0.92,
+            "e": 1.46
+          },
+          {
+            "w": "man",
+            "s": 1.46,
+            "e": 2.04
+          },
+          {
+            "w": "is",
+            "s": 2.04,
+            "e": 2.76
+          },
+          {
+            "w": "watching",
+            "s": 2.76,
+            "e": 3.2
+          },
+          {
+            "w": "the",
+            "s": 3.2,
+            "e": 3.76
+          },
+          {
+            "w": "pigeons",
+            "s": 3.76,
+            "e": 4.02
+          },
+          {
+            "w": "eat.",
+            "s": 4.02,
+            "e": 4.66
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandpa",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_pigeons",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.725,
+          0.612,
+          0.268,
+          0.357
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l3_d9",
+        "textEn": "The music makes the little boy dance.",
+        "textKo": "음악이 어린 남자아이를 춤추게 해요.",
+        "pattern": "SVOC",
+        "keyExpression": "make",
+        "audio": "audio/l3_d9.mp3",
+        "durationMs": 3850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.28
+          },
+          {
+            "w": "music",
+            "s": 0.28,
+            "e": 0.82
+          },
+          {
+            "w": "makes",
+            "s": 0.82,
+            "e": 1.46
+          },
+          {
+            "w": "the",
+            "s": 1.46,
+            "e": 1.92
+          },
+          {
+            "w": "little",
+            "s": 1.92,
+            "e": 2.1
+          },
+          {
+            "w": "boy",
+            "s": 2.1,
+            "e": 2.52
+          },
+          {
+            "w": "dance.",
+            "s": 2.52,
+            "e": 3.26
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_musician",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_toddler",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.747,
+          0.331,
+          0.235,
+          0.287
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d10",
+        "textEn": "The woman is telling her friend a funny story.",
+        "textKo": "여자가 친구에게 재미있는 이야기를 하고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "tell",
+        "audio": "audio/l3_d10.mp3",
+        "durationMs": 4650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.4
+          },
+          {
+            "w": "woman",
+            "s": 0.4,
+            "e": 0.8
+          },
+          {
+            "w": "is",
+            "s": 0.8,
+            "e": 1.54
+          },
+          {
+            "w": "telling",
+            "s": 1.54,
+            "e": 1.72
+          },
+          {
+            "w": "her",
+            "s": 1.72,
+            "e": 2.12
+          },
+          {
+            "w": "friend",
+            "s": 2.12,
+            "e": 2.5
+          },
+          {
+            "w": "a",
+            "s": 2.5,
+            "e": 3.38
+          },
+          {
+            "w": "funny",
+            "s": 3.38,
+            "e": 3.64
+          },
+          {
+            "w": "story.",
+            "s": 3.64,
+            "e": 4.16
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_woman_bench",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_friend",
+            "order": 2,
+            "anchorWordIndex": 5
+          }
+        ],
+        "box": [
+          0.838,
+          0.212,
+          0.149,
+          0.229
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d4",
+        "textEn": "Her dad is watching her ride the bicycle.",
+        "textKo": "아빠가 딸이 자전거 타는 걸 지켜보고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "watch",
+        "audio": "audio/l3_d4.mp3",
+        "durationMs": 3750,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Her",
+            "s": 0,
+            "e": 0.46
+          },
+          {
+            "w": "dad",
+            "s": 0.46,
+            "e": 0.94
+          },
+          {
+            "w": "is",
+            "s": 0.94,
+            "e": 1.46
+          },
+          {
+            "w": "watching",
+            "s": 1.46,
+            "e": 1.94
+          },
+          {
+            "w": "her",
+            "s": 1.94,
+            "e": 2.36
+          },
+          {
+            "w": "ride",
+            "s": 2.36,
+            "e": 2.76
+          },
+          {
+            "w": "the",
+            "s": 2.76,
+            "e": 3.24
+          },
+          {
+            "w": "bicycle.",
+            "s": 3.24,
+            "e": 3.42
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_cyclist_girl",
+            "order": 2,
+            "anchorWordIndex": 4
+          },
+          {
+            "targetId": "t_bicycle",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.614,
+          0.133,
+          0.15,
+          0.28
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d11",
+        "textEn": "The dad is standing behind the bicycle because he wants to help.",
+        "textKo": "아빠가 도와주고 싶어서 자전거 뒤에 서 있어요.",
+        "pattern": "SV",
+        "keyExpression": null,
+        "audio": "audio/l3_d11.mp3",
+        "durationMs": 6450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.3
+          },
+          {
+            "w": "dad",
+            "s": 0.3,
+            "e": 0.72
+          },
+          {
+            "w": "is",
+            "s": 0.72,
+            "e": 1.3
+          },
+          {
+            "w": "standing",
+            "s": 1.3,
+            "e": 1.86
+          },
+          {
+            "w": "behind",
+            "s": 1.86,
+            "e": 2.54
+          },
+          {
+            "w": "the",
+            "s": 2.54,
+            "e": 3.36
+          },
+          {
+            "w": "bicycle",
+            "s": 3.36,
+            "e": 3.36
+          },
+          {
+            "w": "because",
+            "s": 3.36,
+            "e": 4.26
+          },
+          {
+            "w": "he",
+            "s": 4.26,
+            "e": 4.72
+          },
+          {
+            "w": "wants",
+            "s": 4.72,
+            "e": 5.04
+          },
+          {
+            "w": "to",
+            "s": 5.04,
+            "e": 5.46
+          },
+          {
+            "w": "help.",
+            "s": 5.46,
+            "e": 5.74
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_bicycle",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.614,
+          0.133,
+          0.15,
+          0.28
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d5",
+        "textEn": "The boy is throwing his dog a frisbee.",
+        "textKo": "소년이 강아지에게 원반을 던져주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "throw",
+        "audio": "audio/l3_d5.mp3",
+        "durationMs": 4150,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.62
+          },
+          {
+            "w": "boy",
+            "s": 0.62,
+            "e": 0.96
+          },
+          {
+            "w": "is",
+            "s": 0.96,
+            "e": 1.76
+          },
+          {
+            "w": "throwing",
+            "s": 1.76,
+            "e": 2.16
+          },
+          {
+            "w": "his",
+            "s": 2.16,
+            "e": 2.52
+          },
+          {
+            "w": "dog",
+            "s": 2.52,
+            "e": 2.98
+          },
+          {
+            "w": "a",
+            "s": 2.98,
+            "e": 3.62
+          },
+          {
+            "w": "frisbee.",
+            "s": 3.62,
+            "e": 3.92
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_frisbee_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_dog",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_frisbee",
+            "order": 3,
+            "anchorWordIndex": 7
+          }
+        ],
+        "box": [
+          0.236,
+          0.251,
+          0.278,
+          0.187
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d12",
+        "textEn": "The dog catches the frisbee with its mouth.",
+        "textKo": "강아지가 입으로 원반을 잡아요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l3_d12.mp3",
+        "durationMs": 4850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.38
+          },
+          {
+            "w": "dog",
+            "s": 0.38,
+            "e": 0.94
+          },
+          {
+            "w": "catches",
+            "s": 0.94,
+            "e": 1.76
+          },
+          {
+            "w": "the",
+            "s": 1.76,
+            "e": 2.18
+          },
+          {
+            "w": "frisbee",
+            "s": 2.18,
+            "e": 2.66
+          },
+          {
+            "w": "with",
+            "s": 2.66,
+            "e": 3.48
+          },
+          {
+            "w": "its",
+            "s": 3.48,
+            "e": 3.82
+          },
+          {
+            "w": "mouth.",
+            "s": 3.82,
+            "e": 4.24
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dog",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_frisbee",
+            "order": 2,
+            "anchorWordIndex": 4
+          }
+        ],
+        "box": [
+          0.359,
+          0.262,
+          0.155,
+          0.168
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l3_d8",
+        "textEn": "The vendor is selling the girl an ice cream cup.",
+        "textKo": "상인이 여자아이에게 컵 아이스크림을 팔고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "sell",
+        "audio": "audio/l3_d8.mp3",
+        "durationMs": 4900,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "vendor",
+            "s": 0.44,
+            "e": 0.96
+          },
+          {
+            "w": "is",
+            "s": 0.96,
+            "e": 1.62
+          },
+          {
+            "w": "selling",
+            "s": 1.62,
+            "e": 1.96
+          },
+          {
+            "w": "the",
+            "s": 1.96,
+            "e": 2.38
+          },
+          {
+            "w": "girl",
+            "s": 2.38,
+            "e": 2.62
+          },
+          {
+            "w": "an",
+            "s": 2.62,
+            "e": 3.5
+          },
+          {
+            "w": "ice",
+            "s": 3.5,
+            "e": 3.8
+          },
+          {
+            "w": "cream",
+            "s": 3.8,
+            "e": 4.14
+          },
+          {
+            "w": "cup.",
+            "s": 4.14,
+            "e": 4.52
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_girl_cup",
+            "order": 2,
+            "anchorWordIndex": 5
+          },
+          {
+            "targetId": "t_ice_cup",
+            "order": 3,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.045,
+          0.127,
+          0.123,
+          0.311
+        ],
+        "boxSource": "union"
+      }
+    ],
+    "4": [
+      {
+        "id": "l4_d1",
+        "textEn": "His mother, smiling warmly, is giving him an ice cream she has just bought.",
+        "textKo": "따뜻하게 웃으며 엄마가 방금 산 아이스크림을 아이에게 주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "give",
+        "audio": "audio/l4_d1.mp3",
+        "durationMs": 7050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "His",
+            "s": 0,
+            "e": 0.42
+          },
+          {
+            "w": "mother,",
+            "s": 0.42,
+            "e": 0.86
+          },
+          {
+            "w": "smiling",
+            "s": 1.38,
+            "e": 1.82
+          },
+          {
+            "w": "warmly,",
+            "s": 1.82,
+            "e": 2.5
+          },
+          {
+            "w": "is",
+            "s": 3.08,
+            "e": 3.3
+          },
+          {
+            "w": "giving",
+            "s": 3.3,
+            "e": 3.58
+          },
+          {
+            "w": "him",
+            "s": 3.58,
+            "e": 3.84
+          },
+          {
+            "w": "an",
+            "s": 3.84,
+            "e": 4.3
+          },
+          {
+            "w": "ice",
+            "s": 4.3,
+            "e": 4.46
+          },
+          {
+            "w": "cream",
+            "s": 4.46,
+            "e": 4.76
+          },
+          {
+            "w": "she",
+            "s": 4.76,
+            "e": 5.26
+          },
+          {
+            "w": "has",
+            "s": 5.26,
+            "e": 5.54
+          },
+          {
+            "w": "just",
+            "s": 5.54,
+            "e": 6.26
+          },
+          {
+            "w": "bought.",
+            "s": 6.26,
+            "e": 6.56
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_mom",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_boy",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_icecream",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.003,
+          0.43,
+          0.247,
+          0.381
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d14",
+        "textEn": "The little boy holding out both hands looks as if he cannot wait to taste his ice cream.",
+        "textKo": "두 손을 내민 남자아이는 아이스크림을 빨리 먹어보고 싶은 것처럼 보여요.",
+        "pattern": "SVC",
+        "keyExpression": null,
+        "audio": "audio/l4_d14.mp3",
+        "durationMs": 7750,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.28
+          },
+          {
+            "w": "little",
+            "s": 0.28,
+            "e": 0.6
+          },
+          {
+            "w": "boy",
+            "s": 0.6,
+            "e": 1.18
+          },
+          {
+            "w": "holding",
+            "s": 1.36,
+            "e": 1.72
+          },
+          {
+            "w": "out",
+            "s": 1.72,
+            "e": 2.12
+          },
+          {
+            "w": "both",
+            "s": 2.12,
+            "e": 2.46
+          },
+          {
+            "w": "hands",
+            "s": 2.46,
+            "e": 3.02
+          },
+          {
+            "w": "looks",
+            "s": 3.96,
+            "e": 4
+          },
+          {
+            "w": "as",
+            "s": 4,
+            "e": 4.34
+          },
+          {
+            "w": "if",
+            "s": 4.34,
+            "e": 4.56
+          },
+          {
+            "w": "he",
+            "s": 4.56,
+            "e": 4.82
+          },
+          {
+            "w": "cannot",
+            "s": 4.82,
+            "e": 5.18
+          },
+          {
+            "w": "wait",
+            "s": 5.18,
+            "e": 5.76
+          },
+          {
+            "w": "to",
+            "s": 5.76,
+            "e": 6.56
+          },
+          {
+            "w": "taste",
+            "s": 6.56,
+            "e": 6.56
+          },
+          {
+            "w": "his",
+            "s": 6.56,
+            "e": 6.92
+          },
+          {
+            "w": "ice",
+            "s": 6.92,
+            "e": 7.12
+          },
+          {
+            "w": "cream.",
+            "s": 7.12,
+            "e": 7.32
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_boy",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_icecream",
+            "order": 2,
+            "anchorWordIndex": 16
+          }
+        ],
+        "box": [
+          0.132,
+          0.524,
+          0.118,
+          0.287
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d2",
+        "textEn": "The clown in the blue hat is making the two children laugh out loud.",
+        "textKo": "파란 모자를 쓴 광대가 아이 둘을 크게 웃게 만들고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "make",
+        "audio": "audio/l4_d2.mp3",
+        "durationMs": 6050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.64
+          },
+          {
+            "w": "clown",
+            "s": 0.64,
+            "e": 1.06
+          },
+          {
+            "w": "in",
+            "s": 1.06,
+            "e": 1.34
+          },
+          {
+            "w": "the",
+            "s": 1.34,
+            "e": 1.6
+          },
+          {
+            "w": "blue",
+            "s": 1.6,
+            "e": 1.88
+          },
+          {
+            "w": "hat",
+            "s": 1.88,
+            "e": 2.26
+          },
+          {
+            "w": "is",
+            "s": 2.26,
+            "e": 2.88
+          },
+          {
+            "w": "making",
+            "s": 2.88,
+            "e": 3.18
+          },
+          {
+            "w": "the",
+            "s": 3.18,
+            "e": 3.5
+          },
+          {
+            "w": "two",
+            "s": 3.5,
+            "e": 3.86
+          },
+          {
+            "w": "children",
+            "s": 3.86,
+            "e": 4.36
+          },
+          {
+            "w": "laugh",
+            "s": 4.36,
+            "e": 4.92
+          },
+          {
+            "w": "out",
+            "s": 4.92,
+            "e": 5.38
+          },
+          {
+            "w": "loud.",
+            "s": 5.38,
+            "e": 5.62
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_kids",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.255,
+          0.45,
+          0.307,
+          0.414
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d3",
+        "textEn": "He is also handing a little girl a balloon dog that he has just twisted.",
+        "textKo": "그는 방금 비틀어 만든 풍선 강아지를 어린 여자아이에게 건네고 있기도 해요.",
+        "pattern": "SVOO",
+        "keyExpression": "hand",
+        "audio": "audio/l4_d3.mp3",
+        "durationMs": 7400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He",
+            "s": 0,
+            "e": 0.7
+          },
+          {
+            "w": "is",
+            "s": 0.7,
+            "e": 1.12
+          },
+          {
+            "w": "also",
+            "s": 1.12,
+            "e": 1.76
+          },
+          {
+            "w": "handing",
+            "s": 1.76,
+            "e": 2.12
+          },
+          {
+            "w": "a",
+            "s": 2.12,
+            "e": 2.56
+          },
+          {
+            "w": "little",
+            "s": 2.56,
+            "e": 2.86
+          },
+          {
+            "w": "girl",
+            "s": 2.86,
+            "e": 3.26
+          },
+          {
+            "w": "a",
+            "s": 3.26,
+            "e": 3.9
+          },
+          {
+            "w": "balloon",
+            "s": 3.9,
+            "e": 4.24
+          },
+          {
+            "w": "dog",
+            "s": 4.24,
+            "e": 4.66
+          },
+          {
+            "w": "that",
+            "s": 4.66,
+            "e": 5.2
+          },
+          {
+            "w": "he",
+            "s": 5.2,
+            "e": 5.4
+          },
+          {
+            "w": "has",
+            "s": 5.4,
+            "e": 5.7
+          },
+          {
+            "w": "just",
+            "s": 5.7,
+            "e": 6.46
+          },
+          {
+            "w": "twisted.",
+            "s": 6.46,
+            "e": 6.82
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_clown",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_girl_balloon",
+            "order": 2,
+            "anchorWordIndex": 6
+          },
+          {
+            "targetId": "t_balloon_dog",
+            "order": 3,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.421,
+          0.45,
+          0.242,
+          0.407
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d7",
+        "textEn": "The old man sitting on the bench is giving the pigeons some bread crumbs.",
+        "textKo": "벤치에 앉은 할아버지가 비둘기들에게 빵 부스러기를 주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "give",
+        "audio": "audio/l4_d7.mp3",
+        "durationMs": 7550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.52
+          },
+          {
+            "w": "old",
+            "s": 0.52,
+            "e": 1.04
+          },
+          {
+            "w": "man",
+            "s": 1.04,
+            "e": 1.58
+          },
+          {
+            "w": "sitting",
+            "s": 1.58,
+            "e": 2.2
+          },
+          {
+            "w": "on",
+            "s": 2.2,
+            "e": 2.46
+          },
+          {
+            "w": "the",
+            "s": 2.46,
+            "e": 2.96
+          },
+          {
+            "w": "bench",
+            "s": 2.96,
+            "e": 3.04
+          },
+          {
+            "w": "is",
+            "s": 3.04,
+            "e": 3.92
+          },
+          {
+            "w": "giving",
+            "s": 3.92,
+            "e": 4.28
+          },
+          {
+            "w": "the",
+            "s": 4.28,
+            "e": 4.72
+          },
+          {
+            "w": "pigeons",
+            "s": 4.72,
+            "e": 5.36
+          },
+          {
+            "w": "some",
+            "s": 5.36,
+            "e": 6.28
+          },
+          {
+            "w": "bread",
+            "s": 6.28,
+            "e": 7.24
+          },
+          {
+            "w": "crumbs.",
+            "s": 6.28,
+            "e": 7.24
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandpa",
+            "order": 1,
+            "anchorWordIndex": 2
+          },
+          {
+            "targetId": "t_pigeons",
+            "order": 2,
+            "anchorWordIndex": 10
+          },
+          {
+            "targetId": "t_bread",
+            "order": 3,
+            "anchorWordIndex": 12
+          }
+        ],
+        "box": [
+          0.722,
+          0.616,
+          0.271,
+          0.348
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l4_d8",
+        "textEn": "He is watching them eat as if he does this every afternoon.",
+        "textKo": "그는 매일 오후 이러는 것처럼 비둘기들이 먹는 걸 보고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "watch",
+        "audio": "audio/l4_d8.mp3",
+        "durationMs": 6000,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He",
+            "s": 0,
+            "e": 0.5
+          },
+          {
+            "w": "is",
+            "s": 0.5,
+            "e": 1.02
+          },
+          {
+            "w": "watching",
+            "s": 1.02,
+            "e": 1.56
+          },
+          {
+            "w": "them",
+            "s": 1.56,
+            "e": 1.92
+          },
+          {
+            "w": "eat",
+            "s": 1.92,
+            "e": 2.46
+          },
+          {
+            "w": "as",
+            "s": 2.46,
+            "e": 3.1
+          },
+          {
+            "w": "if",
+            "s": 3.1,
+            "e": 3.38
+          },
+          {
+            "w": "he",
+            "s": 3.38,
+            "e": 3.6
+          },
+          {
+            "w": "does",
+            "s": 3.6,
+            "e": 3.92
+          },
+          {
+            "w": "this",
+            "s": 3.92,
+            "e": 4.44
+          },
+          {
+            "w": "every",
+            "s": 4.44,
+            "e": 5.08
+          },
+          {
+            "w": "afternoon.",
+            "s": 5.08,
+            "e": 5.68
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_grandpa",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_pigeons",
+            "order": 2,
+            "anchorWordIndex": 3
+          }
+        ],
+        "box": [
+          0.7,
+          0.616,
+          0.293,
+          0.353
+        ],
+        "boxSource": "manual"
+      },
+      {
+        "id": "l4_d10",
+        "textEn": "The guitar music seems to make the little boy dance without any shyness.",
+        "textKo": "기타 음악이 어린 남자아이를 부끄럼 없이 춤추게 만드는 것 같아요.",
+        "pattern": "SVOC",
+        "keyExpression": "make",
+        "audio": "audio/l4_d10.mp3",
+        "durationMs": 5850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.26
+          },
+          {
+            "w": "guitar",
+            "s": 0.26,
+            "e": 0.6
+          },
+          {
+            "w": "music",
+            "s": 0.6,
+            "e": 1.18
+          },
+          {
+            "w": "seems",
+            "s": 1.18,
+            "e": 1.86
+          },
+          {
+            "w": "to",
+            "s": 1.86,
+            "e": 2.22
+          },
+          {
+            "w": "make",
+            "s": 2.22,
+            "e": 2.3
+          },
+          {
+            "w": "the",
+            "s": 2.3,
+            "e": 2.58
+          },
+          {
+            "w": "little",
+            "s": 2.58,
+            "e": 2.8
+          },
+          {
+            "w": "boy",
+            "s": 2.8,
+            "e": 3.1
+          },
+          {
+            "w": "dance",
+            "s": 3.1,
+            "e": 3.66
+          },
+          {
+            "w": "without",
+            "s": 3.66,
+            "e": 4.2
+          },
+          {
+            "w": "any",
+            "s": 4.2,
+            "e": 4.82
+          },
+          {
+            "w": "shyness.",
+            "s": 4.82,
+            "e": 5.32
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_musician",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_toddler",
+            "order": 2,
+            "anchorWordIndex": 8
+          }
+        ],
+        "box": [
+          0.747,
+          0.331,
+          0.235,
+          0.287
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d11",
+        "textEn": "The woman sitting under the tree is telling her friend a funny story.",
+        "textKo": "나무 아래 앉은 여자가 친구에게 재미있는 이야기를 하고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "tell",
+        "audio": "audio/l4_d11.mp3",
+        "durationMs": 6850,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "woman",
+            "s": 0.44,
+            "e": 1.08
+          },
+          {
+            "w": "sitting",
+            "s": 1.08,
+            "e": 1.8
+          },
+          {
+            "w": "under",
+            "s": 1.8,
+            "e": 2.22
+          },
+          {
+            "w": "the",
+            "s": 2.22,
+            "e": 2.88
+          },
+          {
+            "w": "tree",
+            "s": 2.88,
+            "e": 2.88
+          },
+          {
+            "w": "is",
+            "s": 2.88,
+            "e": 3.9
+          },
+          {
+            "w": "telling",
+            "s": 3.9,
+            "e": 4.22
+          },
+          {
+            "w": "her",
+            "s": 4.22,
+            "e": 4.64
+          },
+          {
+            "w": "friend",
+            "s": 4.64,
+            "e": 5.02
+          },
+          {
+            "w": "a",
+            "s": 5.02,
+            "e": 5.74
+          },
+          {
+            "w": "funny",
+            "s": 5.74,
+            "e": 6
+          },
+          {
+            "w": "story.",
+            "s": 6,
+            "e": 6.54
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_woman_bench",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_friend",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.838,
+          0.212,
+          0.149,
+          0.229
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d12",
+        "textEn": "It must be a good one, because it is making her friend cover her mouth and laugh.",
+        "textKo": "꽤 재미있는 이야기인가 봐요. 친구가 입을 가리고 웃게 만들고 있거든요.",
+        "pattern": "SVOC",
+        "keyExpression": "make",
+        "audio": "audio/l4_d12.mp3",
+        "durationMs": 7550,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "It",
+            "s": 0,
+            "e": 0.16
+          },
+          {
+            "w": "must",
+            "s": 0.16,
+            "e": 0.64
+          },
+          {
+            "w": "be",
+            "s": 0.64,
+            "e": 0.92
+          },
+          {
+            "w": "a",
+            "s": 0.92,
+            "e": 1.3
+          },
+          {
+            "w": "good",
+            "s": 1.3,
+            "e": 1.42
+          },
+          {
+            "w": "one,",
+            "s": 1.42,
+            "e": 1.78
+          },
+          {
+            "w": "because",
+            "s": 1.78,
+            "e": 2.58
+          },
+          {
+            "w": "it",
+            "s": 2.58,
+            "e": 2.88
+          },
+          {
+            "w": "is",
+            "s": 2.88,
+            "e": 3.14
+          },
+          {
+            "w": "making",
+            "s": 3.14,
+            "e": 3.46
+          },
+          {
+            "w": "her",
+            "s": 3.46,
+            "e": 3.94
+          },
+          {
+            "w": "friend",
+            "s": 3.94,
+            "e": 4.38
+          },
+          {
+            "w": "cover",
+            "s": 4.38,
+            "e": 5.1
+          },
+          {
+            "w": "her",
+            "s": 5.1,
+            "e": 5.92
+          },
+          {
+            "w": "mouth",
+            "s": 5.92,
+            "e": 5.92
+          },
+          {
+            "w": "and",
+            "s": 5.92,
+            "e": 6.58
+          },
+          {
+            "w": "laugh.",
+            "s": 6.58,
+            "e": 6.98
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_friend",
+            "order": 1,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.923,
+          0.214,
+          0.064,
+          0.227
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d4",
+        "textEn": "The father standing behind the bicycle is watching his daughter ride by herself. He looks proud and excited.",
+        "textKo": "자전거 뒤에 선 아빠가 딸이 혼자 타는 걸 지켜보고 있어요. 뿌듯하고 신나 보여요.",
+        "pattern": "SVOC",
+        "keyExpression": "watch",
+        "audio": "audio/l4_d4.mp3",
+        "durationMs": 9650,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.32
+          },
+          {
+            "w": "father",
+            "s": 0.32,
+            "e": 0.78
+          },
+          {
+            "w": "standing",
+            "s": 0.78,
+            "e": 1.44
+          },
+          {
+            "w": "behind",
+            "s": 1.44,
+            "e": 1.92
+          },
+          {
+            "w": "the",
+            "s": 1.92,
+            "e": 2.62
+          },
+          {
+            "w": "bicycle",
+            "s": 2.62,
+            "e": 2.62
+          },
+          {
+            "w": "is",
+            "s": 2.62,
+            "e": 3.34
+          },
+          {
+            "w": "watching",
+            "s": 3.34,
+            "e": 3.8
+          },
+          {
+            "w": "his",
+            "s": 3.8,
+            "e": 4.26
+          },
+          {
+            "w": "daughter",
+            "s": 4.26,
+            "e": 4.62
+          },
+          {
+            "w": "ride",
+            "s": 4.62,
+            "e": 5.2
+          },
+          {
+            "w": "by",
+            "s": 5.2,
+            "e": 5.54
+          },
+          {
+            "w": "herself.",
+            "s": 5.54,
+            "e": 6.2
+          },
+          {
+            "w": "He",
+            "s": 7.16,
+            "e": 7.44
+          },
+          {
+            "w": "looks",
+            "s": 7.44,
+            "e": 7.74
+          },
+          {
+            "w": "proud",
+            "s": 7.74,
+            "e": 8.4
+          },
+          {
+            "w": "and",
+            "s": 8.4,
+            "e": 9.06
+          },
+          {
+            "w": "excited.",
+            "s": 9.06,
+            "e": 9.44
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dad",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_cyclist_girl",
+            "order": 2,
+            "anchorWordIndex": 9
+          }
+        ],
+        "box": [
+          0.617,
+          0.133,
+          0.147,
+          0.247
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d13",
+        "textEn": "The girl in the yellow helmet keeps her eyes straight ahead as she rides.",
+        "textKo": "노란 헬멧을 쓴 여자아이는 타는 동안 시선을 앞으로 고정하고 있어요.",
+        "pattern": "SVOC",
+        "keyExpression": "keep",
+        "audio": "audio/l4_d13.mp3",
+        "durationMs": 8400,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.44
+          },
+          {
+            "w": "girl",
+            "s": 0.44,
+            "e": 0.96
+          },
+          {
+            "w": "in",
+            "s": 0.96,
+            "e": 1.54
+          },
+          {
+            "w": "the",
+            "s": 1.54,
+            "e": 2.32
+          },
+          {
+            "w": "yellow",
+            "s": 2.32,
+            "e": 2.32
+          },
+          {
+            "w": "helmet",
+            "s": 2.32,
+            "e": 2.84
+          },
+          {
+            "w": "keeps",
+            "s": 2.84,
+            "e": 3.92
+          },
+          {
+            "w": "her",
+            "s": 3.92,
+            "e": 4.34
+          },
+          {
+            "w": "eyes",
+            "s": 4.34,
+            "e": 4.94
+          },
+          {
+            "w": "straight",
+            "s": 4.94,
+            "e": 5.84
+          },
+          {
+            "w": "ahead",
+            "s": 5.84,
+            "e": 6.42
+          },
+          {
+            "w": "as",
+            "s": 6.42,
+            "e": 7.12
+          },
+          {
+            "w": "she",
+            "s": 7.12,
+            "e": 7.4
+          },
+          {
+            "w": "rides.",
+            "s": 7.4,
+            "e": 7.86
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_cyclist_girl",
+            "order": 1,
+            "anchorWordIndex": 1
+          }
+        ],
+        "box": [
+          0.617,
+          0.218,
+          0.066,
+          0.162
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d5",
+        "textEn": "The boy wearing a blue cap is throwing his dog a frisbee.",
+        "textKo": "파란 모자를 쓴 소년이 강아지에게 원반을 던져주고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "throw",
+        "audio": "audio/l4_d5.mp3",
+        "durationMs": 5950,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.48
+          },
+          {
+            "w": "boy",
+            "s": 0.48,
+            "e": 0.98
+          },
+          {
+            "w": "wearing",
+            "s": 0.98,
+            "e": 1.66
+          },
+          {
+            "w": "a",
+            "s": 1.66,
+            "e": 1.98
+          },
+          {
+            "w": "blue",
+            "s": 1.98,
+            "e": 2.28
+          },
+          {
+            "w": "cap",
+            "s": 2.28,
+            "e": 2.78
+          },
+          {
+            "w": "is",
+            "s": 2.78,
+            "e": 3.54
+          },
+          {
+            "w": "throwing",
+            "s": 3.54,
+            "e": 3.86
+          },
+          {
+            "w": "his",
+            "s": 3.86,
+            "e": 4.32
+          },
+          {
+            "w": "dog",
+            "s": 4.32,
+            "e": 4.7
+          },
+          {
+            "w": "a",
+            "s": 4.7,
+            "e": 5.44
+          },
+          {
+            "w": "frisbee.",
+            "s": 5.44,
+            "e": 5.74
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_frisbee_boy",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_dog",
+            "order": 2,
+            "anchorWordIndex": 9
+          },
+          {
+            "targetId": "t_frisbee",
+            "order": 3,
+            "anchorWordIndex": 11
+          }
+        ],
+        "box": [
+          0.236,
+          0.251,
+          0.278,
+          0.187
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d6",
+        "textEn": "He seems to have taught the dog to catch it in the air.",
+        "textKo": "그는 강아지에게 공중에서 받는 법을 가르친 것 같아요.",
+        "pattern": "SVOC",
+        "keyExpression": "teach",
+        "audio": "audio/l4_d6.mp3",
+        "durationMs": 5350,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "He",
+            "s": 0,
+            "e": 0.6
+          },
+          {
+            "w": "seems",
+            "s": 0.6,
+            "e": 1.2
+          },
+          {
+            "w": "to",
+            "s": 1.2,
+            "e": 1.52
+          },
+          {
+            "w": "have",
+            "s": 1.52,
+            "e": 1.76
+          },
+          {
+            "w": "taught",
+            "s": 1.76,
+            "e": 2.12
+          },
+          {
+            "w": "the",
+            "s": 2.12,
+            "e": 2.44
+          },
+          {
+            "w": "dog",
+            "s": 2.44,
+            "e": 2.8
+          },
+          {
+            "w": "to",
+            "s": 2.8,
+            "e": 3.2
+          },
+          {
+            "w": "catch",
+            "s": 3.2,
+            "e": 3.52
+          },
+          {
+            "w": "it",
+            "s": 3.52,
+            "e": 3.84
+          },
+          {
+            "w": "in",
+            "s": 3.84,
+            "e": 4.18
+          },
+          {
+            "w": "the",
+            "s": 4.18,
+            "e": 4.42
+          },
+          {
+            "w": "air.",
+            "s": 4.42,
+            "e": 4.78
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_frisbee_boy",
+            "order": 1,
+            "anchorWordIndex": 0
+          },
+          {
+            "targetId": "t_dog",
+            "order": 2,
+            "anchorWordIndex": 6
+          }
+        ],
+        "box": [
+          0.236,
+          0.251,
+          0.278,
+          0.187
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d15",
+        "textEn": "The dog, which has not stopped running, is chasing the frisbee across the grass.",
+        "textKo": "쉬지 않고 달려온 강아지가 잔디밭을 가로질러 원반을 쫓고 있어요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l4_d15.mp3",
+        "durationMs": 8050,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.34
+          },
+          {
+            "w": "dog,",
+            "s": 0.34,
+            "e": 1.02
+          },
+          {
+            "w": "which",
+            "s": 1.24,
+            "e": 1.88
+          },
+          {
+            "w": "has",
+            "s": 1.88,
+            "e": 2.26
+          },
+          {
+            "w": "not",
+            "s": 2.26,
+            "e": 2.74
+          },
+          {
+            "w": "stopped",
+            "s": 2.74,
+            "e": 3.12
+          },
+          {
+            "w": "running,",
+            "s": 3.12,
+            "e": 3.54
+          },
+          {
+            "w": "is",
+            "s": 3.88,
+            "e": 4.6
+          },
+          {
+            "w": "chasing",
+            "s": 4.6,
+            "e": 5.02
+          },
+          {
+            "w": "the",
+            "s": 5.02,
+            "e": 5.86
+          },
+          {
+            "w": "frisbee",
+            "s": 5.86,
+            "e": 5.96
+          },
+          {
+            "w": "across",
+            "s": 5.96,
+            "e": 6.7
+          },
+          {
+            "w": "the",
+            "s": 6.7,
+            "e": 7.42
+          },
+          {
+            "w": "grass.",
+            "s": 7.42,
+            "e": 7.42
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_dog",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_frisbee",
+            "order": 2,
+            "anchorWordIndex": 10
+          }
+        ],
+        "box": [
+          0.359,
+          0.262,
+          0.155,
+          0.168
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d9",
+        "textEn": "The vendor leaning out of the truck window is selling a girl an ice cream cup.",
+        "textKo": "트럭 창밖으로 몸을 내민 상인이 여자아이에게 컵 아이스크림을 팔고 있어요.",
+        "pattern": "SVOO",
+        "keyExpression": "sell",
+        "audio": "audio/l4_d9.mp3",
+        "durationMs": 7800,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "The",
+            "s": 0,
+            "e": 0.26
+          },
+          {
+            "w": "vendor",
+            "s": 0.26,
+            "e": 0.72
+          },
+          {
+            "w": "leaning",
+            "s": 0.72,
+            "e": 1.46
+          },
+          {
+            "w": "out",
+            "s": 1.46,
+            "e": 1.74
+          },
+          {
+            "w": "of",
+            "s": 1.74,
+            "e": 1.92
+          },
+          {
+            "w": "the",
+            "s": 1.92,
+            "e": 2.12
+          },
+          {
+            "w": "truck",
+            "s": 2.12,
+            "e": 2.44
+          },
+          {
+            "w": "window",
+            "s": 2.44,
+            "e": 3
+          },
+          {
+            "w": "is",
+            "s": 3,
+            "e": 4.12
+          },
+          {
+            "w": "selling",
+            "s": 4.12,
+            "e": 4.4
+          },
+          {
+            "w": "a",
+            "s": 4.4,
+            "e": 5.24
+          },
+          {
+            "w": "girl",
+            "s": 5.24,
+            "e": 5.24
+          },
+          {
+            "w": "an",
+            "s": 5.24,
+            "e": 6.3
+          },
+          {
+            "w": "ice",
+            "s": 6.3,
+            "e": 6.48
+          },
+          {
+            "w": "cream",
+            "s": 6.48,
+            "e": 6.74
+          },
+          {
+            "w": "cup.",
+            "s": 6.74,
+            "e": 7.1
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_vendor",
+            "order": 1,
+            "anchorWordIndex": 1
+          },
+          {
+            "targetId": "t_girl_cup",
+            "order": 2,
+            "anchorWordIndex": 11
+          },
+          {
+            "targetId": "t_ice_cup",
+            "order": 3,
+            "anchorWordIndex": 15
+          }
+        ],
+        "box": [
+          0.045,
+          0.127,
+          0.123,
+          0.311
+        ],
+        "boxSource": "union"
+      },
+      {
+        "id": "l4_d16",
+        "textEn": "Everyone in the park seems to be enjoying the sunny afternoon.",
+        "textKo": "공원에 있는 모두가 화창한 오후를 즐기고 있는 것 같아요.",
+        "pattern": "SVO",
+        "keyExpression": null,
+        "audio": "audio/l4_d16.mp3",
+        "durationMs": 5450,
+        "alignStatus": "ok",
+        "words": [
+          {
+            "w": "Everyone",
+            "s": 0,
+            "e": 0.66
+          },
+          {
+            "w": "in",
+            "s": 0.66,
+            "e": 1.14
+          },
+          {
+            "w": "the",
+            "s": 1.14,
+            "e": 1.74
+          },
+          {
+            "w": "park",
+            "s": 1.74,
+            "e": 1.74
+          },
+          {
+            "w": "seems",
+            "s": 1.74,
+            "e": 2.44
+          },
+          {
+            "w": "to",
+            "s": 2.44,
+            "e": 2.64
+          },
+          {
+            "w": "be",
+            "s": 2.64,
+            "e": 2.98
+          },
+          {
+            "w": "enjoying",
+            "s": 2.98,
+            "e": 3.4
+          },
+          {
+            "w": "the",
+            "s": 3.4,
+            "e": 3.98
+          },
+          {
+            "w": "sunny",
+            "s": 3.98,
+            "e": 4.22
+          },
+          {
+            "w": "afternoon.",
+            "s": 4.22,
+            "e": 4.88
+          }
+        ],
+        "highlights": [
+          {
+            "targetId": "t_tree",
+            "order": 1,
+            "anchorWordIndex": 0
+          }
+        ],
+        "box": [
+          0.546,
+          0,
+          0.454,
+          0.436
+        ],
+        "boxSource": "union"
+      }
+    ]
+  },
+  "prompts": {
+    "nudge": {
+      "text": "다 말했으면 다음을 눌러요.",
+      "audio": "audio/prompt_nudge.mp3"
+    }
+  }
+}
